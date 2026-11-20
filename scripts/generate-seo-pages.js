@@ -3,7 +3,7 @@ const path = require('path');
 
 const BASE_URL = 'https://elmaestrojuice.com';
 const SITE_NAME = 'المايسترو محمصات وفريشات | El Maestro';
-const DEFAULT_LOGO = `${BASE_URL}/images/brand/elmaestro-logo.png`;
+const DEFAULT_LOGO = `${BASE_URL}/images/brand/elmaestro-og-banner.jpg`;
 
 const distBrowserDir = path.join(__dirname, '..', 'dist', 'elmaestro-app', 'browser');
 const templateHtmlPath = path.join(distBrowserDir, 'index.html');
@@ -77,6 +77,9 @@ function generateHtml(options) {
   html = html.replace(/<meta\s+property=["']og:url["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta property="og:url" content="${fullUrl}">`);
   html = html.replace(/<meta\s+property=["']og:image["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta property="og:image" content="${fullImg}">`);
   html = html.replace(/<meta\s+property=["']og:image:secure_url["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta property="og:image:secure_url" content="${fullImg}">`);
+  
+  const imgType = fullImg.endsWith('.png') ? 'image/png' : 'image/jpeg';
+  html = html.replace(/<meta\s+property=["']og:image:type["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta property="og:image:type" content="${imgType}">`);
 
   // Twitter
   html = html.replace(/<meta\s+name=["']twitter:title["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="twitter:title" content="${escapedTitle}">`);

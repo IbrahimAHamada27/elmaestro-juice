@@ -12,7 +12,7 @@ export class SeoService {
   private readonly siteName = 'المايسترو محمصات وفريشات | El Maestro';
   private readonly defaultTitle = 'المايسترو محمصات وفريشات — مدينة العبور | عصائر طبيعية، قهوة، محمصات وسوبيا';
   private readonly defaultDesc = 'المايسترو محمصات وفريشات في سنتر العبور بالحي الأول بجوار مطعم أبو حلب. عصائر فريش 100%، قهوة وآيس كوفي، عصائر المحمصات، أفوكادو بالمكسرات، سوبيا وموهيتو مع خدمة توصيل 24 ساعة.';
-  private readonly defaultLogo = 'https://elmaestrojuice.com/images/brand/elmaestro-logo.png';
+  private readonly defaultLogo = 'https://elmaestrojuice.com/images/brand/elmaestro-og-banner.jpg';
   private readonly baseUrl = 'https://elmaestrojuice.com';
 
   setDefaultSeo(): void {

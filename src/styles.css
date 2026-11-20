@@ -1,0 +1,164 @@
+/* ========================================================
+   EL MAESTRO DESIGN SYSTEM (المايسترو محمصات وفريشات)
+   Strict Palette & Mobile-Optimized Design Tokens
+   ======================================================== */
+
+:root {
+  /* 1. Primary Colors */
+  --elmaestro-primary: #174D32;       /* Deep Forest Green */
+  --elmaestro-natural: #279653;       /* Natural Green */
+  --elmaestro-leaf: #55B83F;          /* Fresh Leaf Green */
+
+  /* Aliases for semantic mapping */
+  --elmaestro-green-900: #174D32;
+  --elmaestro-green-800: #174D32;
+  --elmaestro-green-700: #174D32;
+  --elmaestro-green-600: #279653;
+  --elmaestro-green-500: #55B83F;
+
+  /* 2. Background Colors */
+  --elmaestro-bg-main: #F7F8F3;       /* Main Background */
+  --elmaestro-bg-card: #FFFFFF;       /* Card Background */
+  --elmaestro-bg-soft: #EAF5EC;       /* Soft Green Background */
+  --elmaestro-bg-secondary: #F0F3EC;  /* Secondary Background */
+  --elmaestro-cream: #F7F8F3;
+
+  /* 3. Supporting & Neutral Colors */
+  --elmaestro-gold: #D5A449;          /* Warm Gold Accent */
+  --text-primary: #172033;            /* Primary Text */
+  --text-secondary: #718096;          /* Secondary Text */
+  --border-subtle: #E2E8E2;           /* Clean Borders */
+  --elmaestro-muted-green: #BBD9C2;   /* Muted Green */
+
+  /* Legacy & utility aliases */
+  --text-muted: #718096;
+  --text-light: #FFFFFF;
+  --text-accent: #174D32;
+  --border-strong: #BBD9C2;
+
+  --elmaestro-amber: #D5A449;
+  --elmaestro-amber-dark: #b88628;
+  --elmaestro-amber-bg: #fffbeb;
+
+  --elmaestro-surface: #FFFFFF;
+  --elmaestro-surface-card: #FFFFFF;
+  --elmaestro-surface-dark: #174D32;
+
+  /* Typography */
+  --font-heading: 'Alexandria', 'Cairo', system-ui, -apple-system, sans-serif;
+  --font-body: 'Cairo', 'Alexandria', system-ui, -apple-system, sans-serif;
+
+  /* Natural Crisp Shadows */
+  --shadow-xs: 0 1px 3px rgba(23, 77, 50, 0.04);
+  --shadow-sm: 0 3px 8px rgba(23, 77, 50, 0.05);
+  --shadow-md: 0 6px 18px rgba(23, 77, 50, 0.07);
+  --shadow-lg: 0 12px 28px rgba(23, 77, 50, 0.1);
+
+  /* Radii */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 220ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 300ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  --header-height: 64px;
+}
+
+/* Base Styles & Resets */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--elmaestro-bg-main);
+  color: var(--text-primary);
+  line-height: 1.6;
+  direction: rtl;
+  text-align: right;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Layout Containers */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-inline: 0.85rem;
+  }
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+/* Typography Hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Smooth Image Display */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Utilities */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.section-padding {
+  padding-block: 3.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding-block: 2rem;
+  }
+}

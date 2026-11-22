@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const BASE_URL = 'https://elmaestrojuice.com';
-const SITE_NAME = 'المايسترو محمصات وفريشات | El Maestro';
+const SITE_NAME = 'المايسترو محمصات وفريشات';
 const DEFAULT_LOGO = `${BASE_URL}/images/brand/elmaestro-og-banner.jpg`;
 
 const distBrowserDir = path.join(__dirname, '..', 'dist', 'elmaestro-app', 'browser');
@@ -89,18 +89,18 @@ function generateHtml(options) {
   // Canonical
   html = html.replace(/<link\s+rel=["']canonical["']\s+href=["'][^"']*["']\s*\/?>/i, `<link rel="canonical" href="${fullUrl}">`);
 
-  // Optional Page-Specific Structured Data
+  // Structured Data Replacement or Injection
   if (jsonLd) {
     const jsonLdTag = `\n    <script type="application/ld+json">\n${JSON.stringify(jsonLd, null, 2)}\n    </script>\n  </head>`;
     html = html.replace(/<\/head>/i, jsonLdTag);
   }
 
-  // Extra head elements (e.g. pre-activating table state in localStorage)
+  // Extra head elements
   if (extraHead) {
     html = html.replace(/<\/head>/i, `\n    ${extraHead}\n  </head>`);
   }
 
-  // App-root initial content (e.g. fast branded loader before Angular hydratation)
+  // App-root initial content
   if (appRootContent) {
     html = html.replace(/<app-root><\/app-root>/i, `<app-root>${appRootContent}</app-root>`);
   }
@@ -112,11 +112,13 @@ let generatedCount = 0;
 const sitemapUrls = [];
 const today = new Date().toISOString().split('T')[0];
 
-// Main Static Pages
+// Main Static Pages in Sitemap
 sitemapUrls.push({ loc: `${BASE_URL}/`, changefreq: 'daily', priority: '1.0' });
 sitemapUrls.push({ loc: `${BASE_URL}/menu`, changefreq: 'daily', priority: '0.9' });
 sitemapUrls.push({ loc: `${BASE_URL}/about`, changefreq: 'monthly', priority: '0.7' });
 sitemapUrls.push({ loc: `${BASE_URL}/contact`, changefreq: 'monthly', priority: '0.8' });
+sitemapUrls.push({ loc: `${BASE_URL}/privacy`, changefreq: 'yearly', priority: '0.3' });
+sitemapUrls.push({ loc: `${BASE_URL}/terms`, changefreq: 'yearly', priority: '0.3' });
 
 // 1. Generate pages for products
 for (const prod of products) {
@@ -124,12 +126,25 @@ for (const prod of products) {
   const prodDir = path.join(distBrowserDir, 'product', prod.slug);
   fs.mkdirSync(prodDir, { recursive: true });
 
-  const prodTitle = `${prod.nameAr} | ${SITE_NAME}`;
-  const prodDesc = prod.descriptionAr
-    ? `${prod.descriptionAr} - اطلبه الآن طازجاً من المايسترو سنتر العبور بالعبور.`
-    : `${prod.nameAr} - عصير طبيعي طازج من المايسترو سنتر العبور العبور.`;
+  let prodTitle = `${prod.nameAr} | ${SITE_NAME} في العبور`;
+  if (prod.categorySlug === 'ice-cream-roll') {
+    prodTitle = `${prod.nameAr} | آيس كريم رول المايسترو في العبور`;
+  } else if (prod.categorySlug === 'roastery-nuts') {
+    prodTitle = `${prod.nameAr} | محمصات ومقلاة المايسترو بالعبور`;
+  }
 
-  const minPrice = prod.sizes && prod.sizes.length > 0 ? Math.min(...prod.sizes.map(s => s.price)) : 30;
+  const prodDesc = prod.descriptionAr
+    ? `${prod.descriptionAr} - متوفر الآن لدى المايسترو محمصات وفريشات، سنتر العبور بالحي الأول بجوار مطعم أبو حلب.`
+    : `${prod.nameAr} من قسم ${prod.categoryNameAr} لدى المايسترو محمصات وفريشات في سنتر العبور، الحي الأول.`;
+
+  const minPrice = prod.sizes && prod.sizes.length > 0 ? Math.min(...prod.sizes.map(s => s.price)) : prod.basePrice;
+  const isAvailable = prod.availability !== 'unavailable' && minPrice > 0;
+
+  // Use product image if valid, otherwise fallback to official brand OG banner
+  const hasValidImage = prod.image && !prod.image.includes('elmaestro-logo');
+  const prodImg = hasValidImage
+    ? (prod.image.startsWith('http') ? prod.image : `${BASE_URL}${prod.image}`)
+    : DEFAULT_LOGO;
 
   const productJsonLd = {
     '@context': 'https://schema.org',
@@ -137,20 +152,29 @@ for (const prod of products) {
     name: prod.nameAr,
     alternateName: prod.nameEn,
     description: prodDesc,
-    image: prod.image ? (prod.image.startsWith('http') ? prod.image : `${BASE_URL}${prod.image}`) : DEFAULT_LOGO,
+    image: prodImg,
     brand: {
       '@type': 'Brand',
-      name: 'المايسترو محمصات وفريشات | El Maestro'
+      name: 'المايسترو محمصات وفريشات'
     },
+    category: prod.categoryNameAr,
     offers: {
       '@type': 'Offer',
       priceCurrency: 'EGP',
       price: minPrice,
-      availability: 'https://schema.org/InStock',
+      availability: isAvailable ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
       url: `${BASE_URL}/product/${prod.slug}`,
       seller: {
-        '@type': 'Organization',
-        name: 'El Maestro Juice Bar'
+        '@type': 'LocalBusiness',
+        name: 'المايسترو محمصات وفريشات',
+        telephone: '+201037733214',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'مدينة العبور – الحي الأول – سنتر العبور – بجوار مطعم أبو حلب',
+          addressLocality: 'مدينة العبور',
+          addressRegion: 'محافظة القليوبية',
+          addressCountry: 'EG'
+        }
       }
     }
   };
@@ -158,7 +182,7 @@ for (const prod of products) {
   const prodHtml = generateHtml({
     title: prodTitle,
     description: prodDesc,
-    image: prod.image || DEFAULT_LOGO,
+    image: prodImg,
     url: `/product/${prod.slug}`,
     jsonLd: productJsonLd
   });
@@ -178,16 +202,50 @@ for (const cat of categories) {
   const catDir = path.join(distBrowserDir, 'menu', cat.slug);
   fs.mkdirSync(catDir, { recursive: true });
 
-  const catTitle = `${cat.nameAr} | منيو ${SITE_NAME}`;
-  const catDesc = cat.descriptionAr
-    ? `${cat.descriptionAr} - استكشف كافة أصناف ${cat.nameAr} من المايسترو العبور.`
-    : `منيو أصناف ${cat.nameAr} من عصائر ومشروبات طبيعية وحلويات في المايسترو سنتر العبور العبور.`;
+  let catTitle = `${cat.nameAr} | منيو ${SITE_NAME} في العبور`;
+  let catDesc = cat.descriptionAr
+    ? `${cat.descriptionAr} - استكشف كافة أصناف ${cat.nameAr} من المايسترو بسنتر العبور بالحي الأول.`
+    : `استعرض قائمة أصناف ${cat.nameAr} من المايسترو محمصات وفريشات في سنتر العبور بالحي الأول بجوار مطعم أبو حلب.`;
+
+  if (cat.slug === 'roastery-nuts') {
+    catTitle = 'محمصات ومقلاة المايسترو | مكسرات وتسالي ومقليات في العبور';
+    catDesc = 'تشكيلة فاخرة من اللب، المكسرات المحمصة والنية، التسالي والمقرمشات، الشوكولاتات والحلويات والفواكه المجففة بالكيلو من المايسترو سنتر العبور بالحي الأول.';
+  } else if (cat.slug === 'ice-cream-roll') {
+    catTitle = 'آيس كريم رول المايسترو | آيس كريم رول في العبور (54 صنفاً)';
+    catDesc = 'استمتع بألذ آيس كريم رول طازج محضر على الصاج المثلج في مدينة العبور (فواكه طبيعية، شوكولاتات، مكسرات، وميكسات خاصة) بسنتر العبور بجوار مطعم أبو حلب.';
+  } else if (cat.slug === 'fresh-juices') {
+    catTitle = 'عصائر المايسترو | عصائر فريش طبيعية 100% في مدينة العبور';
+    catDesc = 'عصائر طبيعية فريش 100% معصورة طازجة يومياً بدون ماء مضاف (مانجو، فراولة، قصب، ليمون نعناع، أفوكادو) من المايسترو سنتر العبور بجوار أبو حلب.';
+  } else if (cat.slug === 'coffee') {
+    catTitle = 'ركن القهوة والآيس كوفي | المايسترو في سنتر العبور';
+    catDesc = 'أجود أنواع القهوة التركية المحمصة بحجمين سنجل ودبل، ومشروبات الآيس كوفي المنعشة من المايسترو سنتر العبور الحي الأول.';
+  }
+
+  const catProds = products.filter(p => p.categorySlug === cat.slug);
+  const collectionJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: catTitle,
+    description: catDesc,
+    url: `${BASE_URL}/menu/${cat.slug}`,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: catProds.length,
+      itemListElement: catProds.slice(0, 30).map((p, idx) => ({
+        '@type': 'ListItem',
+        position: idx + 1,
+        url: `${BASE_URL}/product/${p.slug}`,
+        name: p.nameAr
+      }))
+    }
+  };
 
   const catHtml = generateHtml({
     title: catTitle,
     description: catDesc,
-    image: cat.image || DEFAULT_LOGO,
-    url: `/menu/${cat.slug}`
+    image: DEFAULT_LOGO,
+    url: `/menu/${cat.slug}`,
+    jsonLd: collectionJsonLd
   });
 
   fs.writeFileSync(path.join(catDir, 'index.html'), catHtml, 'utf8');
@@ -201,9 +259,36 @@ for (const cat of categories) {
 
 // 3. Static main pages
 const staticPages = [
-  { path: 'menu', title: `منيو وأسعار المايسترو | أحسن عصير في العبور | ${SITE_NAME}`, desc: 'استعرض منيو وأسعار المايسترو: أحسن عصير في العبور، عصير قصب فريش، سموذي، خلطات أفوكادو ملكية بالمكسرات، وافل وحلويات في سنتر العبور العبور.', image: DEFAULT_LOGO },
-  { path: 'about', title: `قصة براند المايسترو | أفضل محل عصير في العبور | ${SITE_NAME}`, desc: 'تعرف على قصة تأسيس المايسترو في سنتر العبور العبور وسر تميزنا في تقديم أحسن عصير طبيعي وقصب وحلويات بجودة استثنائية.', image: DEFAULT_LOGO },
-  { path: 'contact', title: `تواصل معنا والدليفري | فرع سنتر العبور | ${SITE_NAME}`, desc: 'أرقام طلبات وتوصيل المايسترو بالعبور 01037733214، موقع الفرع سنتر العبور الحي الأول، دليفري سريع لكافة أحياء العبور.', image: DEFAULT_LOGO }
+  { 
+    path: 'menu', 
+    title: `قائمة المنيو الكاملة والأسعار | ${SITE_NAME} بالعبور`, 
+    desc: 'تصفح منيو وأسعار المايسترو بالكامل: محمصات ومكسرات بالكيلو، مقليات وتسالي، آيس كريم رول 54 صنفاً، عصائر فريش 100%، وركن القهوة بسنتر العبور بالحي الأول.', 
+    image: DEFAULT_LOGO 
+  },
+  { 
+    path: 'about', 
+    title: `عن المايسترو وقصتنا | ${SITE_NAME} في مدينة العبور`, 
+    desc: 'تعرف على قصة تأسيس المايسترو في الحي الأول بسنتر العبور: التميز في تقديم المحمصات والمكسرات، آيس كريم رول، والعصائر الطبيعية بأعلى جودة وتوصيل 24 ساعة.', 
+    image: DEFAULT_LOGO 
+  },
+  { 
+    path: 'contact', 
+    title: `موقعنا وتواصل معنا والدليفري | سنتر العبور بجوار مطعم أبو حلب`, 
+    desc: 'العنوان: الحي الأول، سنتر العبور بجوار مطعم أبو حلب، مدينة العبور. رقم الهاتف والواتساب الموحد: 01037733214. خدمة توصيل سريعة 24 ساعة لكافة أحياء العبور.', 
+    image: DEFAULT_LOGO 
+  },
+  {
+    path: 'privacy',
+    title: `سياسة الخصوصية | ${SITE_NAME}`,
+    desc: 'سياسة الخصوصية وحماية بيانات العملاء لدى المايسترو محمصات وفريشات في مدينة العبور.',
+    image: DEFAULT_LOGO
+  },
+  {
+    path: 'terms',
+    title: `الشروط والأحكام | ${SITE_NAME}`,
+    desc: 'الشروط والأحكام الخاصة بطلبات وخدمات المايسترو محمصات وفريشات في مدينة العبور.',
+    image: DEFAULT_LOGO
+  }
 ];
 
 for (const sp of staticPages) {
@@ -223,7 +308,7 @@ for (const sp of staticPages) {
 console.log('[SEO Gen] Pre-generating static stand QR routes for all tables (1 to 30)...');
 for (let tNum = 1; tNum <= 30; tNum++) {
   const tableTitle = `طاولة رقم ${tNum} | منيو ${SITE_NAME}`;
-  const tableDesc = `طلب صالة مباشر من طاولة رقم ${tNum} بفرع المايسترو سنتر العبور العبور. استمتع بأشهى العصائر الطبيعية الطازجة، السموذي، والوافل مع التوصيل لطاولتك.`;
+  const tableDesc = `طلب صالة مباشر من طاولة رقم ${tNum} بفرع المايسترو سنتر العبور. استمتع بأشهى العصائر الطبيعية والمحمصات والآيس كريم رول مع التوصيل لطاولتك.`;
   
   const extraHead = `<script>
     try {
@@ -239,17 +324,16 @@ for (let tNum = 1; tNum <= 30; tNum++) {
     } catch (e) {}
   </script>`;
 
-  const appRootContent = `<div style="min-height: 80vh; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Alexandria, Cairo, system-ui, sans-serif; text-align: center; padding: 2rem; color: #1d4d29;">
-    <div style="width: 72px; height: 72px; border-radius: 50%; background: #e8f5e9; color: #1d4d29; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin-bottom: 1.25rem; box-shadow: 0 4px 12px rgba(29,77,41,0.12);"></div>
-    <h1 style="font-size: 1.45rem; font-weight: 800; margin: 0 0 0.5rem 0; color: #14361d;">جاري ربط الطلب بطاولة رقم ${tNum}...</h1>
-    <p style="font-size: 0.95rem; color: #4b6354; margin: 0; max-width: 420px; line-height: 1.6;">نربط طلبك بـ ترابيزة #${tNum} بسنتر العبور لتجهيز تجربة سريعة ونقلك للمنيو مباشرة.</p>
+  const appRootContent = `<div style="min-height: 80vh; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Alexandria, Cairo, system-ui, sans-serif; text-align: center; padding: 2rem; color: #174D32;">
+    <div style="width: 72px; height: 72px; border-radius: 50%; background: #EAF5EC; color: #174D32; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin-bottom: 1.25rem; box-shadow: 0 4px 12px rgba(23,77,50,0.12);"></div>
+    <h1 style="font-size: 1.45rem; font-weight: 800; margin: 0 0 0.5rem 0; color: #172033;">جاري ربط الطلب بطاولة رقم ${tNum}...</h1>
+    <p style="font-size: 0.95rem; color: #718096; margin: 0; max-width: 420px; line-height: 1.6;">نربط طلبك بـ ترابيزة #${tNum} بسنتر العبور لتجهيز تجربة سريعة ونقلك للمنيو مباشرة.</p>
   </div>`;
 
   // Both /table/:id and /t/:id routes
   for (const prefix of ['table', 't']) {
     const tableDir = path.join(distBrowserDir, prefix, String(tNum));
     fs.mkdirSync(tableDir, { recursive: true });
-
     const tableHtml = generateHtml({
       title: tableTitle,
       description: tableDesc,
@@ -258,23 +342,26 @@ for (let tNum = 1; tNum <= 30; tNum++) {
       extraHead: extraHead,
       appRootContent: appRootContent
     });
-
     fs.writeFileSync(path.join(tableDir, 'index.html'), tableHtml, 'utf8');
     generatedCount++;
   }
 }
 
-// 5. Generate sitemap.xml
-let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-for (const entry of sitemapUrls) {
-  sitemapXml += `  <url>\n    <loc>${entry.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${entry.changefreq}</changefreq>\n    <priority>${entry.priority}</priority>\n  </url>\n`;
-}
-sitemapXml += `</urlset>\n`;
+// 5. Generate Dynamic XML Sitemap
+let sitemapXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+sitemapXml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 
-// Write sitemap to dist and public
+for (const u of sitemapUrls) {
+  sitemapXml += `  <url>\n    <loc>${u.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>\n`;
+}
+
+sitemapXml += '</urlset>\n';
+
 fs.writeFileSync(path.join(distBrowserDir, 'sitemap.xml'), sitemapXml, 'utf8');
 const publicDir = path.join(__dirname, '..', 'public');
-fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapXml, 'utf8');
+if (fs.existsSync(publicDir)) {
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapXml, 'utf8');
+}
 
 console.log(`[SEO Gen] Successfully generated ${generatedCount} SEO-optimized static Open Graph pages!`);
 console.log(`[SEO Gen] Successfully generated sitemap.xml with ${sitemapUrls.length} indexed URLs!`);

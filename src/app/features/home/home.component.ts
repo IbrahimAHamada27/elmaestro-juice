@@ -19,16 +19,15 @@ import { SeoService } from '../../core/services/seo.service';
             <div class="hero-brand-statement">
               <div class="badge-fresh-origin">
                 <i class="fa-solid fa-seedling"></i>
-                <span>محمصات وفريشات طبيعية 100%</span>
+                <span>محمصات وفريشات طبيعية 100% • الحي الأول بالعبور</span>
               </div>
 
               <h1 class="hero-display-title">
-                طعم الفاكهة الحقيقي <br />
-                <span class="color-accent-fresh">وانتعاش ملوش مثيل</span>
+                المايسترو محمصات وفريشات في مدينة العبور
               </h1>
 
               <p class="hero-subtext">
-                أرقى الفواكه الطبيعية المعصورة طازجة يومياً، خلطات الأفوكادو الملكية بالمكسرات والعسل، وركن البن المحمص والقهوة التركية والآيس كوفي. نخدمكم ونوصل لجميع أحياء العبور 24 ساعة.
+                وجهتك المتكاملة داخل سنتر العبور بالحي الأول (بجوار مطعم أبو حلب). نجمع بين تشكيلة المحمصات والمكسرات المحمصة والنية بالكيلو، تسالي ومقليات المقلاة، أشهى أصناف آيس كريم رول المحضرة طازجة، والعصائر الطبيعية المعصورة فريش 100% يومياً مع خدمة التوصيل 24 ساعة.
               </p>
 
               <div class="hero-action-buttons">
@@ -46,11 +45,11 @@ import { SeoService } from '../../core/services/seo.service';
                 </div>
                 <div class="perk-unit">
                   <i class="fa-solid fa-leaf"></i>
-                  <span>بدون أي مواد حافظة</span>
+                  <span>طبيعي 100% بدون إضافات</span>
                 </div>
                 <div class="perk-unit">
-                  <i class="fa-solid fa-mug-hot"></i>
-                  <span>قهوة وبن محمص فاخر</span>
+                  <i class="fa-solid fa-seedling"></i>
+                  <span>محمصات ومكسرات فاخرة</span>
                 </div>
               </div>
             </div>
@@ -60,13 +59,13 @@ import { SeoService } from '../../core/services/seo.service';
               <div class="storefront-canvas">
                 <img 
                   src="/images/brand/elmaestro-store.jpg" 
-                  alt="محل المايسترو محمصات وفريشات سنتر العبور" 
+                  alt="محل المايسترو محمصات وفريشات في الحي الأول سنتر العبور بجوار مطعم أبو حلب" 
                   class="storefront-main-photo" />
 
                 <!-- Elegant Authentic Badge Overlay -->
                 <div class="storefront-badge-bar">
                   <div class="sbb-crest">
-                    <img src="/images/brand/elmaestro-logo-badge.png" alt="المايسترو" class="sbb-logo-img" />
+                    <img src="/images/brand/elmaestro-logo-badge.png" alt="شعار المايسترو محمصات وفريشات" class="sbb-logo-img" />
                   </div>
                   <div class="sbb-info">
                     <strong class="sbb-title">المايسترو محمصات وفريشات</strong>
@@ -81,51 +80,96 @@ import { SeoService } from '../../core/services/seo.service';
         </div>
       </section>
 
-      <!-- 2. Clean Category Cards Section -->
+      <!-- 2. Four Main Pillars (Semantic H2 Sections for SEO & Local Discovery) -->
+      <section class="business-pillars-section container">
+        <div class="pillars-grid">
+          <!-- Pillar 1: Roastery -->
+          <article class="pillar-card">
+            <div class="pillar-icon"><i class="fa-solid fa-seedling"></i></div>
+            <h2>محمصات ومكسرات المايسترو</h2>
+            <p>
+              أجود أنواع اللب السوبر، الأبيض، السوري، والبطيخ البلدي، الفول السوداني المحمص والمدخن، وتشكيلة مكسرات فاخرة (كاجو، فستق أمريكي، لوز، بندق، عين جمل، بيكان ومكاديميا) تباع بالكيلو بأعلى معايير النظافة والتحميص اليومي.
+            </p>
+            <a routerLink="/menu/roastery-nuts" class="pillar-link">تصفح قسم المحمصات والمكسرات ←</a>
+          </article>
+
+          <!-- Pillar 2: Fried Snacks -->
+          <article class="pillar-card">
+            <div class="pillar-icon"><i class="fa-solid fa-bowl-food"></i></div>
+            <h2>مقلاة المايسترو</h2>
+            <p>
+              مقرمشات وتسالي طازجة تناسب كل التجمعات: مقرمشات أصابع نكهات، ذرة أسباني، مقرمشات كونو وبرتزل ورز، فول سوداني فلسطيني، مقرمشات صيني متبلة، وحمص مقرمش بنكهات متعددة بالكيلو.
+            </p>
+            <a routerLink="/menu/roastery-nuts" class="pillar-link">تصفح قسم المقلاة والتسالي ←</a>
+          </article>
+
+          <!-- Pillar 3: Ice Cream Roll -->
+          <article class="pillar-card">
+            <div class="pillar-icon"><i class="fa-solid fa-ice-cream"></i></div>
+            <h2>آيس كريم رول المايسترو</h2>
+            <p>
+              54 صنفاً من رول الآيس كريم الطازج يحضر فورياً أمامك على الصاج البارد: فواكه طبيعية معصورة (مانجو، فراولة، توت، أفوكادو)، شوكولاتات عالمية (نوتيلا، لوتس، كيندر، فيريرو)، وميكس المايسترو الملكي بالمكسرات والعسل.
+            </p>
+            <a routerLink="/menu/ice-cream-roll" class="pillar-link">تصفح منيو آيس كريم رول ←</a>
+          </article>
+
+          <!-- Pillar 4: Fresh Juices -->
+          <article class="pillar-card">
+            <div class="pillar-icon"><i class="fa-solid fa-glass-water"></i></div>
+            <h2>عصائر فريش ومشروبات المايسترو</h2>
+            <p>
+              عصائر طبيعية فريش 100% معصورة يومياً بدون ماء مضاف، قصب طبيعي مثلج، خلطات أفوكادو ملكية بالمكسرات والقشطة، سموزي، ميلك شيك، موهيتو مثلج، سوبيا بلدية، وركن القهوة التركية والآيس كوفي.
+            </p>
+            <a routerLink="/menu/fresh-juices" class="pillar-link">تصفح كافة العصائر والمشروبات ←</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3. Category Browser Grid -->
       <section class="minimal-categories-section">
         <div class="container">
           <div class="section-headline-bar">
             <div class="headline-titles">
               <span class="sub-headline">تنوع يلبي كافة الأذواق</span>
-              <h2 class="main-headline">أقسام العصير والمشروبات والآيس كريم والمحمصات</h2>
+              <h2 class="main-headline">تصفح أقسام المنيو الكاملة</h2>
             </div>
             <a routerLink="/menu" class="view-menu-link">عرض المنيو بالكامل (24 قسماً) ←</a>
           </div>
 
           <div class="categories-pure-grid">
-            <!-- 1. Fresh Juices -->
+            <!-- 1. Roastery & Nuts -->
+            <a routerLink="/menu/roastery-nuts" class="clean-category-card">
+              <div class="clean-icon-wrap"><i class="fa-solid fa-seedling"></i></div>
+              <h3>المقلاة والمحمصات</h3>
+              <p>لب، مكسرات فاخرة، مقرمشات وتسالي بالكيلو</p>
+            </a>
+
+            <!-- 2. Ice Cream Roll -->
+            <a routerLink="/menu/ice-cream-roll" class="clean-category-card">
+              <div class="clean-icon-wrap"><i class="fa-solid fa-ice-cream"></i></div>
+              <h3>آيس كريم رول</h3>
+              <p>54 صنفاً طازجاً على الصاج المثلج</p>
+            </a>
+
+            <!-- 3. Fresh Juices -->
             <a routerLink="/menu/fresh-juices" class="clean-category-card">
               <div class="clean-icon-wrap"><i class="fa-solid fa-glass-water"></i></div>
               <h3>عصائر فريش</h3>
               <p>مانجو، فراولة، قصب، ولمون نعناع</p>
             </a>
 
-            <!-- 2. Roastery Juices -->
-            <a routerLink="/menu/roastery-juices" class="clean-category-card">
-              <div class="clean-icon-wrap"><i class="fa-solid fa-cubes-stacked"></i></div>
-              <h3>عصائر المحمصات</h3>
-              <p>لوز، فستق، كاجو، وبندق بالحليب</p>
-            </a>
-
-            <!-- 3. Coffee & Iced Coffee -->
+            <!-- 4. Coffee -->
             <a routerLink="/menu/coffee" class="clean-category-card">
               <div class="clean-icon-wrap"><i class="fa-solid fa-mug-hot"></i></div>
               <h3>ركن القهوة</h3>
               <p>قهوة تركي محمص، آيس لاتيه وموكا</p>
             </a>
 
-            <!-- 4. Avocado & Power -->
+            <!-- 5. Avocado & Power -->
             <a routerLink="/menu/power-mix" class="clean-category-card">
               <div class="clean-icon-wrap"><i class="fa-solid fa-bolt"></i></div>
               <h3>أفوكادو وميكس باور</h3>
               <p>خلطات ملكية بالمكسرات والعسل</p>
-            </a>
-
-            <!-- 5. Mojito & Sobia -->
-            <a routerLink="/menu/mojito" class="clean-category-card">
-              <div class="clean-icon-wrap"><i class="fa-solid fa-champagne-glasses"></i></div>
-              <h3>موهيتو وسوبيا</h3>
-              <p>انتعاش مثلج بنكهات بلوبيري وباشن</p>
             </a>
 
             <!-- 6. Family Bottles -->
@@ -138,13 +182,13 @@ import { SeoService } from '../../core/services/seo.service';
         </div>
       </section>
 
-      <!-- 3. Featured Best Sellers Grid -->
+      <!-- 4. Featured Best Sellers Grid -->
       <section id="bestsellers" class="section-featured-products">
         <div class="container">
           <div class="section-headline-bar">
             <div class="headline-titles">
               <span class="sub-headline">الأكثر طلباً ومحبة بالعبور</span>
-              <h2 class="main-headline">مشروبات المايسترو المفضلة</h2>
+              <h2 class="main-headline">مشروبات ومنتجات المايسترو المفضلة</h2>
             </div>
             <a routerLink="/menu" class="view-menu-link">مشاهدة الكل ←</a>
           </div>
@@ -157,7 +201,7 @@ import { SeoService } from '../../core/services/seo.service';
         </div>
       </section>
 
-      <!-- 4. Fresh Juice Seasonal Grid -->
+      <!-- 5. Fresh Juice Seasonal Grid -->
       <section class="section-fresh-seasonal">
         <div class="container">
           <div class="section-headline-bar">
@@ -176,17 +220,17 @@ import { SeoService } from '../../core/services/seo.service';
         </div>
       </section>
 
-      <!-- 5. Store Address & Visit Callout -->
+      <!-- 6. Store Address & Visit Callout (Local SEO Section) -->
       <section class="section-visit-banner container">
         <div class="visit-card-grid">
           <div class="visit-content">
             <span class="visit-pill-tag">
               <i class="fa-solid fa-location-dot"></i> فرع مدينة العبور المعتمد
             </span>
-            <h2 class="visit-title">شرفنا بالزيارة في سنتر العبور</h2>
+            <h2 class="visit-title">زوروا المايسترو في الحي الأول بمدينة العبور</h2>
             <p class="visit-desc">
-              الحي الأول – سنتر العبور (بجوار مطعم أبو حلب). <br />
-              نستقبلكم طوال اليوم ونوفر خدمة التوصيل الدليفري السريع 24 ساعة لكافة أحياء ومناطق العبور.
+              موقعنا: محافظة القليوبية، مدينة العبور – الحي الأول – سنتر العبور – بجوار مطعم أبو حلب مباشرة. <br />
+              نستقبلكم طوال اليوم ونوفر خدمة توصيل سريعة 24 ساعة تغطي كافة أحياء ومناطق مدينة العبور.
             </p>
             <div class="visit-buttons">
               <a [href]="business().contacts.googleMapsUrl" target="_blank" rel="noopener noreferrer" class="btn-map-nav">
@@ -199,7 +243,31 @@ import { SeoService } from '../../core/services/seo.service';
           </div>
 
           <div class="visit-visual-side">
-            <img src="/images/brand/elmaestro-hero.jpg" alt="عصائر وفريشات المايسترو" class="visit-photo" />
+            <img src="/images/brand/elmaestro-hero.jpg" alt="فرع المايسترو محمصات وفريشات في سنتر العبور" class="visit-photo" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Contact Section (Semantic H2) -->
+      <section class="section-contact-callout container">
+        <div class="contact-box-inner">
+          <h2>تواصل مع المايسترو</h2>
+          <p>
+            لخدمة العملاء والطلبات والتوصيل السريع لكافة أحياء مدينة العبور، تواصل معنا عبر الهاتف أو الواتساب المباشر:
+          </p>
+          <div class="contact-actions-row">
+            <a [href]="'tel:' + business().contacts.phone1" class="contact-action-btn phone">
+              <i class="fa-solid fa-phone"></i>
+              <span>اتصل بنا: {{ business().contacts.phone1 }}</span>
+            </a>
+            <a [href]="'https://wa.me/' + business().contacts.whatsapp" target="_blank" rel="noopener noreferrer" class="contact-action-btn whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>طلب مباشر عبر الواتساب</span>
+            </a>
+            <a [href]="business().contacts.facebookUrl" target="_blank" rel="noopener noreferrer" class="contact-action-btn facebook">
+              <i class="fa-brands fa-facebook"></i>
+              <span>تابعنا على فيسبوك</span>
+            </a>
           </div>
         </div>
       </section>
@@ -249,17 +317,14 @@ import { SeoService } from '../../core/services/seo.service';
       color: #279653;
     }
     .hero-display-title {
-      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-size: clamp(1.8rem, 3.8vw, 2.9rem);
       font-weight: 900;
       color: #172033;
-      line-height: 1.25;
+      line-height: 1.3;
       letter-spacing: -0.5px;
     }
-    .color-accent-fresh {
-      color: #174D32;
-    }
     .hero-subtext {
-      font-size: clamp(0.95rem, 1.8vw, 1.05rem);
+      font-size: clamp(0.92rem, 1.6vw, 1.02rem);
       color: #718096;
       line-height: 1.7;
       max-width: 580px;
@@ -378,9 +443,71 @@ import { SeoService } from '../../core/services/seo.service';
       color: #279653;
     }
 
+    /* 2. Pillars Grid */
+    .business-pillars-section {
+      padding-top: 3.5rem;
+    }
+    .pillars-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+    }
+    .pillar-card {
+      background: #FFFFFF;
+      border: 1px solid #E2E8E2;
+      border-radius: 16px;
+      padding: 1.75rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 8px rgba(23, 77, 50, 0.04);
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    }
+    .pillar-card:hover {
+      transform: translateY(-3px);
+      border-color: #279653;
+      box-shadow: 0 8px 24px rgba(23, 77, 50, 0.08);
+    }
+    .pillar-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: #EAF5EC;
+      color: #174D32;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .pillar-card h2 {
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: #172033;
+      margin-bottom: 0.65rem;
+      line-height: 1.35;
+    }
+    .pillar-card p {
+      font-size: 0.85rem;
+      color: #718096;
+      line-height: 1.65;
+      margin-bottom: 1.25rem;
+      flex: 1;
+    }
+    .pillar-link {
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: #174D32;
+      text-decoration: none;
+      transition: color 0.2s;
+      align-self: flex-start;
+    }
+    .pillar-link:hover {
+      color: #279653;
+    }
+
     /* Section Headings */
     .minimal-categories-section, .section-featured-products, .section-fresh-seasonal {
-      padding-top: 3rem;
+      padding-top: 3.5rem;
     }
     .section-headline-bar {
       display: flex;
@@ -402,7 +529,7 @@ import { SeoService } from '../../core/services/seo.service';
       display: block;
     }
     .main-headline {
-      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      font-size: clamp(1.35rem, 2.8vw, 1.8rem);
       font-weight: 900;
       color: #172033;
     }
@@ -512,9 +639,9 @@ import { SeoService } from '../../core/services/seo.service';
       align-self: flex-start;
     }
     .visit-title {
-      font-size: clamp(1.6rem, 3.5vw, 2.1rem);
+      font-size: clamp(1.5rem, 3.2vw, 2rem);
       font-weight: 900;
-      line-height: 1.25;
+      line-height: 1.3;
       color: #FFFFFF;
     }
     .visit-desc {
@@ -571,11 +698,82 @@ import { SeoService } from '../../core/services/seo.service';
       display: block;
     }
 
+    /* 7. Contact Section */
+    .section-contact-callout {
+      margin-top: 2.5rem;
+    }
+    .contact-box-inner {
+      background: #FFFFFF;
+      border: 1px solid #E2E8E2;
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(23, 77, 50, 0.04);
+    }
+    .contact-box-inner h2 {
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: #172033;
+      margin-bottom: 0.5rem;
+    }
+    .contact-box-inner p {
+      font-size: 0.95rem;
+      color: #718096;
+      margin-bottom: 1.5rem;
+      max-width: 600px;
+      margin-inline: auto;
+      line-height: 1.6;
+    }
+    .contact-actions-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .contact-action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.4rem;
+      border-radius: 10px;
+      font-size: 0.92rem;
+      font-weight: 800;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+    .contact-action-btn.phone {
+      background: #174D32;
+      color: #FFFFFF;
+    }
+    .contact-action-btn.phone:hover {
+      background: #279653;
+    }
+    .contact-action-btn.whatsapp {
+      background: #25D366;
+      color: #FFFFFF;
+    }
+    .contact-action-btn.whatsapp:hover {
+      background: #20BA5A;
+    }
+    .contact-action-btn.facebook {
+      background: #F0F3EC;
+      color: #172033;
+      border: 1px solid #E2E8E2;
+    }
+    .contact-action-btn.facebook:hover {
+      background: #EAF5EC;
+      color: #174D32;
+    }
+
     /* Responsive Breakpoints */
     @media (max-width: 1024px) {
       .hero-split-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
+      }
+      .pillars-grid {
+        grid-template-columns: repeat(2, 1fr);
       }
       .categories-pure-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -597,9 +795,20 @@ import { SeoService } from '../../core/services/seo.service';
         align-items: center;
         justify-content: space-between;
       }
+      .pillars-grid {
+        grid-template-columns: 1fr;
+      }
       .clean-products-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 0.75rem;
+      }
+      .contact-actions-row {
+        flex-direction: column;
+        width: 100%;
+      }
+      .contact-action-btn {
+        width: 100%;
+        justify-content: center;
       }
     }
 

@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ProductService } from '../../core/services/product.service';
 import { CartService } from '../../core/services/cart.service';
+import { SeoService } from '../../core/services/seo.service';
 import { Product, ProductCategory } from '../../core/models/product.model';
 import { ProductCardComponent } from '../../shared/components/product-card/product-card.component';
 import { CategoryChipComponent } from '../../shared/components/category-chip/category-chip.component';
@@ -707,6 +708,7 @@ export class MenuComponent {
   private cartService = inject(CartService);
   private route = inject(ActivatedRoute);
   private router = inject(Router);
+  private seoService = inject(SeoService);
 
   readonly allProducts = this.productService.products;
   readonly categories = this.productService.categories;
@@ -749,6 +751,15 @@ export class MenuComponent {
       const slug = params.get('categorySlug');
       this.activeCategorySlug.set(slug || '');
       this.selectedSubcategory.set('');
+      
+      if (slug) {
+        const cat = this.categories().find(c => c.slug === slug);
+        if (cat) {
+          this.seoService.setCategorySeo(cat.slug, cat.nameAr, cat.descriptionAr);
+        }
+      } else {
+        this.seoService.setDefaultSeo();
+      }
     });
   }
 

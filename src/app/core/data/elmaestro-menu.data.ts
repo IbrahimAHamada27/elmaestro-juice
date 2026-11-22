@@ -375,6 +375,22 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
       "مشروبات قهوة مثلجة منعشة بالبن المحمص الفاخر مع الحليب وصوصات الموكا واللاتيه."
     ],
     "itemCount": 3
+  },
+  {
+    "id": "ice-cream-roll",
+    "slug": "ice-cream-roll",
+    "nameAr": "آيس كريم رول",
+    "nameEn": "Ice Cream Roll",
+    "descriptionAr": "رول آيس كريم طازج محضر على الصاج المثلج بالفواكه الطبيعية، الشوكولاتات الفاخرة والمكسرات",
+    "icon": "fa-solid fa-ice-cream",
+    "themeColor": "#d97706",
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "displayOrder": 23,
+    "informationAr": [
+      "يحضر طازجاً وفورياً أمامك على الصاج البارد بأجود المكونات.",
+      "متاح بإضافات صوصات ومكسرات وفواكه حسب رغبتك."
+    ],
+    "itemCount": 54
   }
 ];
 
@@ -19509,6 +19525,3893 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
     "availability": "available"
+  },
+  {
+    "id": "icr-mango",
+    "slug": "roll-mango",
+    "nameAr": "آيس كريم رول مانجو",
+    "nameEn": "Ice Cream Roll مانجو",
+    "descriptionAr": "آيس كريم رول مانجو - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": true,
+    "tags": [
+      "مانجو",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مانجو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-strawberry",
+    "slug": "roll-strawberry",
+    "nameAr": "آيس كريم رول فراولة",
+    "nameEn": "Ice Cream Roll فراولة",
+    "descriptionAr": "آيس كريم رول فراولة - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فراولة",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فراولة",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-banana",
+    "slug": "roll-banana",
+    "nameAr": "آيس كريم رول موز",
+    "nameEn": "Ice Cream Roll موز",
+    "descriptionAr": "آيس كريم رول موز - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "موز",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "موز",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-blue-berry",
+    "slug": "roll-blue-berry",
+    "nameAr": "آيس كريم رول توت أزرق",
+    "nameEn": "Ice Cream Roll توت أزرق",
+    "descriptionAr": "آيس كريم رول توت أزرق - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "توت أزرق",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "توت أزرق",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-red-berry",
+    "slug": "roll-red-berry",
+    "nameAr": "آيس كريم رول توت أحمر",
+    "nameEn": "Ice Cream Roll توت أحمر",
+    "descriptionAr": "آيس كريم رول توت أحمر - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "توت أحمر",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "توت أحمر",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-peach",
+    "slug": "roll-peach",
+    "nameAr": "آيس كريم رول خوخ",
+    "nameEn": "Ice Cream Roll خوخ",
+    "descriptionAr": "آيس كريم رول خوخ - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "خوخ",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "خوخ",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-grapes",
+    "slug": "roll-grapes",
+    "nameAr": "آيس كريم رول عنب",
+    "nameEn": "Ice Cream Roll عنب",
+    "descriptionAr": "آيس كريم رول عنب - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "عنب",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "عنب",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-watermelon",
+    "slug": "roll-watermelon",
+    "nameAr": "آيس كريم رول بطيخ",
+    "nameEn": "Ice Cream Roll بطيخ",
+    "descriptionAr": "آيس كريم رول بطيخ - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "بطيخ",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "بطيخ",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-dates",
+    "slug": "roll-dates",
+    "nameAr": "آيس كريم رول بلح",
+    "nameEn": "Ice Cream Roll بلح",
+    "descriptionAr": "آيس كريم رول بلح - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "بلح",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "بلح",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-kiwi",
+    "slug": "roll-kiwi",
+    "nameAr": "آيس كريم رول كيوي",
+    "nameEn": "Ice Cream Roll كيوي",
+    "descriptionAr": "آيس كريم رول كيوي - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كيوي",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كيوي",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-pineapple",
+    "slug": "roll-pineapple",
+    "nameAr": "آيس كريم رول أناناس",
+    "nameEn": "Ice Cream Roll أناناس",
+    "descriptionAr": "آيس كريم رول أناناس - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "أناناس",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "أناناس",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-avocado",
+    "slug": "roll-avocado",
+    "nameAr": "آيس كريم رول أفوكادو",
+    "nameEn": "Ice Cream Roll أفوكادو",
+    "descriptionAr": "آيس كريم رول أفوكادو - فواكه طبيعية طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 85,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 85,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "أفوكادو",
+      "فواكه طبيعية",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "أفوكادو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-lemon-mint",
+    "slug": "roll-lemon-mint",
+    "nameAr": "آيس كريم رول ليمون نعناع",
+    "nameEn": "Ice Cream Roll ليمون نعناع",
+    "descriptionAr": "آيس كريم رول ليمون نعناع - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ليمون نعناع",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ليمون نعناع",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-yogurt-berries",
+    "slug": "roll-yogurt-berries",
+    "nameAr": "آيس كريم رول زبادي توت",
+    "nameEn": "Ice Cream Roll زبادي توت",
+    "descriptionAr": "آيس كريم رول زبادي توت - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "زبادي توت",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "زبادي توت",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-yogurt-strawberry",
+    "slug": "roll-yogurt-strawberry",
+    "nameAr": "آيس كريم رول زبادي فراولة",
+    "nameEn": "Ice Cream Roll زبادي فراولة",
+    "descriptionAr": "آيس كريم رول زبادي فراولة - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "زبادي فراولة",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "زبادي فراولة",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-mango-strawberry",
+    "slug": "roll-mango-strawberry",
+    "nameAr": "آيس كريم رول مانجو فراولة",
+    "nameEn": "Ice Cream Roll مانجو فراولة",
+    "descriptionAr": "آيس كريم رول مانجو فراولة - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مانجو فراولة",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مانجو فراولة",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-mango-banana",
+    "slug": "roll-mango-banana",
+    "nameAr": "آيس كريم رول مانجو موز",
+    "nameEn": "Ice Cream Roll مانجو موز",
+    "descriptionAr": "آيس كريم رول مانجو موز - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مانجو موز",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مانجو موز",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-strawberry-berries",
+    "slug": "roll-strawberry-berries",
+    "nameAr": "آيس كريم رول فراولة توت",
+    "nameEn": "Ice Cream Roll فراولة توت",
+    "descriptionAr": "آيس كريم رول فراولة توت - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فراولة توت",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فراولة توت",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-grapes-mango",
+    "slug": "roll-grapes-mango",
+    "nameAr": "آيس كريم رول عنب مانجو",
+    "nameEn": "Ice Cream Roll عنب مانجو",
+    "descriptionAr": "آيس كريم رول عنب مانجو - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "عنب مانجو",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "عنب مانجو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-mix-berries",
+    "slug": "roll-mix-berries",
+    "nameAr": "آيس كريم رول ميكس توت",
+    "nameEn": "Ice Cream Roll ميكس توت",
+    "descriptionAr": "آيس كريم رول ميكس توت - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ميكس توت",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ميكس توت",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-kiwi-mango",
+    "slug": "roll-kiwi-mango",
+    "nameAr": "آيس كريم رول كيوي مانجو",
+    "nameEn": "Ice Cream Roll كيوي مانجو",
+    "descriptionAr": "آيس كريم رول كيوي مانجو - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كيوي مانجو",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كيوي مانجو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-pineapple-mango",
+    "slug": "roll-pineapple-mango",
+    "nameAr": "آيس كريم رول أناناس مانجو",
+    "nameEn": "Ice Cream Roll أناناس مانجو",
+    "descriptionAr": "آيس كريم رول أناناس مانجو - ميكسات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "أناناس مانجو",
+      "ميكسات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "أناناس مانجو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-maestro-nuts-dates",
+    "slug": "roll-elmaestro-nuts-dates-avocado-honey",
+    "nameAr": "آيس كريم رول ميكس مكسرات + بلح + أفوكادو + عسل",
+    "nameEn": "Ice Cream Roll ميكس مكسرات + بلح + أفوكادو + عسل",
+    "descriptionAr": "آيس كريم رول ميكس مكسرات + بلح + أفوكادو + عسل - ميكس المايسترو طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 110,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 110,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "tags": [
+      "ميكس مكسرات + بلح + أفوكادو + عسل",
+      "ميكس المايسترو",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ميكس مكسرات + بلح + أفوكادو + عسل",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-maestro-choco-mango",
+    "slug": "roll-elmaestro-chocolate-mango-coconut-avocado",
+    "nameAr": "آيس كريم رول شوكولاتة + مانجو + جوز هند + أفوكادو",
+    "nameEn": "Ice Cream Roll شوكولاتة + مانجو + جوز هند + أفوكادو",
+    "descriptionAr": "آيس كريم رول شوكولاتة + مانجو + جوز هند + أفوكادو - ميكس المايسترو طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 110,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 110,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "tags": [
+      "شوكولاتة + مانجو + جوز هند + أفوكادو",
+      "ميكس المايسترو",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة + مانجو + جوز هند + أفوكادو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-oreo",
+    "slug": "roll-oreo",
+    "nameAr": "آيس كريم رول أوريو",
+    "nameEn": "Ice Cream Roll أوريو",
+    "descriptionAr": "آيس كريم رول أوريو - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "أوريو",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "أوريو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-borio",
+    "slug": "roll-borio",
+    "nameAr": "آيس كريم رول بوريو",
+    "nameEn": "Ice Cream Roll بوريو",
+    "descriptionAr": "آيس كريم رول بوريو - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "بوريو",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "بوريو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-twinkies",
+    "slug": "roll-twinkies",
+    "nameAr": "آيس كريم رول تونكيز",
+    "nameEn": "Ice Cream Roll تونكيز",
+    "descriptionAr": "آيس كريم رول تونكيز - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "تونكيز",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "تونكيز",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-maxtella",
+    "slug": "roll-maxtella",
+    "nameAr": "آيس كريم رول ماكس تيلا",
+    "nameEn": "Ice Cream Roll ماكس تيلا",
+    "descriptionAr": "آيس كريم رول ماكس تيلا - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ماكس تيلا",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ماكس تيلا",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-corona",
+    "slug": "roll-corona",
+    "nameAr": "آيس كريم رول كورونا",
+    "nameEn": "Ice Cream Roll كورونا",
+    "descriptionAr": "آيس كريم رول كورونا - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كورونا",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كورونا",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-hohos",
+    "slug": "roll-hohos",
+    "nameAr": "آيس كريم رول هوهوز",
+    "nameEn": "Ice Cream Roll هوهوز",
+    "descriptionAr": "آيس كريم رول هوهوز - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "هوهوز",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "هوهوز",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-chicobon",
+    "slug": "roll-chicobon",
+    "nameAr": "آيس كريم رول شيكو بون",
+    "nameEn": "Ice Cream Roll شيكو بون",
+    "descriptionAr": "آيس كريم رول شيكو بون - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شيكو بون",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شيكو بون",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-maltesers",
+    "slug": "roll-maltesers",
+    "nameAr": "آيس كريم رول مالتيزرز",
+    "nameEn": "Ice Cream Roll مالتيزرز",
+    "descriptionAr": "آيس كريم رول مالتيزرز - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مالتيزرز",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مالتيزرز",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-mars",
+    "slug": "roll-mars",
+    "nameAr": "آيس كريم رول مارس",
+    "nameEn": "Ice Cream Roll مارس",
+    "descriptionAr": "آيس كريم رول مارس - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مارس",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مارس",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-tofix",
+    "slug": "roll-tofix",
+    "nameAr": "آيس كريم رول توفيكس",
+    "nameEn": "Ice Cream Roll توفيكس",
+    "descriptionAr": "آيس كريم رول توفيكس - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "توفيكس",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "توفيكس",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-bounty",
+    "slug": "roll-bounty",
+    "nameAr": "آيس كريم رول باونتي",
+    "nameEn": "Ice Cream Roll باونتي",
+    "descriptionAr": "آيس كريم رول باونتي - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "باونتي",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "باونتي",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-snickers",
+    "slug": "roll-snickers",
+    "nameAr": "آيس كريم رول سنيكرز",
+    "nameEn": "Ice Cream Roll سنيكرز",
+    "descriptionAr": "آيس كريم رول سنيكرز - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "سنيكرز",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "سنيكرز",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-kitkat",
+    "slug": "roll-kitkat",
+    "nameAr": "آيس كريم رول كيت كات",
+    "nameEn": "Ice Cream Roll كيت كات",
+    "descriptionAr": "آيس كريم رول كيت كات - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كيت كات",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كيت كات",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-galaxy",
+    "slug": "roll-galaxy",
+    "nameAr": "آيس كريم رول جلاكسي",
+    "nameEn": "Ice Cream Roll جلاكسي",
+    "descriptionAr": "آيس كريم رول جلاكسي - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "جلاكسي",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "جلاكسي",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-cadbury",
+    "slug": "roll-cadbury",
+    "nameAr": "آيس كريم رول كادبوري",
+    "nameEn": "Ice Cream Roll كادبوري",
+    "descriptionAr": "آيس كريم رول كادبوري - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كادبوري",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كادبوري",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-kinder",
+    "slug": "roll-kinder",
+    "nameAr": "آيس كريم رول كيندر",
+    "nameEn": "Ice Cream Roll كيندر",
+    "descriptionAr": "آيس كريم رول كيندر - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 75,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 75,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كيندر",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كيندر",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-lotus",
+    "slug": "roll-lotus",
+    "nameAr": "آيس كريم رول لوتس",
+    "nameEn": "Ice Cream Roll لوتس",
+    "descriptionAr": "آيس كريم رول لوتس - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 90,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 90,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": true,
+    "tags": [
+      "لوتس",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لوتس",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-mix-chocolate",
+    "slug": "roll-mix-chocolate",
+    "nameAr": "آيس كريم رول ميكس شوكولاتة",
+    "nameEn": "Ice Cream Roll ميكس شوكولاتة",
+    "descriptionAr": "آيس كريم رول ميكس شوكولاتة - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 90,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 90,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ميكس شوكولاتة",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ميكس شوكولاتة",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-ferrero-rocher",
+    "slug": "roll-ferrero-rocher",
+    "nameAr": "آيس كريم رول فيريرو روشيه",
+    "nameEn": "Ice Cream Roll فيريرو روشيه",
+    "descriptionAr": "آيس كريم رول فيريرو روشيه - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 90,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 90,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فيريرو روشيه",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فيريرو روشيه",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-nutella",
+    "slug": "roll-nutella",
+    "nameAr": "آيس كريم رول نوتيلا",
+    "nameEn": "Ice Cream Roll نوتيلا",
+    "descriptionAr": "آيس كريم رول نوتيلا - شوكولاتات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 95,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 95,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": true,
+    "tags": [
+      "نوتيلا",
+      "شوكولاتات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "نوتيلا",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-cashew",
+    "slug": "roll-cashew",
+    "nameAr": "آيس كريم رول كاجو",
+    "nameEn": "Ice Cream Roll كاجو",
+    "descriptionAr": "آيس كريم رول كاجو - مكسرات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 85,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 85,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كاجو",
+      "مكسرات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كاجو",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-pistachio",
+    "slug": "roll-pistachio",
+    "nameAr": "آيس كريم رول فستق",
+    "nameEn": "Ice Cream Roll فستق",
+    "descriptionAr": "آيس كريم رول فستق - مكسرات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 85,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 85,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فستق",
+      "مكسرات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فستق",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-hazelnut",
+    "slug": "roll-hazelnut",
+    "nameAr": "آيس كريم رول بندق",
+    "nameEn": "Ice Cream Roll بندق",
+    "descriptionAr": "آيس كريم رول بندق - مكسرات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 85,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 85,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "بندق",
+      "مكسرات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "بندق",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-almond",
+    "slug": "roll-almond",
+    "nameAr": "آيس كريم رول لوز",
+    "nameEn": "Ice Cream Roll لوز",
+    "descriptionAr": "آيس كريم رول لوز - مكسرات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 85,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 85,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لوز",
+      "مكسرات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لوز",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-walnut",
+    "slug": "roll-walnut",
+    "nameAr": "آيس كريم رول عين جمل",
+    "nameEn": "Ice Cream Roll عين جمل",
+    "descriptionAr": "آيس كريم رول عين جمل - مكسرات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 85,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 85,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "عين جمل",
+      "مكسرات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "عين جمل",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-mix-nuts",
+    "slug": "roll-mix-nuts",
+    "nameAr": "آيس كريم رول ميكس مكسرات",
+    "nameEn": "Ice Cream Roll ميكس مكسرات",
+    "descriptionAr": "آيس كريم رول ميكس مكسرات - مكسرات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 85,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 85,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ميكس مكسرات",
+      "مكسرات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ميكس مكسرات",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-vanilla",
+    "slug": "roll-vanilla",
+    "nameAr": "آيس كريم رول فانيليا",
+    "nameEn": "Ice Cream Roll فانيليا",
+    "descriptionAr": "آيس كريم رول فانيليا - نكهات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 60,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 60,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فانيليا",
+      "نكهات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فانيليا",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-mocha",
+    "slug": "roll-mocha",
+    "nameAr": "آيس كريم رول موكا",
+    "nameEn": "Ice Cream Roll موكا",
+    "descriptionAr": "آيس كريم رول موكا - نكهات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "موكا",
+      "نكهات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "موكا",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-caramel",
+    "slug": "roll-caramel",
+    "nameAr": "آيس كريم رول كراميل",
+    "nameEn": "Ice Cream Roll كراميل",
+    "descriptionAr": "آيس كريم رول كراميل - نكهات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 65,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 65,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كراميل",
+      "نكهات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كراميل",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "icr-cola",
+    "slug": "roll-cola",
+    "nameAr": "آيس كريم رول كولا",
+    "nameEn": "Ice Cream Roll كولا",
+    "descriptionAr": "آيس كريم رول كولا - نكهات طازج محضر على الصاج المثلج",
+    "categorySlug": "ice-cream-roll",
+    "categoryNameAr": "آيس كريم رول",
+    "basePrice": 70,
+    "sizes": [
+      {
+        "id": "standard",
+        "nameAr": "حجم عادي",
+        "nameEn": "Standard Size",
+        "price": 70,
+        "volumeLabel": "عادي",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [
+      {
+        "id": "addon-chocolate",
+        "nameAr": "شيكولاتة",
+        "nameEn": "Chocolate Sauce",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-honey",
+        "nameAr": "عسل نحل",
+        "nameEn": "Pure Natural Honey",
+        "price": 15,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-fruits",
+        "nameAr": "فاكهة قطع",
+        "nameEn": "Extra Fresh Fruits",
+        "price": 20,
+        "categoryId": "add-on",
+        "availability": "available"
+      },
+      {
+        "id": "addon-nuts",
+        "nameAr": "مكسرات فاخرة",
+        "nameEn": "Premium Nuts",
+        "price": 30,
+        "categoryId": "add-on",
+        "availability": "available"
+      }
+    ],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كولا",
+      "نكهات",
+      "آيس كريم رول",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كولا",
+      "آيس كريم رول"
+    ],
+    "verifiedFromAsset": "المايسترو منيو رسمي",
+    "extractionStatus": "verified",
+    "availability": "available"
   }
 ];
-

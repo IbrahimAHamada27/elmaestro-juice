@@ -107,6 +107,28 @@ import { CategoryInformationComponent } from '../../shared/components/category-i
             </button>
           </div>
 
+          <!-- Subcategory Quick Filter Strip for Ice Cream Roll -->
+          @if (activeCategorySlug() === 'ice-cream-roll' && !searchQuery) {
+            <div class="subcategories-filter-strip" role="group" aria-label="أقسام آيس كريم رول">
+              <button 
+                type="button" 
+                class="subcat-chip" 
+                [class.active]="selectedSubcategory() === ''"
+                (click)="selectedSubcategory.set('')">
+                <span>الكل (54)</span>
+              </button>
+              @for (sub of iceCreamSubcategories; track sub.name) {
+                <button 
+                  type="button" 
+                  class="subcat-chip" 
+                  [class.active]="selectedSubcategory() === sub.name"
+                  (click)="selectedSubcategory.set(sub.name)">
+                  <span>{{ sub.name }} ({{ sub.count }})</span>
+                </button>
+              }
+            </div>
+          }
+
           @if (filteredProducts().length > 0) {
             <div class="products-grid">
               @for (prod of filteredProducts(); track prod.id) {
@@ -392,6 +414,46 @@ import { CategoryInformationComponent } from '../../shared/components/category-i
       border-bottom: 1px solid var(--border-subtle);
       gap: 0.5rem;
     }
+
+    /* Subcategories Filter Strip */
+    .subcategories-filter-strip {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      overflow-x: auto;
+      padding-bottom: 0.85rem;
+      margin-bottom: 1rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      -webkit-overflow-scrolling: touch;
+    }
+    .subcategories-filter-strip::-webkit-scrollbar {
+      display: none;
+    }
+    .subcat-chip {
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      background: #FFFFFF;
+      border: 1px solid #E2E8E2;
+      color: #172033;
+      font-size: 0.82rem;
+      font-weight: 700;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      box-shadow: 0 1px 3px rgba(23, 77, 50, 0.03);
+    }
+    .subcat-chip:hover {
+      background: #EAF5EC;
+      color: #174D32;
+      border-color: #279653;
+    }
+    .subcat-chip.active {
+      background: #174D32;
+      color: #FFFFFF;
+      border-color: #174D32;
+      box-shadow: 0 2px 8px rgba(23, 77, 50, 0.2);
+    }
     .active-filter-title {
       display: flex;
       align-items: baseline;
@@ -628,8 +690,18 @@ export class MenuComponent {
   readonly categories = this.productService.categories;
 
   readonly activeCategorySlug = signal<string>('');
+  readonly selectedSubcategory = signal<string>('');
   searchQuery = '';
   sortBy = 'default';
+
+  readonly iceCreamSubcategories = [
+    { name: 'فواكه طبيعية', count: 12 },
+    { name: 'ميكسات', count: 10 },
+    { name: 'ميكس المايسترو', count: 2 },
+    { name: 'شوكولاتات', count: 20 },
+    { name: 'مكسرات', count: 6 },
+    { name: 'نكهات', count: 4 }
+  ];
 
   readonly chipsContainer = viewChild<ElementRef<HTMLDivElement>>('chipsContainer');
 
@@ -645,6 +717,7 @@ export class MenuComponent {
     this.route.paramMap.subscribe(params => {
       const slug = params.get('categorySlug');
       this.activeCategorySlug.set(slug || '');
+      this.selectedSubcategory.set('');
     });
   }
 
@@ -656,13 +729,21 @@ export class MenuComponent {
 
   readonly currentCategoryName = computed(() => {
     const cat = this.activeCategory();
-    if (cat) return cat.nameAr;
+    if (cat) {
+      const sub = this.selectedSubcategory();
+      return sub ? `${cat.nameAr} - ${sub}` : cat.nameAr;
+    }
     if (this.searchQuery) return `نتائج البحث عن: "${this.searchQuery}"`;
     return 'كافة مشروبات وحلويات المنيو';
   });
 
   readonly filteredProducts = computed(() => {
     let list = this.productService.searchProducts(this.searchQuery, this.activeCategorySlug() || undefined);
+
+    const sub = this.selectedSubcategory();
+    if (sub && this.activeCategorySlug() === 'ice-cream-roll' && !this.searchQuery) {
+      list = list.filter(p => p.tags.includes(sub));
+    }
 
     if (this.sortBy === 'price-asc') {
       list = [...list].sort((a, b) => a.basePrice - b.basePrice);

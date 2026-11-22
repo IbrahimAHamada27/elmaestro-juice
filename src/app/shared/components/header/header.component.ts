@@ -96,13 +96,19 @@ import { ConfigService } from '../../../core/services/config.service';
               <span>القهوة والمحمصات</span>
             </a>
 
-            <!-- 5. عن المايسترو -->
+            <!-- 5. آيس كريم رول -->
+            <a routerLink="/menu/ice-cream-roll" (click)="closeMenu()" routerLinkActive="active" class="drawer-link">
+              <i class="fa-solid fa-ice-cream"></i>
+              <span>آيس كريم رول</span>
+            </a>
+
+            <!-- 6. عن المايسترو -->
             <a routerLink="/about" (click)="closeMenu()" routerLinkActive="active" class="drawer-link">
               <i class="fa-solid fa-award"></i>
               <span>عن المايسترو</span>
             </a>
 
-            <!-- 6. موقعنا وتواصل معنا -->
+            <!-- 7. موقعنا وتواصل معنا -->
             <a routerLink="/contact" (click)="closeMenu()" routerLinkActive="active" class="drawer-link">
               <i class="fa-solid fa-location-dot"></i>
               <span>موقعنا وتواصل معنا</span>

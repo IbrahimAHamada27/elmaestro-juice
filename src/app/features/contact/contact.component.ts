@@ -38,31 +38,29 @@ import { ConfigService } from '../../core/services/config.service';
           </div>
 
           <div class="social-grid">
-            <!-- 1. WhatsApp Direct -->
+            <!-- 1. Phone Direct Order -->
             <a 
-              [href]="'https://wa.me/' + business().contacts.whatsapp" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              class="social-card whatsapp-card"
-              aria-label="محادثة واتساب المايسترو">
+              [href]="'tel:' + business().contacts.phone1" 
+              class="social-card phone-card"
+              aria-label="الاتصال بالمايسترو">
               <div class="social-card-inner">
                 <div class="social-header-row">
-                  <div class="social-icon-wrapper whatsapp-icon">
-                    <i class="fa-brands fa-whatsapp"></i>
+                  <div class="social-icon-wrapper phone-icon">
+                    <i class="fa-solid fa-phone"></i>
                   </div>
-                  <span class="platform-label">واتساب 24h</span>
+                  <span class="platform-label">خدمة العملاء 24h</span>
                 </div>
                 <div class="social-text-block">
-                  <h3 class="social-platform-title">واتساب الطلبات الفوري</h3>
+                  <h3 class="social-platform-title">اتصال هاتفي مباشر</h3>
                   <div class="handle-row" dir="ltr">
                     <span class="handle-text">01037733214</span>
                   </div>
                   <p class="social-desc">
-                    أسرع طريقة لطلب العصائر والقهوة والمحمصات مباشرة مع خدمة التوصيل.
+                    لخدمة التوصيل السريع والاستفسارات والطلبات على مدار الساعة بمدينة العبور.
                   </p>
                 </div>
-                <div class="social-cta-btn whatsapp-btn">
-                  <span>طلب عبر الواتساب</span>
+                <div class="social-cta-btn phone-btn">
+                  <span>اتصل الآن</span>
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
               </div>
@@ -157,12 +155,10 @@ import { ConfigService } from '../../core/services/config.service';
                 </div>
 
                 <div class="contact-method-item">
-                  <i class="fa-brands fa-whatsapp"></i>
+                  <i class="fa-solid fa-store"></i>
                   <div>
-                    <span class="cm-label">واتساب الاستفسارات والطلبات:</span>
-                    <a [href]="'https://wa.me/' + business().contacts.whatsapp" target="_blank" rel="noopener noreferrer" class="cm-val" dir="ltr">
-                      01037733214
-                    </a>
+                    <span class="cm-label">فرع سنتر العبور:</span>
+                    <span class="cm-val">الحي الأول – بجوار مطعم أبو حلب</span>
                   </div>
                 </div>
 

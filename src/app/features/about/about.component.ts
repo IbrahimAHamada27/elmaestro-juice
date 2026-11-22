@@ -24,10 +24,10 @@ import { ConfigService } from '../../core/services/config.service';
             </p>
             <div class="hero-actions-row">
               <a routerLink="/menu" class="btn-green-fill">
-                <i class="fa-solid fa-layer-group"></i> استكشف المنيو
+                <i class="fa-solid fa-layer-group"></i> استكشف المنيو واطلب
               </a>
-              <a [href]="'https://wa.me/' + business().contacts.whatsapp" target="_blank" rel="noopener noreferrer" class="btn-wa-fill">
-                <i class="fa-brands fa-whatsapp"></i> تواصل عبر واتساب
+              <a [href]="'tel:' + business().contacts.phone1" class="btn-phone-fill">
+                <i class="fa-solid fa-phone"></i> اتصل بالفرع مباشرة
               </a>
             </div>
           </div>
@@ -161,10 +161,10 @@ import { ConfigService } from '../../core/services/config.service';
           </div>
           <div class="cta-buttons">
             <a routerLink="/menu" class="btn-cta-menu">
-              <i class="fa-solid fa-book-open"></i> استعراض المنيو
+              <i class="fa-solid fa-book-open"></i> استعراض المنيو والطلب
             </a>
-            <a [href]="'https://wa.me/' + business().contacts.whatsapp" target="_blank" rel="noopener noreferrer" class="btn-cta-wa">
-              <i class="fa-brands fa-whatsapp"></i> طلب واتساب 24 ساعة
+            <a [href]="'tel:' + business().contacts.phone1" class="btn-cta-phone">
+              <i class="fa-solid fa-phone"></i> اتصل بنا: {{ business().contacts.phone1 }}
             </a>
           </div>
         </div>
@@ -244,8 +244,8 @@ import { ConfigService } from '../../core/services/config.service';
       transition: background 0.2s;
     }
     .btn-green-fill:hover { background: #15803d; }
-    .btn-wa-fill {
-      background: #25d366;
+    .btn-phone-fill {
+      background: #174D32;
       color: #ffffff;
       padding: 0.75rem 1.4rem;
       border-radius: 10px;
@@ -257,7 +257,7 @@ import { ConfigService } from '../../core/services/config.service';
       gap: 0.5rem;
       transition: background 0.2s;
     }
-    .btn-wa-fill:hover { background: #20ba59; }
+    .btn-phone-fill:hover { background: #279653; }
 
     .media-frame-featured {
       position: relative;
@@ -475,8 +475,8 @@ import { ConfigService } from '../../core/services/config.service';
       align-items: center;
       gap: 0.5rem;
     }
-    .btn-cta-wa {
-      background: #25d366;
+    .btn-cta-phone {
+      background: #174D32;
       color: #ffffff;
       padding: 0.85rem 1.4rem;
       border-radius: 10px;
@@ -485,6 +485,10 @@ import { ConfigService } from '../../core/services/config.service';
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
+      transition: background 0.2s;
+    }
+    .btn-cta-phone:hover {
+      background: #279653;
     }
 
     /* Responsive */
@@ -513,7 +517,7 @@ import { ConfigService } from '../../core/services/config.service';
         flex-direction: column;
         width: 100%;
       }
-      .btn-cta-menu, .btn-cta-wa {
+      .btn-cta-menu, .btn-cta-phone {
         width: 100%;
         justify-content: center;
       }

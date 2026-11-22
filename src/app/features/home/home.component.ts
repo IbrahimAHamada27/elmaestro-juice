@@ -260,9 +260,9 @@ import { SeoService } from '../../core/services/seo.service';
               <i class="fa-solid fa-phone"></i>
               <span>اتصل بنا: {{ business().contacts.phone1 }}</span>
             </a>
-            <a [href]="'https://wa.me/' + business().contacts.whatsapp" target="_blank" rel="noopener noreferrer" class="contact-action-btn whatsapp">
-              <i class="fa-brands fa-whatsapp"></i>
-              <span>طلب مباشر عبر الواتساب</span>
+            <a routerLink="/menu" class="contact-action-btn menu-btn">
+              <i class="fa-solid fa-book-open"></i>
+              <span>تصفح المنيو واطلب الآن</span>
             </a>
             <a [href]="business().contacts.facebookUrl" target="_blank" rel="noopener noreferrer" class="contact-action-btn facebook">
               <i class="fa-brands fa-facebook"></i>

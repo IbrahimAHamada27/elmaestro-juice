@@ -48,14 +48,14 @@ import { ConfigService } from '../../core/services/config.service';
       <section class="stats-counter-strip">
         <div class="container stats-flex">
           <div class="stat-pill-item">
-            <div class="spi-num">23</div>
+            <div class="spi-num">24</div>
             <div class="spi-text">
               <strong>قسماً متنوعاً</strong>
               <span>يغطي كافة الأذواق</span>
             </div>
           </div>
           <div class="stat-pill-item">
-            <div class="spi-num">+290</div>
+            <div class="spi-num">+370</div>
             <div class="spi-text">
               <strong>صنفاً حقيقياً</strong>
               <span>تحضير طازج يومياً</span>

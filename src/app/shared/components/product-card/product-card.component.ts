@@ -85,10 +85,14 @@ import { ToastService } from '../../../core/services/toast.service';
         <!-- Footer: Price & Compact Stepper -->
         <div class="card-footer">
           <div class="price-container">
-            <span class="price-amount">{{ displayedPrice() }}</span>
-            <span class="currency">ج.م</span>
-            @if (product().sizes.length > 1) {
-              <span class="size-label">({{ activeSize().nameAr }})</span>
+            @if (product().availability === 'unavailable' || displayedPrice() === 0) {
+              <span class="unavailable-badge">غير متاح مؤقتاً</span>
+            } @else {
+              <span class="price-amount">{{ displayedPrice() }}</span>
+              <span class="currency">{{ product().categorySlug === 'roastery-nuts' ? 'ج.م / كجم' : 'ج.م' }}</span>
+              @if (product().sizes.length > 1) {
+                <span class="size-label">({{ activeSize().nameAr }})</span>
+              }
             }
           </div>
 
@@ -97,7 +101,7 @@ import { ToastService } from '../../../core/services/toast.service';
             <button 
               type="button" 
               class="stepper-btn minus" 
-              [disabled]="currentSizeQuantity() === 0"
+              [disabled]="product().availability === 'unavailable' || displayedPrice() === 0 || currentSizeQuantity() === 0"
               (click)="decrement($event)"
               aria-label="إنقاص الكمية">
               <i class="fa-solid fa-minus"></i>
@@ -110,6 +114,7 @@ import { ToastService } from '../../../core/services/toast.service';
             <button 
               type="button" 
               class="stepper-btn plus" 
+              [disabled]="product().availability === 'unavailable' || displayedPrice() === 0"
               (click)="increment($event)"
               aria-label="زيادة الكمية">
               <i class="fa-solid fa-plus"></i>
@@ -336,6 +341,17 @@ import { ToastService } from '../../../core/services/toast.service';
       font-size: 1.15rem;
       font-weight: 900;
       color: #174D32;
+    }
+
+    .unavailable-badge {
+      font-size: 0.76rem;
+      font-weight: 800;
+      color: #b45309;
+      background: #fef3c7;
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      border: 1px solid #fde68a;
+      white-space: nowrap;
     }
 
     .currency {

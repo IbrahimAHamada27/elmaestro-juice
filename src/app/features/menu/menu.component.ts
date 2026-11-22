@@ -129,6 +129,28 @@ import { CategoryInformationComponent } from '../../shared/components/category-i
             </div>
           }
 
+          <!-- Subcategory Quick Filter Strip for Roastery & Nuts -->
+          @if (activeCategorySlug() === 'roastery-nuts' && !searchQuery) {
+            <div class="subcategories-filter-strip" role="group" aria-label="أقسام المقلاة والمحمصات">
+              <button 
+                type="button" 
+                class="subcat-chip" 
+                [class.active]="selectedSubcategory() === ''"
+                (click)="selectedSubcategory.set('')">
+                <span>الكل (83)</span>
+              </button>
+              @for (sub of roasterySubcategories; track sub.name) {
+                <button 
+                  type="button" 
+                  class="subcat-chip" 
+                  [class.active]="selectedSubcategory() === sub.name"
+                  (click)="selectedSubcategory.set(sub.name)">
+                  <span>{{ sub.name }} ({{ sub.count }})</span>
+                </button>
+              }
+            </div>
+          }
+
           @if (filteredProducts().length > 0) {
             <div class="products-grid">
               @for (prod of filteredProducts(); track prod.id) {
@@ -703,6 +725,15 @@ export class MenuComponent {
     { name: 'نكهات', count: 4 }
   ];
 
+  readonly roasterySubcategories = [
+    { name: 'اللب والسوداني', count: 14 },
+    { name: 'المكسرات', count: 11 },
+    { name: 'التسالي والمقرمشات', count: 12 },
+    { name: 'الشوكولاتة والحلويات', count: 35 },
+    { name: 'الفواكه المجففة', count: 8 },
+    { name: 'أصناف إضافية', count: 3 }
+  ];
+
   readonly chipsContainer = viewChild<ElementRef<HTMLDivElement>>('chipsContainer');
 
   scrollChips(direction: 'prev' | 'next'): void {
@@ -741,7 +772,7 @@ export class MenuComponent {
     let list = this.productService.searchProducts(this.searchQuery, this.activeCategorySlug() || undefined);
 
     const sub = this.selectedSubcategory();
-    if (sub && this.activeCategorySlug() === 'ice-cream-roll' && !this.searchQuery) {
+    if (sub && (this.activeCategorySlug() === 'ice-cream-roll' || this.activeCategorySlug() === 'roastery-nuts') && !this.searchQuery) {
       list = list.filter(p => p.tags.includes(sub));
     }
 

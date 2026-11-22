@@ -87,9 +87,9 @@ import { SeoService } from '../../core/services/seo.service';
           <div class="section-headline-bar">
             <div class="headline-titles">
               <span class="sub-headline">تنوع يلبي كافة الأذواق</span>
-              <h2 class="main-headline">أقسام العصير والمشروبات والآيس كريم</h2>
+              <h2 class="main-headline">أقسام العصير والمشروبات والآيس كريم والمحمصات</h2>
             </div>
-            <a routerLink="/menu" class="view-menu-link">عرض المنيو بالكامل (23 قسماً) ←</a>
+            <a routerLink="/menu" class="view-menu-link">عرض المنيو بالكامل (24 قسماً) ←</a>
           </div>
 
           <div class="categories-pure-grid">

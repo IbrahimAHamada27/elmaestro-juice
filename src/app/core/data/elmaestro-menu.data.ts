@@ -391,6 +391,22 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
       "متاح بإضافات صوصات ومكسرات وفواكه حسب رغبتك."
     ],
     "itemCount": 54
+  },
+  {
+    "id": "roastery-nuts",
+    "slug": "roastery-nuts",
+    "nameAr": "المقلاة والمحمصات",
+    "nameEn": "Roastery & Nuts",
+    "descriptionAr": "أفخر أنواع اللب، المكسرات المحمصة والنية، التسالي والمقرمشات، الشوكولاتات والحلويات والفواكه المجففة بالكيلو",
+    "icon": "fa-solid fa-seedling",
+    "themeColor": "#b45309",
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "displayOrder": 24,
+    "informationAr": [
+      "جميع أسعار المقلاة والمحمصات محددة بالجنيه المصري لكل كيلو جرام (ج.م / كجم).",
+      "تحميص يومي طازج بأعلى معايير الجودة والنظافة."
+    ],
+    "itemCount": 83
   }
 ];
 
@@ -23413,5 +23429,3159 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
     "availability": "available"
+  },
+  {
+    "id": "rn-leb-super-baladi",
+    "slug": "leb-super-baladi",
+    "nameAr": "لب سوبر بلدي",
+    "nameEn": "Leb Super Baladi",
+    "descriptionAr": "لب سوبر بلدي - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 360,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 360,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": true,
+    "tags": [
+      "لب سوبر بلدي",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب سوبر بلدي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-souri-abbad",
+    "slug": "leb-souri-abbad",
+    "nameAr": "لب سوري (عباد)",
+    "nameEn": "Leb Souri Abbad",
+    "descriptionAr": "لب سوري (عباد) - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 260,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 260,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب سوري (عباد)",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب سوري (عباد)"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-abyad-baladi",
+    "slug": "leb-abyad-baladi",
+    "nameAr": "لب أبيض بلدي",
+    "nameEn": "Leb Abyad Baladi",
+    "descriptionAr": "لب أبيض بلدي - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 420,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 420,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب أبيض بلدي",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب أبيض بلدي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-khashab",
+    "slug": "leb-khashab",
+    "nameAr": "لب خشب",
+    "nameEn": "Leb Khashab",
+    "descriptionAr": "لب خشب - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 380,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 380,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب خشب",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب خشب"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-bateekh-baladi",
+    "slug": "leb-bateekh-baladi",
+    "nameAr": "لب بطيخ بلدي",
+    "nameEn": "Leb Bateekh Baladi",
+    "descriptionAr": "لب بطيخ بلدي - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 280,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 280,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب بطيخ بلدي",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب بطيخ بلدي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-moqashar-flavor",
+    "slug": "leb-moqashar-flavor",
+    "nameAr": "لب مقشر نكهات",
+    "nameEn": "Leb Moqashar Flavor",
+    "descriptionAr": "لب مقشر نكهات - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 240,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 240,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب مقشر نكهات",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب مقشر نكهات"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-peanuts-in-shell",
+    "slug": "peanuts-in-shell",
+    "nameAr": "سوداني بقشره",
+    "nameEn": "Peanuts In Shell",
+    "descriptionAr": "سوداني بقشره - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 180,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 180,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "سوداني بقشره",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "سوداني بقشره"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-peanuts-smoked",
+    "slug": "peanuts-smoked",
+    "nameAr": "سوداني مدخن",
+    "nameEn": "Peanuts Smoked",
+    "descriptionAr": "سوداني مدخن - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 240,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 240,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "سوداني مدخن",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "سوداني مدخن"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-peanuts-peeled",
+    "slug": "peanuts-peeled",
+    "nameAr": "سوداني مقشر",
+    "nameEn": "Peanuts Peeled",
+    "descriptionAr": "سوداني مقشر - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 260,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 260,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "سوداني مقشر",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "سوداني مقشر"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-aswad-afghani",
+    "slug": "leb-aswad-afghani",
+    "nameAr": "لب أسود أفغاني",
+    "nameEn": "Leb Aswad Afghani",
+    "descriptionAr": "لب أسود أفغاني - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 280,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 280,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب أسود أفغاني",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب أسود أفغاني"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-abyad-areed",
+    "slug": "leb-abyad-areed",
+    "nameAr": "لب أبيض قشر عريض",
+    "nameEn": "Leb Abyad Areed",
+    "descriptionAr": "لب أبيض قشر عريض - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 420,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 420,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب أبيض قشر عريض",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب أبيض قشر عريض"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-super-tawabel",
+    "slug": "leb-super-tawabel",
+    "nameAr": "لب سوبر توابل",
+    "nameEn": "Leb Super Tawabel",
+    "descriptionAr": "لب سوبر توابل - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 360,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 360,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب سوبر توابل",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب سوبر توابل"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-leb-souri-smoked",
+    "slug": "leb-souri-smoked",
+    "nameAr": "لب سوري مدخن",
+    "nameEn": "Leb Souri Smoked",
+    "descriptionAr": "لب سوري مدخن - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 0,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 0,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "unavailable",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب سوري مدخن",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب سوري مدخن"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "unavailable"
+  },
+  {
+    "id": "rn-leb-qateen",
+    "slug": "leb-qateen",
+    "nameAr": "لب قطين",
+    "nameEn": "Leb Qateen",
+    "descriptionAr": "لب قطين - قسم اللب والسوداني بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 480,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 480,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لب قطين",
+      "اللب والسوداني",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لب قطين"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-cashew-180",
+    "slug": "cashew-180",
+    "nameAr": "كاجو (180)",
+    "nameEn": "Cashew 180",
+    "descriptionAr": "كاجو (180) - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 1200,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 1200,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "tags": [
+      "كاجو (180)",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كاجو (180)"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-cashew-180-variant",
+    "slug": "cashew-180-variant",
+    "nameAr": "كاجو (180) - صنف آخر",
+    "nameEn": "Cashew 180 Variant",
+    "descriptionAr": "كاجو (180) - صنف آخر - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 0,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 0,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "unavailable",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كاجو (180) - صنف آخر",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كاجو (180) - صنف آخر"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "unavailable"
+  },
+  {
+    "id": "rn-almonds-roasted",
+    "slug": "almonds-roasted",
+    "nameAr": "لوز محمص",
+    "nameEn": "Almonds Roasted",
+    "descriptionAr": "لوز محمص - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 800,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 800,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "tags": [
+      "لوز محمص",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لوز محمص"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-almonds-smoked",
+    "slug": "almonds-smoked",
+    "nameAr": "لوز مدخن",
+    "nameEn": "Almonds Smoked",
+    "descriptionAr": "لوز مدخن - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 800,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 800,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "tags": [
+      "لوز مدخن",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لوز مدخن"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-almonds-raw",
+    "slug": "almonds-raw",
+    "nameAr": "لوز ني",
+    "nameEn": "Almonds Raw",
+    "descriptionAr": "لوز ني - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 0,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 0,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "unavailable",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لوز ني",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لوز ني"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "unavailable"
+  },
+  {
+    "id": "rn-hazelnuts-roasted",
+    "slug": "hazelnuts-roasted",
+    "nameAr": "بندق محمص",
+    "nameEn": "Hazelnuts Roasted",
+    "descriptionAr": "بندق محمص - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 1150,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 1150,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "tags": [
+      "بندق محمص",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "بندق محمص"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-hazelnuts-raw",
+    "slug": "hazelnuts-raw",
+    "nameAr": "بندق ني",
+    "nameEn": "Hazelnuts Raw",
+    "descriptionAr": "بندق ني - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 1150,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 1150,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "tags": [
+      "بندق ني",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "بندق ني"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-walnuts-peeled",
+    "slug": "walnuts-peeled",
+    "nameAr": "عين جمل مقشر",
+    "nameEn": "Walnuts Peeled",
+    "descriptionAr": "عين جمل مقشر - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 750,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 750,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "tags": [
+      "عين جمل مقشر",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "عين جمل مقشر"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-pistachio-american-shell",
+    "slug": "pistachio-american-shell",
+    "nameAr": "فستق أمريكي بقشره",
+    "nameEn": "Pistachio American Shell",
+    "descriptionAr": "فستق أمريكي بقشره - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 1300,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 1300,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "tags": [
+      "فستق أمريكي بقشره",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فستق أمريكي بقشره"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-pecan-roasted",
+    "slug": "pecan-roasted",
+    "nameAr": "بيكان محمص",
+    "nameEn": "Pecan Roasted",
+    "descriptionAr": "بيكان محمص - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 1800,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 1800,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "tags": [
+      "بيكان محمص",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "بيكان محمص"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-macadamia",
+    "slug": "macadamia",
+    "nameAr": "مكاديميا",
+    "nameEn": "Macadamia",
+    "descriptionAr": "مكاديميا - قسم المكسرات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 1100,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 1100,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": true,
+    "isBestSeller": false,
+    "tags": [
+      "مكاديميا",
+      "المكسرات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مكاديميا"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-snacks-sticks-flavors",
+    "slug": "snacks-sticks-flavors",
+    "nameAr": "مقرمشات أصابع نكهات",
+    "nameEn": "Snacks Sticks Flavors",
+    "descriptionAr": "مقرمشات أصابع نكهات - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 160,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 160,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مقرمشات أصابع نكهات",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مقرمشات أصابع نكهات"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-peanuts-palestinian",
+    "slug": "peanuts-palestinian",
+    "nameAr": "فول سوداني فلسطيني",
+    "nameEn": "Peanuts Palestinian",
+    "descriptionAr": "فول سوداني فلسطيني - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 200,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 200,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فول سوداني فلسطيني",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فول سوداني فلسطيني"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-snacks-chinese-seasoned",
+    "slug": "snacks-chinese-seasoned",
+    "nameAr": "مقرمشات صيني متبلة",
+    "nameEn": "Snacks Chinese Seasoned",
+    "descriptionAr": "مقرمشات صيني متبلة - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 400,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 400,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مقرمشات صيني متبلة",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مقرمشات صيني متبلة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-chickpeas-regular",
+    "slug": "chickpeas-regular",
+    "nameAr": "حمص عادي",
+    "nameEn": "Chickpeas Regular",
+    "descriptionAr": "حمص عادي - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 160,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 160,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "حمص عادي",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "حمص عادي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-corn-spanish-flavors",
+    "slug": "corn-spanish-flavors",
+    "nameAr": "ذرة نكهات أسباني",
+    "nameEn": "Corn Spanish Flavors",
+    "descriptionAr": "ذرة نكهات أسباني - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 260,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 260,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ذرة نكهات أسباني",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ذرة نكهات أسباني"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-snacks-rosana",
+    "slug": "snacks-rosana",
+    "nameAr": "مقرمشات روزانا",
+    "nameEn": "Snacks Rosana",
+    "descriptionAr": "مقرمشات روزانا - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 140,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 140,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مقرمشات روزانا",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مقرمشات روزانا"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-snacks-cono-flavors",
+    "slug": "snacks-cono-flavors",
+    "nameAr": "مقرمشات كونو نكهات",
+    "nameEn": "Snacks Cono Flavors",
+    "descriptionAr": "مقرمشات كونو نكهات - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 140,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 140,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مقرمشات كونو نكهات",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مقرمشات كونو نكهات"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-snacks-pretzel-flavors",
+    "slug": "snacks-pretzel-flavors",
+    "nameAr": "مقرمشات برتزل نكهات",
+    "nameEn": "Snacks Pretzel Flavors",
+    "descriptionAr": "مقرمشات برتزل نكهات - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 160,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 160,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مقرمشات برتزل نكهات",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مقرمشات برتزل نكهات"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-jelly-spanish-damel",
+    "slug": "jelly-spanish-damel",
+    "nameAr": "جيلي إسباني دامل",
+    "nameEn": "Jelly Spanish Damel",
+    "descriptionAr": "جيلي إسباني دامل - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 350,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 350,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "جيلي إسباني دامل",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "جيلي إسباني دامل"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-snacks-rice-crackers",
+    "slug": "snacks-rice-crackers",
+    "nameAr": "مقرمشات رز",
+    "nameEn": "Snacks Rice Crackers",
+    "descriptionAr": "مقرمشات رز - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 400,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 400,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مقرمشات رز",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مقرمشات رز"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-sticks-resos",
+    "slug": "sticks-resos",
+    "nameAr": "عيدان ريسوس",
+    "nameEn": "Sticks Resos",
+    "descriptionAr": "عيدان ريسوس - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 400,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 400,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "عيدان ريسوس",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "عيدان ريسوس"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-chickpeas-imported",
+    "slug": "chickpeas-imported",
+    "nameAr": "حمص مستورد",
+    "nameEn": "Chickpeas Imported",
+    "descriptionAr": "حمص مستورد - قسم التسالي والمقرمشات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 320,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 320,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "حمص مستورد",
+      "التسالي والمقرمشات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "حمص مستورد"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-milk-strawberry",
+    "slug": "choco-milk-strawberry",
+    "nameAr": "شوكولاتة على حليب فراولة",
+    "nameEn": "Choco Milk Strawberry",
+    "descriptionAr": "شوكولاتة على حليب فراولة - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على حليب فراولة",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على حليب فراولة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-milk-kunafa-kinder",
+    "slug": "choco-milk-kunafa-kinder",
+    "nameAr": "شوكولاتة على حليب كنافة كيندر",
+    "nameEn": "Choco Milk Kunafa Kinder",
+    "descriptionAr": "شوكولاتة على حليب كنافة كيندر - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على حليب كنافة كيندر",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على حليب كنافة كيندر"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-dark",
+    "slug": "choco-dark",
+    "nameAr": "شوكولاتة على دارك",
+    "nameEn": "Choco Dark",
+    "descriptionAr": "شوكولاتة على دارك - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على دارك",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على دارك"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-milk-plain",
+    "slug": "choco-milk-plain",
+    "nameAr": "شوكولاتة على حليب سادة",
+    "nameEn": "Choco Milk Plain",
+    "descriptionAr": "شوكولاتة على حليب سادة - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 330,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 330,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على حليب سادة",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على حليب سادة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-kunafa-pistachio",
+    "slug": "choco-kunafa-pistachio",
+    "nameAr": "شوكولاتة على كنافة فستق",
+    "nameEn": "Choco Kunafa Pistachio",
+    "descriptionAr": "شوكولاتة على كنافة فستق - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على كنافة فستق",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على كنافة فستق"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-milk-ajwa",
+    "slug": "choco-milk-ajwa",
+    "nameAr": "شوكولاتة على حليب عجوة",
+    "nameEn": "Choco Milk Ajwa",
+    "descriptionAr": "شوكولاتة على حليب عجوة - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على حليب عجوة",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على حليب عجوة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-milk-berries-pomegranate",
+    "slug": "choco-milk-berries-pomegranate",
+    "nameAr": "شوكولاتة على حليب توت ورمان",
+    "nameEn": "Choco Milk Berries Pomegranate",
+    "descriptionAr": "شوكولاتة على حليب توت ورمان - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على حليب توت ورمان",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على حليب توت ورمان"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-kunafa-raffaello",
+    "slug": "choco-kunafa-raffaello",
+    "nameAr": "شوكولاتة على كنافة رافيلو",
+    "nameEn": "Choco Kunafa Raffaello",
+    "descriptionAr": "شوكولاتة على كنافة رافيلو - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على كنافة رافيلو",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على كنافة رافيلو"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-ebon-weight",
+    "slug": "ebon-weight",
+    "nameAr": "أيبون وزن",
+    "nameEn": "Ebon Weight",
+    "descriptionAr": "أيبون وزن - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 250,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 250,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "أيبون وزن",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "أيبون وزن"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-truffle-weight",
+    "slug": "truffle-weight",
+    "nameAr": "ترافل وزن",
+    "nameEn": "Truffle Weight",
+    "descriptionAr": "ترافل وزن - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 280,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 280,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ترافل وزن",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ترافل وزن"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-halawa-qirra-caramel",
+    "slug": "halawa-qirra-caramel",
+    "nameAr": "حلاوة قرة بالكراميل",
+    "nameEn": "Halawa Qirra Caramel",
+    "descriptionAr": "حلاوة قرة بالكراميل - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 350,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 350,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "حلاوة قرة بالكراميل",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "حلاوة قرة بالكراميل"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-cardon-double-toast",
+    "slug": "cardon-double-toast",
+    "nameAr": "كاردن دبل توست",
+    "nameEn": "Cardon Double Toast",
+    "descriptionAr": "كاردن دبل توست - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 0,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 0,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "unavailable",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كاردن دبل توست",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كاردن دبل توست"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "unavailable"
+  },
+  {
+    "id": "rn-mega-oreo",
+    "slug": "mega-oreo",
+    "nameAr": "ميجا أوريو",
+    "nameEn": "Mega Oreo",
+    "descriptionAr": "ميجا أوريو - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 280,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 280,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ميجا أوريو",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ميجا أوريو"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-mega-sable",
+    "slug": "mega-sable",
+    "nameAr": "ميجا سابلي",
+    "nameEn": "Mega Sable",
+    "descriptionAr": "ميجا سابلي - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 280,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 280,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ميجا سابلي",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ميجا سابلي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-milk-cashew",
+    "slug": "choco-milk-cashew",
+    "nameAr": "شوكولاتة على حليب كاجو",
+    "nameEn": "Choco Milk Cashew",
+    "descriptionAr": "شوكولاتة على حليب كاجو - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على حليب كاجو",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على حليب كاجو"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-choco-milk-almond",
+    "slug": "choco-milk-almond",
+    "nameAr": "شوكولاتة على حليب لوز",
+    "nameEn": "Choco Milk Almond",
+    "descriptionAr": "شوكولاتة على حليب لوز - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 430,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 430,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة على حليب لوز",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة على حليب لوز"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-paola-biscuit-choco-jai",
+    "slug": "paola-biscuit-choco-jai",
+    "nameAr": "باولا بسكويت شوكولاتة جاي",
+    "nameEn": "Paola Biscuit Choco Jai",
+    "descriptionAr": "باولا بسكويت شوكولاتة جاي - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 260,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 260,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "باولا بسكويت شوكولاتة جاي",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "باولا بسكويت شوكولاتة جاي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-paola-biscuit-strawberry-jai",
+    "slug": "paola-biscuit-strawberry-jai",
+    "nameAr": "باولا بسكويت فراولة جاي",
+    "nameEn": "Paola Biscuit Strawberry Jai",
+    "descriptionAr": "باولا بسكويت فراولة جاي - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 260,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 260,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "باولا بسكويت فراولة جاي",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "باولا بسكويت فراولة جاي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-paola-biscuit-vanilla-jai",
+    "slug": "paola-biscuit-vanilla-jai",
+    "nameAr": "باولا بسكويت فانيليا جاي",
+    "nameEn": "Paola Biscuit Vanilla Jai",
+    "descriptionAr": "باولا بسكويت فانيليا جاي - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 260,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 260,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "باولا بسكويت فانيليا جاي",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "باولا بسكويت فانيليا جاي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-paola-jai-marshmallow",
+    "slug": "paola-jai-marshmallow",
+    "nameAr": "باولا جاي مارشميلو فانيليا وفراولة",
+    "nameEn": "Paola Jai Marshmallow",
+    "descriptionAr": "باولا جاي مارشميلو فانيليا وفراولة - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 260,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 260,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "باولا جاي مارشميلو فانيليا وفراولة",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "باولا جاي مارشميلو فانيليا وفراولة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-larche-maamoul-covered",
+    "slug": "larche-maamoul-covered",
+    "nameAr": "لارش معمول مغطي",
+    "nameEn": "Larche Maamoul Covered",
+    "descriptionAr": "لارش معمول مغطي - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 250,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 250,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "لارش معمول مغطي",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "لارش معمول مغطي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-peanuts-chocolate-coated",
+    "slug": "peanuts-chocolate-coated",
+    "nameAr": "فول سوداني شوكولاتة",
+    "nameEn": "Peanuts Chocolate Coated",
+    "descriptionAr": "فول سوداني شوكولاتة - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 0,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 0,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "unavailable",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فول سوداني شوكولاتة",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فول سوداني شوكولاتة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "unavailable"
+  },
+  {
+    "id": "rn-stone-chocolate",
+    "slug": "stone-chocolate",
+    "nameAr": "شوكولاتة حجر",
+    "nameEn": "Stone Chocolate",
+    "descriptionAr": "شوكولاتة حجر - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 220,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 220,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكولاتة حجر",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكولاتة حجر"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-chocon-lotus",
+    "slug": "chocon-lotus",
+    "nameAr": "شوكون اللوتس",
+    "nameEn": "Chocon Lotus",
+    "descriptionAr": "شوكون اللوتس - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 160,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 160,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "شوكون اللوتس",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "شوكون اللوتس"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-cono-chocolate",
+    "slug": "cono-chocolate",
+    "nameAr": "كونو شوكولاتة",
+    "nameEn": "Cono Chocolate",
+    "descriptionAr": "كونو شوكولاتة - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 160,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 160,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كونو شوكولاتة",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كونو شوكولاتة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-roshen-milk-slash",
+    "slug": "roshen-milk-slash",
+    "nameAr": "روشين ميلك سلاش",
+    "nameEn": "Roshen Milk Slash",
+    "descriptionAr": "روشين ميلك سلاش - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 0,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 0,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "unavailable",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "روشين ميلك سلاش",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "روشين ميلك سلاش"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "unavailable"
+  },
+  {
+    "id": "rn-walker-toffee-mastic",
+    "slug": "walker-toffee-mastic",
+    "nameAr": "واكر توف مستكة",
+    "nameEn": "Walker Toffee Mastic",
+    "descriptionAr": "واكر توف مستكة - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 400,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 400,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "واكر توف مستكة",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "واكر توف مستكة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-magical-marshmallow",
+    "slug": "magical-marshmallow",
+    "nameAr": "ماجكال مارشميلو",
+    "nameEn": "Magical Marshmallow",
+    "descriptionAr": "ماجكال مارشميلو - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 400,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 400,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "ماجكال مارشميلو",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "ماجكال مارشميلو"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-dulce-plus-resos",
+    "slug": "dulce-plus-resos",
+    "nameAr": "دولسي بلس ريسوس طلق محشي",
+    "nameEn": "Dulce Plus Resos",
+    "descriptionAr": "دولسي بلس ريسوس طلق محشي - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 350,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 350,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "دولسي بلس ريسوس طلق محشي",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "دولسي بلس ريسوس طلق محشي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-jelly-sour-flavors",
+    "slug": "jelly-sour-flavors",
+    "nameAr": "جيلي ساور نكهات",
+    "nameEn": "Jelly Sour Flavors",
+    "descriptionAr": "جيلي ساور نكهات - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 350,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 350,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "جيلي ساور نكهات",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "جيلي ساور نكهات"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-gaufrette-covertina",
+    "slug": "gaufrette-covertina",
+    "nameAr": "جوفرت كوفرتينا",
+    "nameEn": "Gaufrette Covertina",
+    "descriptionAr": "جوفرت كوفرتينا - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 280,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 280,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "جوفرت كوفرتينا",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "جوفرت كوفرتينا"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-nougat-weight",
+    "slug": "nougat-weight",
+    "nameAr": "نوجا",
+    "nameEn": "Nougat Weight",
+    "descriptionAr": "نوجا - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 155,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 155,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "نوجا",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "نوجا"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-haram-sweets",
+    "slug": "haram-sweets",
+    "nameAr": "هرم",
+    "nameEn": "Haram Sweets",
+    "descriptionAr": "هرم - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 135,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 135,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "هرم",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "هرم"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-basoni-sweets",
+    "slug": "basoni-sweets",
+    "nameAr": "بصوني",
+    "nameEn": "Basoni Sweets",
+    "descriptionAr": "بصوني - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 135,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 135,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "بصوني",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "بصوني"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-foulya-sweets",
+    "slug": "foulya-sweets",
+    "nameAr": "فولية",
+    "nameEn": "Foulya Sweets",
+    "descriptionAr": "فولية - قسم الشوكولاتة والحلويات بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 135,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 135,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فولية",
+      "الشوكولاتة والحلويات",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فولية"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-dried-fruits-mix",
+    "slug": "dried-fruits-mix",
+    "nameAr": "فواكه مجففة مشكلة",
+    "nameEn": "Dried Fruits Mix",
+    "descriptionAr": "فواكه مجففة مشكلة - قسم الفواكه المجففة بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 2600,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 2600,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فواكه مجففة مشكلة",
+      "الفواكه المجففة",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فواكه مجففة مشكلة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-candy-meter-fruits",
+    "slug": "candy-meter-fruits",
+    "nameAr": "كاندي ميتر فواكه",
+    "nameEn": "Candy Meter Fruits",
+    "descriptionAr": "كاندي ميتر فواكه - قسم الفواكه المجففة بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 2600,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 2600,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كاندي ميتر فواكه",
+      "الفواكه المجففة",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كاندي ميتر فواكه"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-dried-strawberry",
+    "slug": "dried-strawberry",
+    "nameAr": "فراولة مجففة",
+    "nameEn": "Dried Strawberry",
+    "descriptionAr": "فراولة مجففة - قسم الفواكه المجففة بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 2600,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 2600,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "فراولة مجففة",
+      "الفواكه المجففة",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "فراولة مجففة"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-dried-kiwi",
+    "slug": "dried-kiwi",
+    "nameAr": "كيوي مجفف",
+    "nameEn": "Dried Kiwi",
+    "descriptionAr": "كيوي مجفف - قسم الفواكه المجففة بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 2600,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 2600,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "كيوي مجفف",
+      "الفواكه المجففة",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "كيوي مجفف"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-dried-banana",
+    "slug": "dried-banana",
+    "nameAr": "موز مجفف",
+    "nameEn": "Dried Banana",
+    "descriptionAr": "موز مجفف - قسم الفواكه المجففة بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 2600,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 2600,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "موز مجفف",
+      "الفواكه المجففة",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "موز مجفف"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-dried-pineapple",
+    "slug": "dried-pineapple",
+    "nameAr": "أناناس مجفف",
+    "nameEn": "Dried Pineapple",
+    "descriptionAr": "أناناس مجفف - قسم الفواكه المجففة بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 2600,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 2600,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "أناناس مجفف",
+      "الفواكه المجففة",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "أناناس مجفف"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-dried-apple",
+    "slug": "dried-apple",
+    "nameAr": "تفاح مجفف",
+    "nameEn": "Dried Apple",
+    "descriptionAr": "تفاح مجفف - قسم الفواكه المجففة بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 2600,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 2600,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "تفاح مجفف",
+      "الفواكه المجففة",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "تفاح مجفف"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-dried-mango",
+    "slug": "dried-mango",
+    "nameAr": "مانجو مجفف",
+    "nameEn": "Dried Mango",
+    "descriptionAr": "مانجو مجفف - قسم الفواكه المجففة بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 2600,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 2600,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "مانجو مجفف",
+      "الفواكه المجففة",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "مانجو مجفف"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-carob-pods-qursi",
+    "slug": "carob-pods-qursi",
+    "nameAr": "خروب قرون قرصي",
+    "nameEn": "Carob Pods Qursi",
+    "descriptionAr": "خروب قرون قرصي - قسم أصناف إضافية بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 350,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 350,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "خروب قرون قرصي",
+      "أصناف إضافية",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "خروب قرون قرصي"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-sola-beans",
+    "slug": "sola-beans",
+    "nameAr": "صولا",
+    "nameEn": "Sola Beans",
+    "descriptionAr": "صولا - قسم أصناف إضافية بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 190,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 190,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "available",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "صولا",
+      "أصناف إضافية",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "صولا"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "available"
+  },
+  {
+    "id": "rn-box-letters-sweets",
+    "slug": "box-letters-sweets",
+    "nameAr": "علبة حروف",
+    "nameEn": "Box Letters Sweets",
+    "descriptionAr": "علبة حروف - قسم أصناف إضافية بمحمصات ومقلاة المايسترو (السعر للكيلو)",
+    "categorySlug": "roastery-nuts",
+    "categoryNameAr": "المقلاة والمحمصات",
+    "basePrice": 0,
+    "sizes": [
+      {
+        "id": "1kg",
+        "nameAr": "1 كجم",
+        "nameEn": "1 Kg",
+        "price": 0,
+        "volumeLabel": "1 كجم",
+        "isDefault": true,
+        "availability": "unavailable",
+        "extractionStatus": "verified"
+      }
+    ],
+    "availableAddons": [],
+    "image": "/images/brand/elmaestro-logo-badge.png",
+    "isFeatured": false,
+    "isBestSeller": false,
+    "tags": [
+      "علبة حروف",
+      "أصناف إضافية",
+      "المقلاة والمحمصات",
+      "المايسترو"
+    ],
+    "ingredientsAr": [
+      "علبة حروف"
+    ],
+    "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
+    "extractionStatus": "verified",
+    "availability": "unavailable"
   }
 ];

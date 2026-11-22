@@ -7,8 +7,8 @@ import { ToastService } from '../../core/services/toast.service';
 import { FulfillmentService } from '../../core/services/fulfillment.service';
 import { FulfillmentType } from '../../core/models/fulfillment.model';
 import { PaymentMethod } from '../../core/models/order.model';
-import { ORDER_SUBMISSION_SERVICE } from '../../core/contracts/order-submission.contract';
-import { OFFICIAL_DELIVERY_AREAS } from '../../core/data/restaurant-layout.config';
+import { ORDER_SUBMISSION_SERVICE, OrderSubmissionPayload } from '../../core/contracts/order-submission.contract';
+import { OFFICIAL_DELIVERY_AREAS, getDeliveryFeeForDistrict } from '../../core/data/restaurant-layout.config';
 
 type OrderTypeChoice = 'delivery' | 'takeaway' | 'table';
 
@@ -891,8 +891,7 @@ export class CheckoutComponent {
 
   deliveryFee = computed(() => {
     if (this.orderType !== 'delivery' || !this.selectedDistrict) return 0;
-    const area = this.deliveryAreas.find(a => a.nameAr === this.selectedDistrict);
-    return area ? area.fee : 0;
+    return getDeliveryFeeForDistrict(this.selectedDistrict);
   });
 
   finalTotal = computed(() => {
@@ -960,52 +959,61 @@ export class CheckoutComponent {
     this.isSubmitting.set(true);
 
     try {
-      // Build order details text for WhatsApp
-      let fulfillmentSummary = '';
-      if (this.orderType === 'delivery') {
-        fulfillmentSummary = `*طريقة الاستلام:* دليفري إلى ${this.selectedDistrict}\n*العنوان:* ${this.deliveryStreet} ${this.deliveryLandmark ? '(' + this.deliveryLandmark + ')' : ''}`;
-      } else if (this.orderType === 'takeaway') {
-        fulfillmentSummary = `*طريقة الاستلام:* استلام تيك أواي من فرع سنتر العبور`;
-      } else {
-        fulfillmentSummary = `*طريقة الاستلام:* صالة داخل الفرع (ترابيزة #${this.tableNumber})`;
-      }
-
-      const orderPayload: any = {
+      const orderPayload: OrderSubmissionPayload = {
         customer: {
-          name: this.customerName,
-          phone: this.customerPhone
+          fullName: this.customerName.trim(),
+          phone: this.customerPhone.trim(),
+          notes: this.orderNotes?.trim()
         },
-        items: this.items(),
         fulfillmentType: this.orderType as FulfillmentType,
-        deliveryFee: this.deliveryFee(),
-        subtotal: this.subtotal(),
-        total: this.finalTotal(),
-        notes: this.orderNotes,
-        paymentMethod: this.paymentMethod
-      };
-
-      if (this.orderType === 'delivery') {
-        orderPayload.delivery = {
+        paymentMethod: this.paymentMethod,
+        items: this.items(),
+        summary: {
+          subtotal: this.subtotal(),
+          pendingItemsCount: this.pendingItemsCount(),
+          hasPendingPricedItems: this.hasPendingPricedItems(),
+          deliveryFee: this.deliveryFee(),
+          total: this.finalTotal(),
+          itemCount: this.items().reduce((sum, i) => sum + i.quantity, 0)
+        },
+        deliveryDetails: this.orderType === 'delivery' ? {
+          customerName: this.customerName.trim(),
+          customerPhone: this.customerPhone.trim(),
           city: 'مدينة العبور',
           district: this.selectedDistrict,
-          street: this.deliveryStreet,
-          landmark: this.deliveryLandmark
-        };
-      } else if (this.orderType === 'table') {
-        orderPayload.table = {
-          tableNumber: this.tableNumber
-        };
-      }
+          street: this.deliveryStreet.trim(),
+          landmark: this.deliveryLandmark?.trim(),
+          deliveryFee: this.deliveryFee(),
+          notes: this.orderNotes?.trim()
+        } : undefined,
+        tableDetails: this.orderType === 'table' ? {
+          tableNumber: this.tableNumber || 1,
+          tableNameAr: `ترابيزة #${this.tableNumber || 1}`,
+          detectedFromQr: false
+        } : undefined,
+        takeawayDetails: this.orderType === 'takeaway' ? {
+          customerName: this.customerName.trim(),
+          customerPhone: this.customerPhone.trim(),
+          pickupCounterAr: 'كاونتر الاستلام السريع بمحل المايسترو سنتر العبور',
+          notes: this.orderNotes?.trim()
+        } : undefined,
+        notes: this.orderNotes?.trim()
+      };
 
       const result = await this.submissionService.submitOrder(orderPayload);
       if (result.success) {
         this.cartService.clearCart();
         this.toastService.show('تم تجهيز طلبك بنجاح! جاري تحويلك لواتساب الفرع...', 'success');
+        if (result.redirectUrl) {
+          window.location.href = result.redirectUrl;
+        }
       } else {
         this.toastService.show('حدث خطأ أثناء إرسال الطلب، يرجى المحاولة ثانية', 'error');
       }
-    } catch (e) {
-      this.toastService.show('حدث خطأ غير متوقع', 'error');
+    } catch (e: any) {
+      console.error('Checkout submit error:', e);
+      const errMsg = e?.message || 'حدث خطأ غير متوقع';
+      this.toastService.show(errMsg, 'error');
     } finally {
       this.isSubmitting.set(false);
     }

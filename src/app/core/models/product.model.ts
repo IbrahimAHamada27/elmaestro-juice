@@ -1,5 +1,7 @@
 export type ExtractionConfidence = 'verified' | 'needs_review' | 'unreadable';
 export type ItemAvailability = 'available' | 'unavailable' | 'needs_review';
+export type PricingType = 'fixed' | 'weight_based';
+export type PricingStatus = 'confirmed' | 'pending';
 
 export interface ProductSizeOption {
   id: string;
@@ -66,5 +68,12 @@ export interface Product {
   sourceImageIds?: string[];
   extractionStatus?: ExtractionConfidence;
   availability?: ItemAvailability;
+
+  // Smart Weight & Pricing Extensions
+  pricingType?: PricingType; // 'weight_based' for roastery items, 'fixed' otherwise
+  pricingStatus?: PricingStatus; // 'pending' if basePrice is 0 or missing, otherwise 'confirmed'
+  pricePerKg?: number; // actual price per kg if weight-based
+  minWeightGrams?: number; // minimum order weight in grams (e.g. 25g or 50g)
+  unitLabelAr?: string; // e.g. 'كجم' or 'قطعة'
 }
 

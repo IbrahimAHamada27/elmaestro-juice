@@ -16,14 +16,14 @@ let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
 xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 
 const staticRoutes = [
-  { url: 'https://elmaestrojuice.com/', priority: '1.0', changefreq: 'daily' },
-  { url: 'https://elmaestrojuice.com/menu', priority: '0.9', changefreq: 'daily' },
-  { url: 'https://elmaestrojuice.com/about', priority: '0.8', changefreq: 'monthly' },
-  { url: 'https://elmaestrojuice.com/contact', priority: '0.8', changefreq: 'monthly' },
-  { url: 'https://elmaestrojuice.com/cart', priority: '0.6', changefreq: 'daily' },
-  { url: 'https://elmaestrojuice.com/checkout', priority: '0.6', changefreq: 'daily' },
-  { url: 'https://elmaestrojuice.com/privacy', priority: '0.4', changefreq: 'yearly' },
-  { url: 'https://elmaestrojuice.com/terms', priority: '0.4', changefreq: 'yearly' }
+  { url: 'https://www.elmaestroeg.com/', priority: '1.0', changefreq: 'daily' },
+  { url: 'https://www.elmaestroeg.com/menu', priority: '0.9', changefreq: 'daily' },
+  { url: 'https://www.elmaestroeg.com/about', priority: '0.8', changefreq: 'monthly' },
+  { url: 'https://www.elmaestroeg.com/contact', priority: '0.8', changefreq: 'monthly' },
+  { url: 'https://www.elmaestroeg.com/cart', priority: '0.6', changefreq: 'daily' },
+  { url: 'https://www.elmaestroeg.com/checkout', priority: '0.6', changefreq: 'daily' },
+  { url: 'https://www.elmaestroeg.com/privacy', priority: '0.4', changefreq: 'yearly' },
+  { url: 'https://www.elmaestroeg.com/terms', priority: '0.4', changefreq: 'yearly' }
 ];
 
 staticRoutes.forEach(r => {
@@ -31,11 +31,11 @@ staticRoutes.forEach(r => {
 });
 
 categories.forEach(c => {
-  xml += `  <url>\n    <loc>https://elmaestrojuice.com/menu/${c.slug}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>https://www.elmaestroeg.com/menu/${c.slug}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
 });
 
 products.forEach(p => {
-  xml += `  <url>\n    <loc>https://elmaestrojuice.com/product/${p.slug}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
+  xml += `  <url>\n    <loc>https://www.elmaestroeg.com/product/${p.slug}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>\n`;
 });
 
 xml += '</urlset>\n';

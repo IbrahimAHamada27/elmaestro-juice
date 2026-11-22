@@ -486,7 +486,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-cantaloupe",
@@ -564,7 +567,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-lemon",
@@ -642,7 +648,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-watermelon",
@@ -719,7 +728,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-guava",
@@ -797,7 +809,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-lemon-mint",
@@ -874,7 +889,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-strawberry",
@@ -950,7 +968,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-apricot",
@@ -1028,7 +1049,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-plum",
@@ -1106,7 +1130,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-peach",
@@ -1184,7 +1211,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-cantaloupe-milk",
@@ -1263,7 +1293,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-lemon-milk",
@@ -1342,7 +1375,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-red-apple",
@@ -1420,7 +1456,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-yellow-apple",
@@ -1498,7 +1537,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-grape",
@@ -1576,7 +1618,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-guava-milk",
@@ -1655,7 +1700,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-strawberry-milk",
@@ -1732,7 +1780,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-banana-milk",
@@ -1809,7 +1860,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-plum-milk",
@@ -1888,7 +1942,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-peach-milk",
@@ -1967,7 +2024,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-pomegranate",
@@ -2043,7 +2103,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-dates-milk",
@@ -2121,7 +2184,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-kiwi",
@@ -2199,7 +2265,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fj-pineapple",
@@ -2275,7 +2344,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-pure",
@@ -2357,7 +2429,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-milk",
@@ -2436,7 +2511,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-orange",
@@ -2515,7 +2593,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-lemon",
@@ -2594,7 +2675,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-mint",
@@ -2673,7 +2757,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-vanilla",
@@ -2752,7 +2839,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-sobya",
@@ -2831,7 +2921,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-halawa",
@@ -2910,7 +3003,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-rocca",
@@ -2989,7 +3085,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sc-birell",
@@ -3068,7 +3167,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "avo-pure",
@@ -3144,7 +3246,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "avo-mango",
@@ -3223,7 +3328,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "avo-banana",
@@ -3302,7 +3410,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "avo-kiwi",
@@ -3381,7 +3492,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "avo-strawberry",
@@ -3460,7 +3574,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "avo-guava",
@@ -3539,7 +3656,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "avo-dates",
@@ -3619,7 +3739,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "avo-nuts-honey",
@@ -3698,7 +3821,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-kiwi",
@@ -3777,7 +3903,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-guava",
@@ -3856,7 +3985,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-lemon",
@@ -3935,7 +4067,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-strawberry",
@@ -4012,7 +4147,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-orange",
@@ -4091,7 +4229,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-watermelon",
@@ -4170,7 +4311,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-mango",
@@ -4247,7 +4391,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-mix",
@@ -4326,7 +4473,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-watermelon-mint",
@@ -4406,7 +4556,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-lemon-mint",
@@ -4484,7 +4637,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-red-berry",
@@ -4563,7 +4719,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-blue-berry",
@@ -4640,7 +4799,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sm-pineapple",
@@ -4719,7 +4881,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "or-tamarind",
@@ -4803,7 +4968,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "or-sobya",
@@ -4887,7 +5055,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "or-kharroub",
@@ -4971,7 +5142,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "or-ennab",
@@ -5054,7 +5228,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "or-doum",
@@ -5138,7 +5315,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "or-doum-milk",
@@ -5217,7 +5397,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "or-tam-sobya",
@@ -5294,7 +5477,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "mg-pure",
@@ -5376,7 +5562,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "mg-banana",
@@ -5455,7 +5644,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "mg-strawberry",
@@ -5532,7 +5724,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "mg-apple",
@@ -5611,7 +5806,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "mg-milk",
@@ -5690,7 +5888,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "mg-icecream",
@@ -5767,7 +5968,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "mg-pineapple",
@@ -5846,7 +6050,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "mg-kiwi",
@@ -5925,7 +6132,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ms-chocolate",
@@ -6003,7 +6213,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ms-vanilla",
@@ -6083,7 +6296,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ms-mango",
@@ -6163,7 +6379,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ms-strawberry",
@@ -6243,7 +6462,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ms-blueberry",
@@ -6321,7 +6543,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ms-caramel",
@@ -6401,7 +6626,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-plain",
@@ -6479,7 +6707,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-honey",
@@ -6558,7 +6789,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-fruits",
@@ -6635,7 +6869,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-strawberry",
@@ -6714,7 +6951,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-peach",
@@ -6793,7 +7033,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-dates-honey",
@@ -6873,7 +7116,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-apple",
@@ -6952,7 +7198,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-mango",
@@ -7029,7 +7278,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "yg-kiwi",
@@ -7108,7 +7360,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "add-chocolate",
@@ -7186,7 +7441,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "add-honey",
@@ -7264,7 +7522,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "add-icecream",
@@ -7342,7 +7603,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "add-fruits",
@@ -7420,7 +7684,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "add-nuts",
@@ -7496,7 +7763,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "roast-peanut",
@@ -7574,7 +7844,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "roast-seeds",
@@ -7651,7 +7924,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "roast-hazelnut",
@@ -7729,7 +8005,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "roast-cashew",
@@ -7807,7 +8086,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "roast-pistachio",
@@ -7885,7 +8167,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "roast-almond",
@@ -7963,7 +8248,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-mandolin",
@@ -8043,7 +8331,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-moro",
@@ -8122,7 +8413,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-snikers",
@@ -8200,7 +8494,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-nutella",
@@ -8278,7 +8575,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-kinder",
@@ -8356,7 +8656,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-oreo",
@@ -8434,7 +8737,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-kitkat",
@@ -8514,7 +8820,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-galaxy",
@@ -8592,7 +8901,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-hohos",
@@ -8671,7 +8983,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "choc-twinkies",
@@ -8750,7 +9065,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-cocktail",
@@ -8828,7 +9146,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-cocktail-ice",
@@ -8907,7 +9228,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-cocktail-mix",
@@ -8985,7 +9309,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-fruit-salad",
@@ -9061,7 +9388,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-fruit-salad-ice",
@@ -9140,7 +9470,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-bomb",
@@ -9219,7 +9552,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-bomb-nuts",
@@ -9298,7 +9634,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-night-calm",
@@ -9377,7 +9716,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-pomegranate-seeds",
@@ -9455,7 +9797,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-cantaloupe-cuts",
@@ -9533,7 +9878,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-orange-cuts",
@@ -9611,7 +9959,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-strawberry-cuts",
@@ -9689,7 +10040,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-watermelon-cuts",
@@ -9767,7 +10121,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-mango-cuts",
@@ -9843,7 +10200,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-kiwi-cuts",
@@ -9921,7 +10281,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-plum-cuts",
@@ -9999,7 +10362,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-peach-cuts",
@@ -10077,7 +10443,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-pineapple-cuts",
@@ -10155,7 +10524,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-avocado-fatteh",
@@ -10234,7 +10606,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "fc-custom-mix",
@@ -10312,7 +10687,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "boba-sobya",
@@ -10391,7 +10769,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "boba-coffee",
@@ -10468,7 +10849,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "boba-caramel",
@@ -10548,7 +10932,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "boba-berries",
@@ -10625,7 +11012,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "boba-strawberry",
@@ -10704,7 +11094,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "boba-mango",
@@ -10783,7 +11176,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "boba-cola",
@@ -10862,7 +11258,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-viva",
@@ -10943,7 +11342,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-story",
@@ -11024,7 +11426,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-golden-mood",
@@ -11105,7 +11510,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-love-story",
@@ -11184,7 +11592,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-eternal-tune",
@@ -11265,7 +11676,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-fresh-boost",
@@ -11345,7 +11759,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-royal-creation",
@@ -11426,7 +11843,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-banana-special",
@@ -11507,7 +11927,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-mocha",
@@ -11587,7 +12010,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-vitamin-c",
@@ -11668,7 +12094,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-sahr-layali",
@@ -11749,7 +12178,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-taqa",
@@ -11831,7 +12263,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-lahn-khulood",
@@ -11911,7 +12346,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-saroukh",
@@ -11992,7 +12430,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-zi-el-hawa",
@@ -12072,7 +12513,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-orchestra",
@@ -12153,7 +12597,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-oyoun-el-qalb",
@@ -12233,7 +12680,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-havana",
@@ -12313,7 +12763,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-shawwaqna",
@@ -12393,7 +12846,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-pina-colada",
@@ -12473,7 +12929,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-sawah",
@@ -12553,7 +13012,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-royal-refresh",
@@ -12633,7 +13095,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-mawred",
@@ -12713,7 +13178,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-mexici",
@@ -12795,7 +13263,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-ketab-hayati",
@@ -12875,7 +13346,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-mega",
@@ -12956,7 +13430,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-half-power",
@@ -13038,7 +13515,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-africano",
@@ -13118,7 +13598,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "v-summer-breeze",
@@ -13200,7 +13683,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "diet-lahn",
@@ -13280,7 +13766,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "diet-zi",
@@ -13360,7 +13849,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "diet-oyoun",
@@ -13440,7 +13932,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "diet-shawwaqna",
@@ -13520,7 +14015,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "diet-sawah",
@@ -13600,7 +14098,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "diet-mawred",
@@ -13680,7 +14181,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "diet-ketab",
@@ -13760,7 +14264,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-elmaestro",
@@ -13843,7 +14350,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-alf-leila",
@@ -13926,7 +14436,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-el-atlal",
@@ -14009,7 +14522,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-golden-taste",
@@ -14092,7 +14608,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-king",
@@ -14175,7 +14694,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-dream-theater",
@@ -14259,7 +14781,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-magician",
@@ -14342,7 +14867,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-jabbar",
@@ -14425,7 +14953,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-happy-end",
@@ -14507,7 +15038,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-beethoven",
@@ -14591,7 +15125,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-bent-sultan",
@@ -14673,7 +15210,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "p-high-energy",
@@ -14755,7 +15295,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "moj-mint",
@@ -14836,7 +15379,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "moj-strawberry",
@@ -14918,7 +15464,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "moj-pomegranate",
@@ -15000,7 +15549,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "moj-curacao",
@@ -15082,7 +15634,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "moj-blueberry",
@@ -15164,7 +15719,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "moj-redberry",
@@ -15246,7 +15804,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-mango",
@@ -15331,7 +15892,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-strawberry",
@@ -15416,7 +15980,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-pineapple",
@@ -15501,7 +16068,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-fruits",
@@ -15586,7 +16156,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-redberry",
@@ -15671,7 +16244,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-blueberry",
@@ -15756,7 +16332,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-avocado",
@@ -15841,7 +16420,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-pistachio",
@@ -15926,7 +16508,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-lotus",
@@ -16011,7 +16596,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-nutella",
@@ -16096,7 +16684,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "sob-caramel",
@@ -16181,7 +16772,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rice-plain",
@@ -16261,7 +16855,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rice-mango",
@@ -16338,7 +16935,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rice-strawberry",
@@ -16417,7 +17017,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rice-blueberry",
@@ -16496,7 +17099,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rice-fruits",
@@ -16575,7 +17181,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rice-cream",
@@ -16652,7 +17261,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rice-oriental-sweets",
@@ -16731,7 +17343,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rice-nuts",
@@ -16808,7 +17423,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-sugarcane",
@@ -16894,7 +17512,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-tamarind",
@@ -16980,7 +17601,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-ennab",
@@ -17066,7 +17690,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-doum",
@@ -17152,7 +17779,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-kharroub",
@@ -17238,7 +17868,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-grapefruit",
@@ -17324,7 +17957,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-doum-milk",
@@ -17410,7 +18046,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-sobya",
@@ -17496,7 +18135,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-orange",
@@ -17582,7 +18224,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-lemon",
@@ -17668,7 +18313,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-cantaloupe",
@@ -17754,7 +18402,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-grape",
@@ -17840,7 +18491,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-strawberry",
@@ -17926,7 +18580,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-guava",
@@ -18012,7 +18669,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-lemon-mint",
@@ -18098,7 +18758,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-mango",
@@ -18184,7 +18847,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-pomegranate",
@@ -18270,7 +18936,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-banana-milk",
@@ -18356,7 +19025,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-cocktail",
@@ -18442,7 +19114,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-dates",
@@ -18528,7 +19203,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-peach",
@@ -18614,7 +19292,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-watermelon",
@@ -18700,7 +19381,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-prickly-pear",
@@ -18786,7 +19470,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-kiwi",
@@ -18872,7 +19559,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-yogurt-fruits",
@@ -18958,7 +19648,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-pineapple",
@@ -19044,7 +19737,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-avo-honey",
@@ -19130,7 +19826,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "btl-avo-nuts",
@@ -19216,7 +19915,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "coffee-turkish",
@@ -19303,7 +20005,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ic-coffee",
@@ -19381,7 +20086,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ic-latte",
@@ -19460,7 +20168,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "ic-mocha",
@@ -19540,7 +20251,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-mango",
@@ -19612,7 +20326,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-strawberry",
@@ -19684,7 +20401,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-banana",
@@ -19756,7 +20476,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-blue-berry",
@@ -19828,7 +20551,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-red-berry",
@@ -19900,7 +20626,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-peach",
@@ -19972,7 +20701,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-grapes",
@@ -20044,7 +20776,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-watermelon",
@@ -20116,7 +20851,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-dates",
@@ -20188,7 +20926,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-kiwi",
@@ -20260,7 +21001,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-pineapple",
@@ -20332,7 +21076,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-avocado",
@@ -20404,7 +21151,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-lemon-mint",
@@ -20476,7 +21226,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-yogurt-berries",
@@ -20548,7 +21301,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-yogurt-strawberry",
@@ -20620,7 +21376,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-mango-strawberry",
@@ -20692,7 +21451,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-mango-banana",
@@ -20764,7 +21526,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-strawberry-berries",
@@ -20836,7 +21601,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-grapes-mango",
@@ -20908,7 +21676,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-mix-berries",
@@ -20980,7 +21751,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-kiwi-mango",
@@ -21052,7 +21826,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-pineapple-mango",
@@ -21124,7 +21901,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-maestro-nuts-dates",
@@ -21196,7 +21976,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-maestro-choco-mango",
@@ -21268,7 +22051,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-oreo",
@@ -21340,7 +22126,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-borio",
@@ -21412,7 +22201,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-twinkies",
@@ -21484,7 +22276,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-maxtella",
@@ -21556,7 +22351,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-corona",
@@ -21628,7 +22426,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-hohos",
@@ -21700,7 +22501,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-chicobon",
@@ -21772,7 +22576,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-maltesers",
@@ -21844,7 +22651,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-mars",
@@ -21916,7 +22726,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-tofix",
@@ -21988,7 +22801,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-bounty",
@@ -22060,7 +22876,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-snickers",
@@ -22132,7 +22951,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-kitkat",
@@ -22204,7 +23026,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-galaxy",
@@ -22276,7 +23101,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-cadbury",
@@ -22348,7 +23176,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-kinder",
@@ -22420,7 +23251,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-lotus",
@@ -22492,7 +23326,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-mix-chocolate",
@@ -22564,7 +23401,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-ferrero-rocher",
@@ -22636,7 +23476,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-nutella",
@@ -22708,7 +23551,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-cashew",
@@ -22780,7 +23626,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-pistachio",
@@ -22852,7 +23701,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-hazelnut",
@@ -22924,7 +23776,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-almond",
@@ -22996,7 +23851,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-walnut",
@@ -23068,7 +23926,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-mix-nuts",
@@ -23140,7 +24001,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-vanilla",
@@ -23212,7 +24076,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-mocha",
@@ -23284,7 +24151,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-caramel",
@@ -23356,7 +24226,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "icr-cola",
@@ -23428,7 +24301,10 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو منيو رسمي",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "fixed",
+    "unitLabelAr": "قطعة",
+    "pricingStatus": "confirmed"
   },
   {
     "id": "rn-leb-super-baladi",
@@ -23466,7 +24342,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 360
   },
   {
     "id": "rn-leb-souri-abbad",
@@ -23504,7 +24385,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 260
   },
   {
     "id": "rn-leb-abyad-baladi",
@@ -23542,7 +24428,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 420
   },
   {
     "id": "rn-leb-khashab",
@@ -23580,7 +24471,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 380
   },
   {
     "id": "rn-leb-bateekh-baladi",
@@ -23618,7 +24514,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 280
   },
   {
     "id": "rn-leb-moqashar-flavor",
@@ -23656,7 +24557,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 240
   },
   {
     "id": "rn-peanuts-in-shell",
@@ -23694,7 +24600,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 180
   },
   {
     "id": "rn-peanuts-smoked",
@@ -23732,7 +24643,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 240
   },
   {
     "id": "rn-peanuts-peeled",
@@ -23770,7 +24686,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 260
   },
   {
     "id": "rn-leb-aswad-afghani",
@@ -23808,7 +24729,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 280
   },
   {
     "id": "rn-leb-abyad-areed",
@@ -23846,7 +24772,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 420
   },
   {
     "id": "rn-leb-super-tawabel",
@@ -23884,7 +24815,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 360
   },
   {
     "id": "rn-leb-souri-smoked",
@@ -23922,7 +24858,11 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "unavailable"
+    "availability": "unavailable",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "pending"
   },
   {
     "id": "rn-leb-qateen",
@@ -23960,7 +24900,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 480
   },
   {
     "id": "rn-cashew-180",
@@ -23998,7 +24943,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 1200
   },
   {
     "id": "rn-cashew-180-variant",
@@ -24036,7 +24986,11 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "unavailable"
+    "availability": "unavailable",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "pending"
   },
   {
     "id": "rn-almonds-roasted",
@@ -24074,7 +25028,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 800
   },
   {
     "id": "rn-almonds-smoked",
@@ -24112,7 +25071,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 800
   },
   {
     "id": "rn-almonds-raw",
@@ -24150,7 +25114,11 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "unavailable"
+    "availability": "unavailable",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "pending"
   },
   {
     "id": "rn-hazelnuts-roasted",
@@ -24188,7 +25156,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 1150
   },
   {
     "id": "rn-hazelnuts-raw",
@@ -24226,7 +25199,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 1150
   },
   {
     "id": "rn-walnuts-peeled",
@@ -24264,7 +25242,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 750
   },
   {
     "id": "rn-pistachio-american-shell",
@@ -24302,7 +25285,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 1300
   },
   {
     "id": "rn-pecan-roasted",
@@ -24340,7 +25328,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 1800
   },
   {
     "id": "rn-macadamia",
@@ -24378,7 +25371,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 1100
   },
   {
     "id": "rn-snacks-sticks-flavors",
@@ -24416,7 +25414,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 160
   },
   {
     "id": "rn-peanuts-palestinian",
@@ -24454,7 +25457,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 200
   },
   {
     "id": "rn-snacks-chinese-seasoned",
@@ -24492,7 +25500,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 400
   },
   {
     "id": "rn-chickpeas-regular",
@@ -24530,7 +25543,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 160
   },
   {
     "id": "rn-corn-spanish-flavors",
@@ -24568,7 +25586,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 260
   },
   {
     "id": "rn-snacks-rosana",
@@ -24606,7 +25629,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 140
   },
   {
     "id": "rn-snacks-cono-flavors",
@@ -24644,7 +25672,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 140
   },
   {
     "id": "rn-snacks-pretzel-flavors",
@@ -24682,7 +25715,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 160
   },
   {
     "id": "rn-jelly-spanish-damel",
@@ -24720,7 +25758,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 350
   },
   {
     "id": "rn-snacks-rice-crackers",
@@ -24758,7 +25801,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 400
   },
   {
     "id": "rn-sticks-resos",
@@ -24796,7 +25844,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 400
   },
   {
     "id": "rn-chickpeas-imported",
@@ -24834,7 +25887,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 320
   },
   {
     "id": "rn-choco-milk-strawberry",
@@ -24872,7 +25930,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-choco-milk-kunafa-kinder",
@@ -24910,7 +25973,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-choco-dark",
@@ -24948,7 +26016,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-choco-milk-plain",
@@ -24986,7 +26059,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 330
   },
   {
     "id": "rn-choco-kunafa-pistachio",
@@ -25024,7 +26102,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-choco-milk-ajwa",
@@ -25062,7 +26145,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-choco-milk-berries-pomegranate",
@@ -25100,7 +26188,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-choco-kunafa-raffaello",
@@ -25138,7 +26231,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-ebon-weight",
@@ -25176,7 +26274,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 250
   },
   {
     "id": "rn-truffle-weight",
@@ -25214,7 +26317,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 280
   },
   {
     "id": "rn-halawa-qirra-caramel",
@@ -25252,7 +26360,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 350
   },
   {
     "id": "rn-cardon-double-toast",
@@ -25290,7 +26403,11 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "unavailable"
+    "availability": "unavailable",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "pending"
   },
   {
     "id": "rn-mega-oreo",
@@ -25328,7 +26445,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 280
   },
   {
     "id": "rn-mega-sable",
@@ -25366,7 +26488,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 280
   },
   {
     "id": "rn-choco-milk-cashew",
@@ -25404,7 +26531,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-choco-milk-almond",
@@ -25442,7 +26574,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 430
   },
   {
     "id": "rn-paola-biscuit-choco-jai",
@@ -25480,7 +26617,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 260
   },
   {
     "id": "rn-paola-biscuit-strawberry-jai",
@@ -25518,7 +26660,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 260
   },
   {
     "id": "rn-paola-biscuit-vanilla-jai",
@@ -25556,7 +26703,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 260
   },
   {
     "id": "rn-paola-jai-marshmallow",
@@ -25594,7 +26746,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 260
   },
   {
     "id": "rn-larche-maamoul-covered",
@@ -25632,7 +26789,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 250
   },
   {
     "id": "rn-peanuts-chocolate-coated",
@@ -25670,7 +26832,11 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "unavailable"
+    "availability": "unavailable",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "pending"
   },
   {
     "id": "rn-stone-chocolate",
@@ -25708,7 +26874,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 220
   },
   {
     "id": "rn-chocon-lotus",
@@ -25746,7 +26917,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 160
   },
   {
     "id": "rn-cono-chocolate",
@@ -25784,7 +26960,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 160
   },
   {
     "id": "rn-roshen-milk-slash",
@@ -25822,7 +27003,11 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "unavailable"
+    "availability": "unavailable",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "pending"
   },
   {
     "id": "rn-walker-toffee-mastic",
@@ -25860,7 +27045,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 400
   },
   {
     "id": "rn-magical-marshmallow",
@@ -25898,7 +27088,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 400
   },
   {
     "id": "rn-dulce-plus-resos",
@@ -25936,7 +27131,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 350
   },
   {
     "id": "rn-jelly-sour-flavors",
@@ -25974,7 +27174,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 350
   },
   {
     "id": "rn-gaufrette-covertina",
@@ -26012,7 +27217,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 280
   },
   {
     "id": "rn-nougat-weight",
@@ -26050,7 +27260,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 155
   },
   {
     "id": "rn-haram-sweets",
@@ -26088,7 +27303,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 135
   },
   {
     "id": "rn-basoni-sweets",
@@ -26126,7 +27346,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 135
   },
   {
     "id": "rn-foulya-sweets",
@@ -26164,7 +27389,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 135
   },
   {
     "id": "rn-dried-fruits-mix",
@@ -26202,7 +27432,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 2600
   },
   {
     "id": "rn-candy-meter-fruits",
@@ -26240,7 +27475,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 2600
   },
   {
     "id": "rn-dried-strawberry",
@@ -26278,7 +27518,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 2600
   },
   {
     "id": "rn-dried-kiwi",
@@ -26316,7 +27561,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 2600
   },
   {
     "id": "rn-dried-banana",
@@ -26354,7 +27604,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 2600
   },
   {
     "id": "rn-dried-pineapple",
@@ -26392,7 +27647,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 2600
   },
   {
     "id": "rn-dried-apple",
@@ -26430,7 +27690,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 2600
   },
   {
     "id": "rn-dried-mango",
@@ -26468,7 +27733,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 2600
   },
   {
     "id": "rn-carob-pods-qursi",
@@ -26506,7 +27776,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 350
   },
   {
     "id": "rn-sola-beans",
@@ -26544,7 +27819,12 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "available"
+    "availability": "available",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "confirmed",
+    "pricePerKg": 190
   },
   {
     "id": "rn-box-letters-sweets",
@@ -26582,6 +27862,11 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     ],
     "verifiedFromAsset": "المايسترو قائمة المقلاة والمحمصات المعتمدة",
     "extractionStatus": "verified",
-    "availability": "unavailable"
+    "availability": "unavailable",
+    "pricingType": "weight_based",
+    "unitLabelAr": "كجم",
+    "minWeightGrams": 25,
+    "pricingStatus": "pending"
   }
 ];
+

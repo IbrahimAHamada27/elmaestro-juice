@@ -75,6 +75,7 @@ export interface CartItem {
   nameEn: string;
   image: string;
   categoryNameAr: string;
+  categorySlug?: string;
   selectedSize: ProductSizeOption;
   selectedAddons: ProductAddon[];
   customization?: BeverageCustomization;
@@ -83,11 +84,19 @@ export interface CartItem {
   unitPrice: number;
   quantity: number;
   totalPrice: number;
+
+  // Smart Weight & Pending Pricing Support
+  pricingType?: 'fixed' | 'weight_based';
+  pricingStatus?: 'confirmed' | 'pending'; // 'pending' means "سيتم التسعير وإرسال المبلغ"
+  weightInGrams?: number; // e.g. 250
+  pricePerKg?: number; // e.g. 400
 }
 
 export interface CartSummary {
-  subtotal: number;
+  subtotal: number; // confirmed subtotal only
+  pendingItemsCount: number; // count of items awaiting pricing
+  hasPendingPricedItems: boolean;
   deliveryFee: number;
-  total: number;
+  total: number; // confirmed total
   itemCount: number;
 }

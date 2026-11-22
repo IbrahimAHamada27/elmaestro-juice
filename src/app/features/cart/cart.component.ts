@@ -68,7 +68,25 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
                     </div>
 
                     <div class="item-meta">
-                      <span class="meta-pill"><i class="fa-solid fa-glass-water"></i> {{ item.selectedSize.nameAr }}</span>
+                      @if (item.pricingType === 'weight_based' || item.weightInGrams) {
+                        <span class="meta-pill weight-pill">
+                          <i class="fa-solid fa-scale-balanced"></i> الوزن: {{ item.weightInGrams || 250 }} جم
+                        </span>
+                        @if (item.pricePerKg) {
+                          <span class="meta-pill price-per-kg-pill">
+                            سعر الكيلو: {{ item.pricePerKg }} ج.م
+                          </span>
+                        }
+                      } @else {
+                        <span class="meta-pill"><i class="fa-solid fa-glass-water"></i> {{ item.selectedSize.nameAr }}</span>
+                      }
+
+                      @if (item.pricingStatus === 'pending') {
+                        <span class="meta-pill pending-pill">
+                          <i class="fa-solid fa-clock-rotate-left"></i> سيتم التسعير وإرسال المبلغ
+                        </span>
+                      }
+
                       @if (item.customization; as c) {
                         <span class="meta-pill custom-blend-pill"><i class="fa-solid fa-blender"></i> {{ getBlendLabel(c.blendType) }}</span>
                         <span class="meta-pill custom-sweet-pill"><i class="fa-solid fa-jar"></i> {{ getSweetenerLabel(c.sweetenerType) }}</span>
@@ -91,6 +109,18 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
                       }
                     </div>
 
+                    @if (item.pricingType === 'weight_based' || item.weightInGrams) {
+                      <div class="cart-weight-quick-edit">
+                        <span class="cw-label">تعديل الوزن:</span>
+                        <div class="cw-chips">
+                          <button type="button" class="cw-btn" [class.active]="item.weightInGrams === 100" (click)="updateItemWeight(item.cartItemId, 100)">100 جم</button>
+                          <button type="button" class="cw-btn" [class.active]="item.weightInGrams === 250" (click)="updateItemWeight(item.cartItemId, 250)">250 جم</button>
+                          <button type="button" class="cw-btn" [class.active]="item.weightInGrams === 500" (click)="updateItemWeight(item.cartItemId, 500)">500 جم</button>
+                          <button type="button" class="cw-btn" [class.active]="item.weightInGrams === 1000" (click)="updateItemWeight(item.cartItemId, 1000)">1 كجم</button>
+                        </div>
+                      </div>
+                    }
+
                     @if (item.specialInstructions) {
                       <p class="special-note">
                         <i class="fa-solid fa-pen-nib"></i> ملاحظات: {{ item.specialInstructions }}
@@ -98,14 +128,21 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
                     }
 
                     <div class="item-bottom-row">
-                      <app-quantity-selector 
-                        [quantity]="item.quantity" 
-                        size="sm"
-                        (quantityChange)="updateQuantity(item.cartItemId, $event)">
-                      </app-quantity-selector>
+                      <div class="quantity-controller-wrap">
+                        <span class="qty-sublabel">{{ (item.pricingType === 'weight_based' || item.weightInGrams) ? 'العبوات:' : 'الكمية:' }}</span>
+                        <app-quantity-selector 
+                          [quantity]="item.quantity" 
+                          size="sm"
+                          (quantityChange)="updateQuantity(item.cartItemId, $event)">
+                        </app-quantity-selector>
+                      </div>
 
                       <div class="item-total">
-                        <app-price-display [amount]="item.totalPrice" size="md"></app-price-display>
+                        @if (item.pricingStatus === 'pending') {
+                          <span class="pending-total-text">سيتم التسعير وإرسال المبلغ</span>
+                        } @else {
+                          <app-price-display [amount]="item.totalPrice" size="md"></app-price-display>
+                        }
                       </div>
                     </div>
                   </div>
@@ -174,9 +211,16 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
               <!-- Calculation Details -->
               <div class="calculation-rows">
                 <div class="calc-row">
-                  <span>إجمالي الأصناف:</span>
+                  <span>إجمالي الأصناف المؤكدة:</span>
                   <span class="calc-val">{{ subtotal() }} ج.م</span>
                 </div>
+
+                @if (hasPendingPricedItems()) {
+                  <div class="calc-row pending-highlight-row">
+                    <span>أصناف تحتاج لتسعير:</span>
+                    <span class="pending-count-badge">{{ pendingItemsCount() }} صنف (سيتم التسعير وإرسال المبلغ)</span>
+                  </div>
+                }
 
                 <div class="calc-row">
                   <span>رسوم التوصيل:</span>
@@ -194,11 +238,18 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
                 <hr class="summary-divider" />
 
                 <div class="calc-row total-row">
-                  <span>المبلغ الإجمالي:</span>
+                  <span>{{ hasPendingPricedItems() ? 'الإجمالي المؤكد حالياً:' : 'المبلغ الإجمالي:' }}</span>
                   <div class="final-total">
                     <app-price-display [amount]="total()" size="lg"></app-price-display>
                   </div>
                 </div>
+
+                @if (hasPendingPricedItems()) {
+                  <p class="pending-order-notice">
+                    <i class="fa-solid fa-circle-info"></i>
+                    سيتم تأكيد الإجمالي النهائي لطلبك شاملاً الأصناف غير المسعرة عبر محادثة الواتساب.
+                  </p>
+                }
               </div>
 
               <!-- Checkout CTA -->
@@ -208,7 +259,7 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
                 </button>
               } @else {
                 <a routerLink="/checkout" class="btn btn-primary checkout-btn">
-                  <i class="fa-solid fa-clipboard-check"></i> متابعة لإتمام الطلب
+                  <i class="fa-brands fa-whatsapp"></i> متابعة وإرسال الطلب عبر واتساب
                 </a>
               }
 
@@ -397,6 +448,100 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
       color: var(--text-muted);
       font-style: italic;
     }
+    .weight-pill {
+      background: #f0fdf4;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+      font-weight: 700;
+    }
+    .price-per-kg-pill {
+      background: #f8fafc;
+      color: #475569;
+      border: 1px solid #e2e8f0;
+      font-weight: 600;
+    }
+    .pending-pill {
+      background: #fffbeb;
+      color: #92400e;
+      border: 1px solid #fde68a;
+      font-weight: 700;
+    }
+    .cart-weight-quick-edit {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.45rem;
+      flex-wrap: wrap;
+    }
+    .cw-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+    .cw-chips {
+      display: flex;
+      gap: 0.35rem;
+    }
+    .cw-btn {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 0.2rem 0.45rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .cw-btn:hover {
+      border-color: #16a34a;
+      background: #f0fdf4;
+    }
+    .cw-btn.active {
+      background: #166534;
+      color: #ffffff;
+      border-color: #166534;
+    }
+    .quantity-controller-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+    .qty-sublabel {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+    .pending-total-text {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: #92400e;
+      background: #fffbeb;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #fde68a;
+    }
+    .pending-highlight-row {
+      background: #fffbeb;
+      padding: 0.4rem 0.5rem;
+      border-radius: 8px;
+      margin: 0.25rem 0;
+    }
+    .pending-count-badge {
+      font-size: 0.76rem;
+      font-weight: 800;
+      color: #92400e;
+    }
+    .pending-order-notice {
+      font-size: 0.75rem;
+      color: #b45309;
+      line-height: 1.4;
+      margin: 0.65rem 0 0 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.35rem;
+    }
+
     .item-bottom-row {
       display: flex;
       align-items: center;
@@ -658,8 +803,14 @@ export class CartComponent {
   readonly items = this.cartService.items;
   readonly itemCount = this.cartService.itemCount;
   readonly subtotal = this.cartService.subtotal;
+  readonly pendingItemsCount = this.cartService.pendingItemsCount;
+  readonly hasPendingPricedItems = this.cartService.hasPendingPricedItems;
   readonly deliveryFee = this.cartService.deliveryFee;
   readonly total = this.cartService.total;
+
+  updateItemWeight(cartItemId: string, weightGrams: number): void {
+    this.cartService.updateWeight(cartItemId, weightGrams);
+  }
 
   readonly isDeliveryBelowMinimum = computed(() => {
     return this.fulfillmentService.activeType() === 'delivery' && 

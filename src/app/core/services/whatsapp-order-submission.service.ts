@@ -76,33 +76,33 @@ export class WhatsAppOrderSubmissionService implements IOrderSubmissionService {
     const lines: string[] = [];
 
     // Header
-    lines.push(`️ *طلب جديد — المايسترو (El Maestro)*`);
-    lines.push(` *رقم الطلب:* ${order.orderNumber}`);
-    lines.push(`⏰ *التاريخ:* ${new Date().toLocaleDateString('ar-EG')} — ${new Date().toLocaleTimeString('ar-EG', { hour: '2-digit', minute: '2-digit' })}`);
+    lines.push(`طلب جديد من موقع المايسترو محمصات وفريشات`);
+    lines.push(`مرحبًا بالمايسترو، أريد تأكيد الطلب التالي:`);
+    lines.push(``);
+    lines.push(`*رقم الطلب:* ${order.orderNumber}`);
+    lines.push(`*التاريخ:* ${new Date().toLocaleDateString('ar-EG')} — ${new Date().toLocaleTimeString('ar-EG', { hour: '2-digit', minute: '2-digit' })}`);
     lines.push(``);
 
     // Customer Info Section
-    lines.push(` *بيانات العميل:*`);
-    lines.push(`الاسم: ${payload.customer.fullName || 'عميل المايسترو'}`);
+    lines.push(`*بيانات العميل:*`);
+    lines.push(`- الاسم: ${payload.customer.fullName || 'عميل المايسترو'}`);
     if (payload.customer.phone && payload.customer.phone !== 'طلب طاولة بدون هاتف') {
-      lines.push(`رقم الهاتف: ${payload.customer.phone}`);
+      lines.push(`- رقم الهاتف: ${payload.customer.phone}`);
     }
     if (payload.deliveryDetails?.alternativePhone) {
-      lines.push(`رقم الهاتف البديل: ${payload.deliveryDetails.alternativePhone}`);
+      lines.push(`- رقم الهاتف البديل: ${payload.deliveryDetails.alternativePhone}`);
     }
-    lines.push(``);
 
     // Fulfillment Details Section
     const methodAr = payload.fulfillmentType === 'delivery' 
-      ? 'توصيل للمنزل (Delivery)' 
+      ? 'توصيل للمنزل' 
       : payload.fulfillmentType === 'table'
-      ? 'طلب صالة (Dine-in Table)'
+      ? 'طلب صالة' 
       : payload.fulfillmentType === 'car'
-      ? 'خدمة السيارة (Car Service)'
-      : 'استلام من الفرع (Pickup / Takeaway)';
+      ? 'خدمة السيارة'
+      : 'استلام من الفرع';
 
-    lines.push(` *تفاصيل الاستلام والتوصيل:*`);
-    lines.push(`طريقة الاستلام: ${methodAr}`);
+    lines.push(`- طريقة الاستلام: ${methodAr}`);
 
     if (payload.fulfillmentType === 'delivery') {
       const addressParts: string[] = [];
@@ -111,35 +111,72 @@ export class WhatsAppOrderSubmissionService implements IOrderSubmissionService {
       if (payload.deliveryDetails?.landmark) addressParts.push(`(علامة مميزة: ${payload.deliveryDetails.landmark})`);
       
       const district = payload.deliveryDetails?.district || 'مدينة العبور';
-      const isCustomArea = district.includes('أخرى');
-      lines.push(`المنطقة: ${district}`);
-      lines.push(`العنوان: ${addressParts.join(' - ') || 'مدينة العبور'}`);
-      
-      if (isCustomArea) {
-        lines.push(`رسوم التوصيل: لم يتم تحديد التوصيل (يحدد مع خدمة العملاء)`);
-      } else {
-        const deliveryFeeVal = payload.summary.deliveryFee ?? 0;
-        lines.push(`رسوم التوصيل: ${deliveryFeeVal === 0 ? 'مجاناً' : deliveryFeeVal + ' EGP'}`);
-      }
+      lines.push(`- المنطقة: ${district}`);
+      lines.push(`- عنوان التوصيل: ${addressParts.join(' - ') || 'مدينة العبور'}`);
     } else if (payload.fulfillmentType === 'table') {
       const tableNum = payload.tableDetails?.tableNumber ? `#${payload.tableDetails.tableNumber}` : 'غير محدد';
-      const detected = payload.tableDetails?.detectedFromQr ? ' (مسح رمز QR)' : '';
-      lines.push(`طاولة رقم: ${tableNum}${detected}`);
+      lines.push(`- رقم الطاولة: ${tableNum}`);
     } else if (payload.fulfillmentType === 'car') {
-      if (payload.carDetails?.vehiclePlate) lines.push(`رقم لوحة السيارة: ${payload.carDetails.vehiclePlate}`);
+      if (payload.carDetails?.vehiclePlate) lines.push(`- رقم لوحة السيارة: ${payload.carDetails.vehiclePlate}`);
       if (payload.carDetails?.vehicleModel || payload.carDetails?.vehicleColor) {
-        lines.push(`مواصفات السيارة: ${[payload.carDetails.vehicleModel, payload.carDetails.vehicleColor].filter(Boolean).join(' - ')}`);
+        lines.push(`- مواصفات السيارة: ${[payload.carDetails.vehicleModel, payload.carDetails.vehicleColor].filter(Boolean).join(' - ')}`);
       }
-      if (payload.carDetails?.parkingSpot) lines.push(`مكان الانتظار: ${payload.carDetails.parkingSpot}`);
-    } else if (payload.fulfillmentType === 'takeaway') {
-      lines.push(`مكان الاستلام: كاونتر الاستلام السريع بفرع سنتر العبور (مدخل 2)`);
+      if (payload.carDetails?.parkingSpot) lines.push(`- مكان الانتظار: ${payload.carDetails.parkingSpot}`);
+    }
+
+    const note = (payload.notes || payload.customer.notes || '').trim();
+    if (note) {
+      lines.push(`- ملاحظات العميل: ${note}`);
     }
     lines.push(``);
 
     // Items Details Section
-    lines.push(` *تفاصيل الطلب:*`);
-    payload.items.forEach((item) => {
-      lines.push(`- ${item.nameAr} (${item.selectedSize.nameAr}) × ${item.quantity} = ${item.totalPrice} EGP`);
+    lines.push(`*تفاصيل الأصناف المطلوبة:*`);
+    let confirmedSubtotal = 0;
+    let pendingItemsCount = 0;
+    let totalItemsOrWeightGrams = 0;
+
+    payload.items.forEach((item, index) => {
+      const itemNum = index + 1;
+      const isWeight = item.pricingType === 'weight_based' || (item.weightInGrams && item.weightInGrams > 0);
+      const isPending = item.pricingStatus === 'pending' || (isWeight && (!item.pricePerKg && item.unitPrice === 0));
+
+      lines.push(`${itemNum}. ${item.nameAr}`);
+      if (item.categoryNameAr) {
+        lines.push(`   القسم: ${item.categoryNameAr}`);
+      }
+
+      if (isWeight) {
+        const weightGrams = item.weightInGrams || 250;
+        totalItemsOrWeightGrams += weightGrams * item.quantity;
+        lines.push(`   الوزن: ${weightGrams} جرام`);
+        if (item.quantity > 1) {
+          lines.push(`   العدد: ${item.quantity} عبوة`);
+        }
+        if (isPending) {
+          pendingItemsCount++;
+          lines.push(`   السعر: سيتم التسعير وإرسال المبلغ`);
+        } else {
+          confirmedSubtotal += item.totalPrice;
+          if (item.pricePerKg) {
+            lines.push(`   سعر الكيلو: ${item.pricePerKg} ج.م`);
+          }
+          lines.push(`   الإجمالي: ${item.totalPrice} ج.م`);
+        }
+      } else {
+        lines.push(`   الكمية: ${item.quantity}`);
+        if (item.selectedSize && item.selectedSize.nameAr) {
+          lines.push(`   الحجم: ${item.selectedSize.nameAr}`);
+        }
+        if (isPending) {
+          pendingItemsCount++;
+          lines.push(`   السعر: سيتم التسعير وإرسال المبلغ`);
+        } else {
+          confirmedSubtotal += item.totalPrice;
+          lines.push(`   سعر الوحدة: ${item.unitPrice} ج.م`);
+          lines.push(`   الإجمالي: ${item.totalPrice} ج.م`);
+        }
+      }
 
       // Beverage Customization
       if (item.customization) {
@@ -161,7 +198,7 @@ export class WhatsAppOrderSubmissionService implements IOrderSubmissionService {
         else if (c.iceLevel === 'light') customParts.push('ثلج خفيف');
 
         if (customParts.length > 0) {
-          lines.push(`  ↳ التحضير: ${customParts.join(' • ')}`);
+          lines.push(`   التحضير: ${customParts.join(' • ')}`);
         }
       }
 
@@ -173,58 +210,64 @@ export class WhatsAppOrderSubmissionService implements IOrderSubmissionService {
         if (ic.servingType) icParts.push(`التقديم: ${ic.servingType}`);
         if (ic.sauce) icParts.push(`الصوص: ${ic.sauce}`);
         if (icParts.length > 0) {
-          lines.push(`  ↳ ${icParts.join(' • ')}`);
+          lines.push(`   تخصيص الآيس كريم: ${icParts.join(' • ')}`);
         }
       }
 
       // Addons
       if (item.selectedAddons && item.selectedAddons.length > 0) {
-        const addonsStr = item.selectedAddons.map(a => `${a.nameAr} (+${a.price} ج)`).join(', ');
-        lines.push(`  ↳ إضافات: ${addonsStr}`);
+        const addonsStr = item.selectedAddons.map(a => `${a.nameAr} (+${a.price} ج.م)`).join(', ');
+        lines.push(`   إضافات: ${addonsStr}`);
       }
 
       // Special notes
       if (item.specialInstructions) {
-        lines.push(`  ↳ ملاحظة خاصة: ${item.specialInstructions}`);
+        lines.push(`   ملاحظة خاصة: ${item.specialInstructions}`);
       }
+
+      lines.push(``);
     });
 
-    lines.push(``);
-    lines.push(`━━━━━━━━━━━━━━`);
-    lines.push(`إجمالي المنتجات: ${payload.summary.subtotal} EGP`);
+    // Order Summary Section
+    lines.push(`*ملخص الطلب والحساب:*`);
+    lines.push(`- عدد الأصناف: ${payload.items.length}`);
+    lines.push(`- إجمالي المنتجات ذات الأسعار المؤكدة: ${confirmedSubtotal} ج.م`);
+
+    if (pendingItemsCount > 0) {
+      lines.push(`- المنتجات التي تحتاج إلى تسعير: ${pendingItemsCount} صنف (سيتم التسعير وإرسال المبلغ)`);
+    }
+
     if (payload.fulfillmentType === 'delivery') {
       const isCustomArea = (payload.deliveryDetails?.district || '').includes('أخرى');
       if (isCustomArea) {
-        lines.push(`رسوم التوصيل: لم يتم تحديد التوصيل`);
+        lines.push(`- رسوم التوصيل: سيتم تحديدها مع خدمة العملاء`);
       } else {
         const deliveryFeeVal = payload.summary.deliveryFee ?? 0;
-        lines.push(`رسوم التوصيل: ${deliveryFeeVal} EGP`);
+        lines.push(`- رسوم التوصيل: ${deliveryFeeVal === 0 ? 'مجاناً' : deliveryFeeVal + ' ج.م'}`);
       }
-    } else {
-      lines.push(`رسوم التوصيل: 0 EGP`);
-    }
-    lines.push(`الخصم: 0 EGP`);
-    lines.push(``);
-    if (payload.fulfillmentType === 'delivery' && (payload.deliveryDetails?.district || '').includes('أخرى')) {
-      lines.push(` *الإجمالي النهائي: ${payload.summary.subtotal} EGP + مصاريف التوصيل عند التأكيد*`);
-    } else {
-      lines.push(` *الإجمالي النهائي: ${payload.summary.total} EGP*`);
     }
 
-    // Payment Method & Notes
     let payText = 'نقداً (كاش عند الاستلام)';
     if (payload.paymentMethod === 'instapay') payText = 'إنستاباي (InstaPay)';
     else if (payload.paymentMethod === 'vodafone_cash') payText = 'فودافون كاش';
-    lines.push(`طريقة السداد: ${payText}`);
+    lines.push(`- طريقة السداد: ${payText}`);
+    lines.push(``);
 
-    if (payload.notes?.trim() || payload.customer.notes?.trim()) {
-      const note = (payload.notes || payload.customer.notes || '').trim();
-      lines.push(`ملاحظات إضافية: ${note}`);
+    const deliveryFeeAmt = payload.fulfillmentType === 'delivery' ? (payload.summary.deliveryFee || 0) : 0;
+    const finalConfirmed = confirmedSubtotal + deliveryFeeAmt;
+
+    if (pendingItemsCount > 0) {
+      lines.push(`*الإجمالي المؤكد حاليًا:* ${finalConfirmed} ج.م`);
+      lines.push(`*الإجمالي النهائي:* سيتم تأكيده بعد تسعير الأصناف غير المسعرة من المايسترو.`);
+    } else {
+      lines.push(`*المبلغ الإجمالي النهائي:* ${finalConfirmed} ج.م`);
     }
 
     // Courteous closing
     lines.push(``);
-    lines.push(`شكرًا لطلبكم من المايسترو ️`);
+    lines.push(`شكرًا لكم ❤️`);
+    lines.push(`المايسترو محمصات وفريشات`);
+    lines.push(`الحي الأول – سنتر العبور – بجوار أبو حلب.`);
 
     return lines.join('\n');
   }

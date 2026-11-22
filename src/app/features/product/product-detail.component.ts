@@ -126,33 +126,130 @@ import { SeoService } from '../../core/services/seo.service';
               }
             </div>
 
-            <!-- 1. Sizes Selection (الأحجام والأسعار) -->
-            <div class="config-block sizes-block">
-              <div class="block-header">
-                <span class="block-title">
-                  <i class="fa-solid fa-glass-water"></i> اختر الحجم المطلوب:
-                </span>
-                <span class="selected-size-indicator">{{ selectedSize()?.nameAr }} • {{ selectedSize()?.price }} ج.م</span>
-              </div>
-
-              <div class="sizes-segmented-group">
-                @for (size of prod.sizes; track size.id) {
-                  <button 
-                    type="button" 
-                    class="size-pill-btn" 
-                    [class.selected]="selectedSize()?.id === size.id"
-                    (click)="selectSize(size)">
-                    <div class="size-pill-main">
-                      <span class="size-name">{{ size.nameAr }}</span>
-                      <span class="size-price">{{ size.price }} ج.م</span>
+            <!-- 1. Sizes Selection or Weight Converter -->
+            @if (isWeightBasedProduct()) {
+              <!-- Smart Weight-Based Converter Card -->
+              <div class="config-block weight-converter-card animate-fade-in">
+                <div class="converter-card-header">
+                  <div class="cch-title">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <div>
+                      <h3>حاسبة الوزن والقيمة الذكية</h3>
+                      <span class="cch-badge">سعر الكيلو: {{ prod.pricePerKg ? prod.pricePerKg + ' ج.م / كجم' : 'سيتم التسعير وإرسال المبلغ' }}</span>
                     </div>
-                    @if (selectedSize()?.id === size.id) {
-                      <i class="fa-solid fa-circle-check size-check-icon"></i>
-                    }
-                  </button>
+                  </div>
+                </div>
+
+                @if (isPendingPrice()) {
+                  <div class="pending-pricing-callout">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <div>
+                      <strong>هذا الصنف بدون سعر محدد حالياً:</strong>
+                      <p>سيتم تسعير الصنف وإرسال المبلغ النهائي لك من فرع المايسترو عبر الواتساب عند تأكيد الطلب.</p>
+                    </div>
+                  </div>
+
+                  <div class="weight-converter-box single-weight-box">
+                    <label class="converter-field">
+                      <span class="cf-label">الوزن المطلوب (بالجرام):</span>
+                      <div class="input-with-unit">
+                        <input 
+                          type="number" 
+                          [ngModel]="weightGrams()" 
+                          (ngModelChange)="onWeightInput($event)"
+                          min="25" 
+                          step="25"
+                          class="converter-input" />
+                        <span class="input-unit">جم</span>
+                      </div>
+                    </label>
+                  </div>
+                } @else {
+                  <p class="converter-hint">اكتب المبلغ بالجنيه أو الوزن بالجرام وسيتم حسابهما تلقائياً:</p>
+                  
+                  <div class="weight-converter-box">
+                    <!-- Option 1: Money Input -->
+                    <label class="converter-field">
+                      <span class="cf-label">المبلغ المطلوب:</span>
+                      <div class="input-with-unit">
+                        <input 
+                          type="number" 
+                          [ngModel]="moneyAmount()" 
+                          (ngModelChange)="onMoneyInput($event)"
+                          min="1" 
+                          step="5"
+                          placeholder="مثال: 50"
+                          class="converter-input" />
+                        <span class="input-unit">ج.م</span>
+                      </div>
+                    </label>
+
+                    <div class="converter-sync-icon">
+                      <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    </div>
+
+                    <!-- Option 2: Weight Input -->
+                    <label class="converter-field">
+                      <span class="cf-label">الوزن المطلوب:</span>
+                      <div class="input-with-unit">
+                        <input 
+                          type="number" 
+                          [ngModel]="weightGrams()" 
+                          (ngModelChange)="onWeightInput($event)"
+                          min="25" 
+                          step="25"
+                          placeholder="مثال: 250"
+                          class="converter-input" />
+                        <span class="input-unit">جم</span>
+                      </div>
+                    </label>
+                  </div>
+
+                  <!-- Quick weight chips -->
+                  <div class="quick-weights-strip">
+                    <span class="qw-label">أوزان سريعة:</span>
+                    <button type="button" class="qw-chip" [class.active]="weightGrams() === 100" (click)="setQuickWeight(100)">100 جم (ثمن)</button>
+                    <button type="button" class="qw-chip" [class.active]="weightGrams() === 250" (click)="setQuickWeight(250)">250 جم (ربع)</button>
+                    <button type="button" class="qw-chip" [class.active]="weightGrams() === 500" (click)="setQuickWeight(500)">500 جم (نصف)</button>
+                    <button type="button" class="qw-chip" [class.active]="weightGrams() === 1000" (click)="setQuickWeight(1000)">1000 جم (كيلو)</button>
+                  </div>
+
+                  <div class="converter-result-summary">
+                    <span>القيمة المحسوبة للعبوة: </span>
+                    <strong class="highlight-price">{{ calculatedWeightPrice() }} ج.م</strong>
+                    <span class="calc-weight-text">({{ weightGrams() }} جرام)</span>
+                  </div>
                 }
               </div>
-            </div>
+            } @else {
+              <!-- Standard Sizes Selection -->
+              <div class="config-block sizes-block">
+                <div class="block-header">
+                  <span class="block-title">
+                    <i class="fa-solid fa-glass-water"></i> اختر الحجم المطلوب:
+                  </span>
+                  <span class="selected-size-indicator">{{ selectedSize()?.nameAr }} • {{ selectedSize()?.price }} ج.م</span>
+                </div>
+
+                <div class="sizes-segmented-group">
+                  @for (size of prod.sizes; track size.id) {
+                    <button 
+                      type="button" 
+                      class="size-pill-btn" 
+                      [class.selected]="selectedSize()?.id === size.id"
+                      (click)="selectSize(size)">
+                      <div class="size-pill-main">
+                        <span class="size-name">{{ size.nameAr }}</span>
+                        <span class="size-price">{{ size.price }} ج.م</span>
+                      </div>
+                      @if (selectedSize()?.id === size.id) {
+                        <i class="fa-solid fa-circle-check size-check-icon"></i>
+                      }
+                    </button>
+                  }
+                </div>
+              </div>
+            }
 
             <!-- 2. "تخصيص أطعمة ونكهات الآيس كريم" في عالم الآيس كريم -->
             @if (isIceCreamProduct()) {
@@ -569,7 +666,7 @@ import { SeoService } from '../../core/services/seo.service';
             <div class="sticky-purchase-bar">
               <div class="purchase-left-box">
                 <div class="quantity-controller">
-                  <span class="qty-caption">الكمية:</span>
+                  <span class="qty-caption">{{ isWeightBasedProduct() ? 'عدد العبوات:' : 'الكمية:' }}</span>
                   <app-quantity-selector 
                     [quantity]="quantity()" 
                     (quantityChange)="quantity.set($event)">
@@ -578,10 +675,16 @@ import { SeoService } from '../../core/services/seo.service';
 
                 <div class="total-summary-box">
                   <span class="total-caption">الإجمالي المطلوب:</span>
-                  <div class="total-digits-row">
-                    <span class="amount-number">{{ currentTotal() }}</span>
-                    <span class="currency-label">ج.م</span>
-                  </div>
+                  @if (isPendingPrice()) {
+                    <div class="total-digits-row">
+                      <span class="pending-notice-txt">سيتم التسعير وإرسال المبلغ</span>
+                    </div>
+                  } @else {
+                    <div class="total-digits-row">
+                      <span class="amount-number">{{ currentTotal() }}</span>
+                      <span class="currency-label">ج.م</span>
+                    </div>
+                  }
                 </div>
               </div>
 
@@ -591,7 +694,11 @@ import { SeoService } from '../../core/services/seo.service';
                 (click)="addToCart()"
                 aria-label="إضافة للطلب">
                 <i class="fa-solid fa-cart-plus"></i>
-                <span>أضف للطلب • {{ currentTotal() }} ج.م</span>
+                @if (isPendingPrice()) {
+                  <span>أضف للطلب • (سيتم التسعير لاحقاً)</span>
+                } @else {
+                  <span>أضف للطلب • {{ currentTotal() }} ج.م</span>
+                }
               </button>
             </div>
           </div>
@@ -1140,6 +1247,203 @@ import { SeoService } from '../../core/services/seo.service';
       color: #b45309;
       font-size: 0.8rem;
       font-weight: 700;
+    }
+
+    /* Smart Weight Converter Card Styles */
+    .weight-converter-card {
+      border: 2px solid rgba(27, 94, 32, 0.18);
+      background: #fbfdfb;
+      border-radius: var(--radius-lg, 18px);
+      padding: 1.25rem;
+      box-shadow: 0 4px 18px rgba(27, 94, 32, 0.04);
+    }
+    .converter-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding-bottom: 0.85rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 1rem;
+    }
+    .cch-title {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .cch-title i {
+      font-size: 1.35rem;
+      color: var(--elmaestro-green-700);
+      background: var(--elmaestro-lime-bg);
+      padding: 0.5rem;
+      border-radius: 10px;
+    }
+    .cch-title h3 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--elmaestro-green-900);
+      margin: 0;
+    }
+    .cch-badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--elmaestro-green-700);
+      margin-top: 0.15rem;
+    }
+    .pending-pricing-callout {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      border-radius: 12px;
+      padding: 0.85rem 1rem;
+      color: #92400e;
+      margin-bottom: 1rem;
+    }
+    .pending-pricing-callout i {
+      font-size: 1.15rem;
+      margin-top: 0.2rem;
+      color: #b45309;
+    }
+    .pending-pricing-callout strong {
+      display: block;
+      font-size: 0.88rem;
+      font-weight: 800;
+      margin-bottom: 0.2rem;
+    }
+    .pending-pricing-callout p {
+      font-size: 0.8rem;
+      line-height: 1.45;
+      margin: 0;
+    }
+    .converter-hint {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin: 0 0 0.85rem 0;
+    }
+    .weight-converter-box {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      background: #ffffff;
+      border: 1.5px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 0.85rem 1rem;
+      box-shadow: var(--shadow-xs);
+    }
+    .weight-converter-box.single-weight-box {
+      border-color: #cbd5e1;
+    }
+    .converter-field {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      cursor: pointer;
+    }
+    .cf-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .input-with-unit {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .converter-input {
+      width: 100%;
+      padding: 0.55rem 2.2rem 0.55rem 0.65rem;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+      color: var(--elmaestro-green-900);
+      background: #f8fafc;
+      outline: none;
+      transition: all 0.2s;
+    }
+    .converter-input:focus {
+      background: #ffffff;
+      border-color: var(--elmaestro-green-700);
+      box-shadow: 0 0 0 3px rgba(27, 94, 32, 0.12);
+    }
+    .input-unit {
+      position: absolute;
+      right: 0.65rem;
+      font-size: 0.78rem;
+      font-weight: 800;
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+    .converter-sync-icon {
+      color: var(--elmaestro-green-700);
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.4rem;
+      background: var(--elmaestro-lime-bg);
+      border-radius: 50%;
+    }
+    .quick-weights-strip {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      margin-top: 0.85rem;
+      flex-wrap: wrap;
+    }
+    .qw-label {
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+    .qw-chip {
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      padding: 0.3rem 0.65rem;
+      border-radius: 8px;
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: var(--elmaestro-green-900);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .qw-chip:hover {
+      border-color: var(--elmaestro-green-700);
+      background: var(--elmaestro-lime-bg);
+    }
+    .qw-chip.active {
+      background: var(--elmaestro-green-700);
+      color: #ffffff;
+      border-color: var(--elmaestro-green-700);
+    }
+    .converter-result-summary {
+      margin-top: 0.85rem;
+      padding-top: 0.65rem;
+      border-top: 1px dashed var(--border-subtle);
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: baseline;
+      gap: 0.35rem;
+    }
+    .highlight-price {
+      font-size: 1.15rem;
+      font-weight: 900;
+      color: var(--elmaestro-green-800);
+    }
+    .calc-weight-text {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+    .pending-notice-txt {
+      font-size: 0.88rem;
+      font-weight: 800;
+      color: #b45309;
     }
 
     /* Flavors Selection Grid */
@@ -1778,6 +2082,63 @@ export class ProductDetailComponent {
   readonly activeImage = signal<string>('');
   specialInstructions = '';
 
+  // Weight-based products and converter state
+  readonly isWeightBasedProduct = computed(() => {
+    const prod = this.product();
+    if (!prod) return false;
+    return prod.pricingType === 'weight_based' || prod.categorySlug === 'roastery-nuts';
+  });
+
+  readonly isPendingPrice = computed(() => {
+    const prod = this.product();
+    if (!prod) return false;
+    return prod.pricingStatus === 'pending' || (this.isWeightBasedProduct() && !prod.pricePerKg && prod.basePrice === 0);
+  });
+
+  readonly weightGrams = signal<number>(250); // Default 250 grams
+  readonly moneyAmount = signal<number>(0);
+
+  readonly calculatedWeightPrice = computed(() => {
+    const prod = this.product();
+    if (!prod || this.isPendingPrice()) return 0;
+    const pKg = prod.pricePerKg || prod.basePrice || 0;
+    if (pKg <= 0) return 0;
+    const weight = this.weightGrams();
+    // price = (weightInGrams / 1000) * pricePerKg
+    return Math.round(((weight / 1000) * pKg) * 100) / 100;
+  });
+
+  onWeightInput(val: number | string): void {
+    const w = Math.max(0, Math.round(Number(val) || 0));
+    this.weightGrams.set(w);
+    const prod = this.product();
+    const pKg = prod?.pricePerKg || prod?.basePrice || 0;
+    if (pKg > 0 && w > 0) {
+      const money = Math.round(((w / 1000) * pKg) * 100) / 100;
+      this.moneyAmount.set(money);
+    } else {
+      this.moneyAmount.set(0);
+    }
+  }
+
+  onMoneyInput(val: number | string): void {
+    const m = Math.max(0, Number(val) || 0);
+    this.moneyAmount.set(m);
+    const prod = this.product();
+    const pKg = prod?.pricePerKg || prod?.basePrice || 0;
+    if (pKg > 0 && m > 0) {
+      // weightInGrams = (amountInEGP / pricePerKg) * 1000
+      const w = Math.round((m / pKg) * 1000);
+      this.weightGrams.set(w);
+    } else {
+      this.weightGrams.set(0);
+    }
+  }
+
+  setQuickWeight(grams: number): void {
+    this.onWeightInput(grams);
+  }
+
   // Ice cream customizations state
   readonly availableIceCreamFlavors = ELMAESTRO_ICE_CREAM_FLAVORS;
   readonly selectedIceCreamFlavors = signal<string[]>(['مانجو فريش طبيعي']);
@@ -1912,6 +2273,9 @@ export class ProductDetailComponent {
         if (prod && prod.sizes.length > 0) {
           this.selectedSize.set(prod.sizes[0]);
         }
+        if (prod && (prod.pricingType === 'weight_based' || prod.categorySlug === 'roastery-nuts')) {
+          this.onWeightInput(250);
+        }
         this.selectedAddons.set([]);
         this.quantity.set(1);
         this.specialInstructions = '';
@@ -1944,6 +2308,9 @@ export class ProductDetailComponent {
   }
 
   readonly currentUnitPrice = computed(() => {
+    if (this.isWeightBasedProduct()) {
+      return this.calculatedWeightPrice();
+    }
     const size = this.selectedSize();
     const sizePrice = size ? size.price : (this.product()?.basePrice || 0);
     const addonsPrice = this.selectedAddons().reduce((sum, a) => sum + a.price, 0);
@@ -1952,7 +2319,10 @@ export class ProductDetailComponent {
   });
 
   readonly currentTotal = computed(() => {
-    return this.currentUnitPrice() * this.quantity();
+    if (this.isPendingPrice()) {
+      return 0;
+    }
+    return Math.round((this.currentUnitPrice() * this.quantity()) * 100) / 100;
   });
 
   readonly relatedProducts = computed(() => {
@@ -1987,6 +2357,25 @@ export class ProductDetailComponent {
     const prod = this.product();
     const size = this.selectedSize();
     if (!prod || !size) return;
+
+    if (this.isWeightBasedProduct()) {
+      const weight = this.weightGrams();
+      if (weight <= 0) {
+        this.toast.show('يرجى تحديد وزن صالح بالجرام', 'warning');
+        return;
+      }
+      this.cartService.addItem(
+        prod,
+        size,
+        [],
+        this.specialInstructions,
+        this.quantity(),
+        undefined,
+        undefined,
+        weight
+      );
+      return;
+    }
 
     if (this.isIceCreamProduct()) {
       if (this.selectedIceCreamFlavors().length === 0) {
@@ -2036,7 +2425,7 @@ export class ProductDetailComponent {
   }
 
   shareProduct(prod: Product): void {
-    const url = typeof window !== 'undefined' ? `${window.location.origin}/product/${prod.slug}` : `https://elmaestrojuice.com/product/${prod.slug}`;
+    const url = typeof window !== 'undefined' ? `${window.location.origin}/product/${prod.slug}` : `https://www.elmaestroeg.com/product/${prod.slug}`;
     if (typeof navigator !== 'undefined' && navigator.share) {
       navigator.share({
         title: `${prod.nameAr} | المايسترو El Maestro`,

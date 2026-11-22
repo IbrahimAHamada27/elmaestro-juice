@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://elmaestrojuice.com';
+const BASE_URL = 'https://www.elmaestroeg.com';
 const SITE_NAME = 'المايسترو محمصات وفريشات';
 const DEFAULT_LOGO = `${BASE_URL}/images/brand/elmaestro-og-banner.jpg`;
 

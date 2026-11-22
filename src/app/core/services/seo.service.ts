@@ -12,8 +12,8 @@ export class SeoService {
   private readonly siteName = 'المايسترو محمصات وفريشات';
   private readonly defaultTitle = 'المايسترو محمصات وفريشات | مكسرات وعصائر وآيس كريم رول في العبور';
   private readonly defaultDesc = 'اكتشف المايسترو في الحي الأول بمدينة العبور، سنتر العبور بجوار أبو حلب. محمصات ومكسرات ومقليات، آيس كريم رول وعصائر فريش ومشروبات متنوعة. تصفح المنيو وتواصل معنا للطلب.';
-  private readonly defaultLogo = 'https://elmaestrojuice.com/images/brand/elmaestro-og-banner.jpg';
-  private readonly baseUrl = 'https://elmaestrojuice.com';
+  private readonly defaultLogo = 'https://www.elmaestroeg.com/images/brand/elmaestro-og-banner.jpg';
+  private readonly baseUrl = 'https://www.elmaestroeg.com';
 
   setDefaultSeo(): void {
     this.updateMeta({

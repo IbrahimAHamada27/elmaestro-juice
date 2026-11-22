@@ -85,8 +85,10 @@ import { ToastService } from '../../../core/services/toast.service';
         <!-- Footer: Price & Compact Stepper -->
         <div class="card-footer">
           <div class="price-container">
-            @if (product().availability === 'unavailable' || displayedPrice() === 0) {
+            @if (product().availability === 'unavailable') {
               <span class="unavailable-badge">غير متاح مؤقتاً</span>
+            } @else if (product().pricingStatus === 'pending' || displayedPrice() === 0) {
+              <span class="pending-price-badge">سيتم التسعير وإرسال المبلغ</span>
             } @else {
               <span class="price-amount">{{ displayedPrice() }}</span>
               <span class="currency">{{ product().categorySlug === 'roastery-nuts' ? 'ج.م / كجم' : 'ج.م' }}</span>
@@ -101,7 +103,7 @@ import { ToastService } from '../../../core/services/toast.service';
             <button 
               type="button" 
               class="stepper-btn minus" 
-              [disabled]="product().availability === 'unavailable' || displayedPrice() === 0 || currentSizeQuantity() === 0"
+              [disabled]="product().availability === 'unavailable' || currentSizeQuantity() === 0"
               (click)="decrement($event)"
               aria-label="إنقاص الكمية">
               <i class="fa-solid fa-minus"></i>
@@ -114,7 +116,7 @@ import { ToastService } from '../../../core/services/toast.service';
             <button 
               type="button" 
               class="stepper-btn plus" 
-              [disabled]="product().availability === 'unavailable' || displayedPrice() === 0"
+              [disabled]="product().availability === 'unavailable'"
               (click)="increment($event)"
               aria-label="زيادة الكمية">
               <i class="fa-solid fa-plus"></i>
@@ -352,6 +354,18 @@ import { ToastService } from '../../../core/services/toast.service';
       border-radius: 6px;
       border: 1px solid #fde68a;
       white-space: nowrap;
+    }
+
+    .pending-price-badge {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #92400e;
+      background: #fef3c7;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #fde68a;
+      white-space: nowrap;
+      line-height: 1.2;
     }
 
     .currency {

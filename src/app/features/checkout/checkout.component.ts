@@ -268,9 +268,19 @@ type OrderTypeChoice = 'delivery' | 'takeaway' | 'table';
                     <img [src]="item.image" [alt]="item.nameAr" class="mini-item-thumb" />
                     <div class="mini-item-info">
                       <strong class="mini-item-title">{{ item.quantity }} × {{ item.nameAr }}</strong>
-                      <span class="mini-item-meta">{{ item.selectedSize.nameAr }}</span>
+                      <span class="mini-item-meta">
+                        @if (item.pricingType === 'weight_based' || item.weightInGrams) {
+                          الوزن: {{ item.weightInGrams || 250 }} جم
+                        } @else {
+                          {{ item.selectedSize.nameAr }}
+                        }
+                      </span>
                     </div>
-                    <span class="mini-item-price">{{ item.totalPrice }} ج.م</span>
+                    @if (item.pricingStatus === 'pending') {
+                      <span class="mini-item-pending">سيتم التسعير</span>
+                    } @else {
+                      <span class="mini-item-price">{{ item.totalPrice }} ج.م</span>
+                    }
                   </div>
                 }
               </div>
@@ -278,9 +288,16 @@ type OrderTypeChoice = 'delivery' | 'takeaway' | 'table';
               <!-- Price Breakdown -->
               <div class="price-calculations-box">
                 <div class="calc-row">
-                  <span>إجمالي المشروبات:</span>
+                  <span>إجمالي المنتجات المؤكدة:</span>
                   <strong>{{ subtotal() }} ج.م</strong>
                 </div>
+
+                @if (hasPendingPricedItems()) {
+                  <div class="calc-row pending-sub-notice">
+                    <span>منتجات بانتظار التسعير:</span>
+                    <strong class="pending-warn-txt">{{ pendingItemsCount() }} صنف</strong>
+                  </div>
+                }
 
                 @if (orderType === 'delivery') {
                   <div class="calc-row">
@@ -290,9 +307,16 @@ type OrderTypeChoice = 'delivery' | 'takeaway' | 'table';
                 }
 
                 <div class="calc-row final-total-row">
-                  <span>المبلغ الإجمالي المطلوب:</span>
+                  <span>{{ hasPendingPricedItems() ? 'الإجمالي المؤكد حالياً:' : 'المبلغ الإجمالي المطلوب:' }}</span>
                   <span class="grand-total-val">{{ finalTotal() }} ج.م</span>
                 </div>
+
+                @if (hasPendingPricedItems()) {
+                  <p class="final-pending-alert">
+                    <i class="fa-solid fa-circle-info"></i>
+                    سيتم تأكيد الإجمالي النهائي لطلبك بعد تسعير الأصناف غير المسعرة عبر محادثة الواتساب.
+                  </p>
+                }
               </div>
 
               <!-- Submit WhatsApp Direct Order Button -->
@@ -306,7 +330,7 @@ type OrderTypeChoice = 'delivery' | 'takeaway' | 'table';
                   <span>جاري تجهيز الطلب...</span>
                 } @else {
                   <i class="fa-brands fa-whatsapp"></i>
-                  <span>إرسال وتأكيد الطلب عبر واتساب</span>
+                  <span>إرسال الطلب عبر واتساب</span>
                 }
               </button>
 
@@ -676,6 +700,32 @@ type OrderTypeChoice = 'delivery' | 'takeaway' | 'table';
       font-weight: 800;
       color: #166534;
     }
+    .mini-item-pending {
+      font-size: 0.72rem;
+      font-weight: 800;
+      color: #92400e;
+      background: #fef3c7;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+    }
+    .pending-sub-notice {
+      background: #fffbeb;
+      padding: 0.35rem 0.5rem;
+      border-radius: 6px;
+    }
+    .pending-warn-txt {
+      color: #b45309;
+      font-size: 0.8rem;
+    }
+    .final-pending-alert {
+      font-size: 0.76rem;
+      color: #b45309;
+      line-height: 1.4;
+      margin: 0.35rem 0 0 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.35rem;
+    }
 
     .price-calculations-box {
       display: flex;
@@ -819,6 +869,8 @@ export class CheckoutComponent {
 
   readonly items = this.cartService.items;
   readonly subtotal = this.cartService.subtotal;
+  readonly pendingItemsCount = this.cartService.pendingItemsCount;
+  readonly hasPendingPricedItems = this.cartService.hasPendingPricedItems;
 
   orderType: OrderTypeChoice = 'delivery';
   paymentMethod: PaymentMethod = 'cash';

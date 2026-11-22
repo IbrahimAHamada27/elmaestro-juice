@@ -7,33 +7,6 @@ import { ConfigService } from '../../../core/services/config.service';
   standalone: true,
   imports: [RouterLink],
   template: `
-    <!-- Pre-Footer Action Banner (Direct WhatsApp & 24h Delivery Hotline) -->
-    <section class="footer-pre-banner" aria-label="شريط الطلب السريع">
-      <div class="container pre-banner-container">
-        <div class="pre-banner-info">
-          <span class="pre-pill">
-            <span class="live-blink"></span>
-            توصيل فوري 24 ساعة لجميع أحياء العبور
-          </span>
-          <h3 class="pre-title">جاهز تطلب فريشك المفضل أو قهوتك الآن؟</h3>
-          <p class="pre-desc">
-            بنجهز طلبك فورياً بعصائر طبيعية 100% وأجود أنواع البن المحمص والمكسرات الفاخرة.
-          </p>
-        </div>
-
-        <div class="pre-banner-actions">
-          <a [href]="'https://wa.me/' + business().contacts.whatsapp" target="_blank" rel="noopener noreferrer" class="banner-btn-wa">
-            <i class="fa-brands fa-whatsapp"></i>
-            <span>طلب فوري عبر واتساب</span>
-          </a>
-          <a [href]="'tel:' + business().contacts.phone1" class="banner-btn-call">
-            <i class="fa-solid fa-phone-volume"></i>
-            <span class="dir-ltr">{{ business().contacts.phone1 }}</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
     <!-- Main Footer Container -->
     <footer class="executive-footer">
       <div class="container footer-main-grid">

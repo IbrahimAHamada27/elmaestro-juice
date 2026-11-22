@@ -238,7 +238,7 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
                 <hr class="summary-divider" />
 
                 <div class="calc-row total-row">
-                  <span>{{ hasPendingPricedItems() ? 'الإجمالي المؤكد حالياً:' : 'المبلغ الإجمالي:' }}</span>
+                  <span class="total-title-lbl">{{ hasPendingPricedItems() ? 'الإجمالي المؤكد حالياً:' : 'المبلغ الإجمالي:' }}</span>
                   <div class="final-total">
                     <app-price-display [amount]="total()" size="lg"></app-price-display>
                   </div>
@@ -262,11 +262,6 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
                   <i class="fa-brands fa-whatsapp"></i> متابعة وإرسال الطلب عبر واتساب
                 </a>
               }
-
-              <div class="guarantee-box">
-                <i class="fa-solid fa-shield-check"></i>
-                <p>طلب تجريبي لفرع سنتر العبور بالعبور | لا يتطلب دفعاً إلكترونياً فعلياً</p>
-              </div>
             </div>
           </div>
         </div>
@@ -592,90 +587,96 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
 
     /* Summary Column */
     .summary-card {
-      background: rgba(255, 255, 255, 0.92);
-      backdrop-filter: blur(16px);
-      border: 1px solid var(--glass-border);
-      border-radius: var(--radius-xl);
-      padding: 1.75rem;
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.95), var(--shadow-antigravity-md);
+      background: #FFFFFF;
+      border: 1.5px solid #E2E8E2;
+      border-radius: var(--radius-xl, 20px);
+      padding: 1.75rem 1.5rem;
+      box-shadow: 0 4px 20px rgba(23, 77, 50, 0.05);
       display: flex;
       flex-direction: column;
       gap: 1.25rem;
     }
     .summary-title {
-      font-size: 1.4rem;
-      color: var(--elmaestro-green-900);
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid var(--border-subtle);
-      text-wrap: balance;
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #174D32;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid #EAF5EC;
+      margin: 0;
     }
 
     /* Fulfillment Indicator in Cart */
     .fulfillment-indicator-box {
-      background: rgba(250, 251, 250, 0.85);
-      border: 1px solid var(--border-subtle);
-      border-radius: var(--radius-md);
-      padding: 0.85rem;
+      background: #F7F8F3;
+      border: 1.5px solid #E2E8E2;
+      border-radius: var(--radius-md, 14px);
+      padding: 0.95rem 1.1rem;
       display: flex;
       flex-direction: column;
-      gap: 0.4rem;
-      box-shadow: var(--shadow-antigravity-xs);
+      gap: 0.5rem;
     }
     .indicator-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 0.78rem;
+      font-size: 0.82rem;
     }
     .indicator-label {
-      color: var(--text-muted);
-      font-weight: 600;
+      color: #718096;
+      font-weight: 700;
     }
     .change-method-link {
-      color: var(--elmaestro-green-700);
-      font-weight: 700;
+      color: #174D32;
+      font-weight: 800;
       text-decoration: underline;
+      transition: color 0.15s;
+    }
+    .change-method-link:hover {
+      color: #279653;
     }
     .indicator-pill {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
-      font-size: 0.85rem;
-      font-weight: 700;
-      padding: 0.45rem 0.75rem;
-      border-radius: var(--radius-md);
+      gap: 0.65rem;
+      font-size: 0.92rem;
+      font-weight: 800;
+      padding: 0.6rem 0.85rem;
+      border-radius: 10px;
     }
     .pill-table {
-      background: #f0fdf4;
-      color: #14532d;
+      background: #EAF5EC;
+      color: #174D32;
+      border: 1px solid #BBD9C2;
     }
     .pill-car {
       background: #eff6ff;
       color: #1e3a8a;
+      border: 1px solid #bfdbfe;
     }
     .pill-takeaway {
       background: #fffbeb;
-      color: #78350f;
+      color: #92400e;
+      border: 1px solid #fde68a;
     }
     .pill-delivery {
       background: #fdf2f8;
       color: #831843;
+      border: 1px solid #fbcfe8;
     }
 
     .delivery-min-alert {
-      background: rgba(254, 242, 242, 0.85);
+      background: #fef2f2;
       border: 1.5px solid #fecaca;
-      border-radius: var(--radius-md);
-      padding: 0.75rem 1rem;
+      border-radius: var(--radius-md, 14px);
+      padding: 0.85rem 1rem;
       display: flex;
       align-items: center;
-      gap: 0.6rem;
-      font-size: 0.82rem;
+      gap: 0.65rem;
+      font-size: 0.84rem;
       color: #991b1b;
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
     }
     .delivery-min-alert i {
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       color: #dc2626;
       flex-shrink: 0;
     }
@@ -683,57 +684,88 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
     .calculation-rows {
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 0.85rem;
+      padding-block: 0.25rem;
     }
     .calc-row {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-size: 0.95rem;
-      color: var(--text-secondary);
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: #4a5568;
     }
     .calc-val {
-      font-weight: 700;
-      color: var(--text-primary);
+      font-weight: 800;
+      color: #172033;
       font-variant-numeric: tabular-nums;
+      font-size: 1.05rem;
     }
     .free-delivery-badge {
       font-size: 0.78rem;
-      font-weight: 700;
-      color: #15803d;
-      background: #dcfce7;
-      padding: 0.2rem 0.6rem;
+      font-weight: 800;
+      color: #174D32;
+      background: #EAF5EC;
+      padding: 0.25rem 0.7rem;
       border-radius: var(--radius-full);
+      border: 1px solid #BBD9C2;
     }
     .zero-fee-badge {
       font-size: 0.78rem;
-      font-weight: 700;
-      color: #0369a1;
-      background: #e0f2fe;
-      padding: 0.2rem 0.6rem;
+      font-weight: 800;
+      color: #174D32;
+      background: #EAF5EC;
+      padding: 0.25rem 0.7rem;
       border-radius: var(--radius-full);
+      border: 1px solid #BBD9C2;
     }
     .summary-divider {
       border: none;
-      border-top: 1px dashed var(--border-subtle);
-      margin-block: 0.25rem;
+      border-top: 1.5px dashed #E2E8E2;
+      margin-block: 0.5rem;
     }
     .total-row {
+      font-size: 1.25rem;
+      font-weight: 900;
+      color: #174D32;
+      padding-top: 0.25rem;
+    }
+    .total-title-lbl {
+      color: #174D32;
       font-size: 1.15rem;
-      font-weight: 800;
-      color: var(--elmaestro-green-900);
+      font-weight: 900;
     }
     .checkout-btn {
       width: 100%;
-      padding: 0.95rem;
+      padding: 1rem 1.25rem;
       font-size: 1.05rem;
-      margin-top: 0.5rem;
+      font-weight: 900;
+      margin-top: 0.75rem;
       text-align: center;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 0.5rem;
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), var(--shadow-antigravity-sm);
+      gap: 0.65rem;
+      border-radius: 14px;
+      background: #25d366;
+      color: #FFFFFF;
+      border: none;
+      box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .checkout-btn:hover {
+      background: #20ba59;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.42);
+      color: #FFFFFF;
+    }
+    .checkout-btn:active {
+      transform: scale(0.98);
+    }
+    .checkout-btn i {
+      font-size: 1.3rem;
     }
     .disabled-btn {
       background: #94a3b8;
@@ -741,21 +773,6 @@ import { EditCartItemModalComponent } from '../../shared/components/edit-cart-it
       cursor: not-allowed;
       opacity: 0.75;
       box-shadow: none;
-    }
-    .guarantee-box {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      padding: 0.75rem;
-      background: rgba(247, 250, 247, 0.85);
-      border-radius: var(--radius-md);
-      font-size: 0.78rem;
-      color: var(--text-secondary);
-      box-shadow: var(--shadow-antigravity-xs);
-    }
-    .guarantee-box i {
-      color: var(--elmaestro-lime);
-      font-size: 1.1rem;
     }
 
     @media (max-width: 992px) {

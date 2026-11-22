@@ -34,175 +34,212 @@ import { QuantitySelectorComponent } from '../quantity-selector/quantity-selecto
           </div>
 
           <div class="modal-body">
-            <!-- Sizes Selection -->
-            @if (product()?.sizes && product()!.sizes.length > 1) {
+            @if (isBeverage()) {
+              <!-- Sizes Selection for Beverages -->
+              @if (product()?.sizes && product()!.sizes.length > 1) {
+                <div class="edit-section">
+                  <span class="sec-label"><i class="fa-solid fa-glass-water"></i> تعديل الحجم:</span>
+                  <div class="sizes-grid">
+                    @for (size of product()!.sizes; track size.id) {
+                      <label class="size-pill" [class.active]="selectedSize()?.id === size.id">
+                        <input 
+                          type="radio" 
+                          name="editSize" 
+                          [value]="size" 
+                          [checked]="selectedSize()?.id === size.id"
+                          (change)="selectedSize.set(size)"
+                          class="sr-only" />
+                        <span>{{ size.nameAr }}</span>
+                        <strong class="s-price">{{ size.price }} ج.م</strong>
+                      </label>
+                    }
+                  </div>
+                </div>
+              }
+
+              <!-- Add-ons Selection -->
+              @if (product()?.availableAddons && product()!.availableAddons!.length > 0) {
+                <div class="edit-section">
+                  <span class="sec-label"><i class="fa-solid fa-circle-plus"></i> تعديل الإضافات:</span>
+                  <div class="addons-grid">
+                    @for (addon of product()!.availableAddons!; track addon.id) {
+                      <label class="addon-pill" [class.active]="isAddonChecked(addon)">
+                        <input 
+                          type="checkbox" 
+                          [checked]="isAddonChecked(addon)"
+                          (change)="toggleAddon(addon)"
+                          class="addon-check" />
+                        <span>{{ addon.nameAr }}</span>
+                        <strong class="a-price">+{{ addon.price }} ج.م</strong>
+                      </label>
+                    }
+                  </div>
+                </div>
+              }
+
+              <!-- Customization: طريقة الخفق والقوام (فقط للعصائر) -->
               <div class="edit-section">
-                <span class="sec-label"><i class="fa-solid fa-glass-water"></i> تعديل الحجم:</span>
-                <div class="sizes-grid">
-                  @for (size of product()!.sizes; track size.id) {
-                    <label class="size-pill" [class.active]="selectedSize()?.id === size.id">
-                      <input 
-                        type="radio" 
-                        name="editSize" 
-                        [value]="size" 
-                        [checked]="selectedSize()?.id === size.id"
-                        (change)="selectedSize.set(size)"
-                        class="sr-only" />
-                      <span>{{ size.nameAr }}</span>
-                      <strong class="s-price">{{ size.price }} ج.م</strong>
-                    </label>
-                  }
+                <span class="sec-label"><i class="fa-solid fa-blender"></i> طريقة الخفق والقوام:</span>
+                <div class="custom-pills-row">
+                  <button 
+                    type="button" 
+                    class="edit-choice-btn" 
+                    [class.active]="selectedBlend() === 'half'"
+                    (click)="selectedBlend.set('half')">
+                    <strong>نص ضربة</strong>
+                    <small>قطع فواكه</small>
+                  </button>
+                  <button 
+                    type="button" 
+                    class="edit-choice-btn" 
+                    [class.active]="selectedBlend() === 'froth'"
+                    (click)="selectedBlend.set('froth')">
+                    <strong>وش ضربة</strong>
+                    <small>رغوة وبيوريه</small>
+                  </button>
+                  <button 
+                    type="button" 
+                    class="edit-choice-btn" 
+                    [class.active]="selectedBlend() === 'full'"
+                    (click)="selectedBlend.set('full')">
+                    <strong>ضرب كامل</strong>
+                    <small>بيوريه ناعم</small>
+                  </button>
                 </div>
               </div>
-            }
 
-            <!-- Add-ons Selection -->
-            @if (product()?.availableAddons && product()!.availableAddons!.length > 0) {
+              <!-- Customization: نوع التحلية (فقط للعصائر) -->
               <div class="edit-section">
-                <span class="sec-label"><i class="fa-solid fa-circle-plus"></i> تعديل الإضافات:</span>
-                <div class="addons-grid">
-                  @for (addon of product()!.availableAddons!; track addon.id) {
-                    <label class="addon-pill" [class.active]="isAddonChecked(addon)">
-                      <input 
-                        type="checkbox" 
-                        [checked]="isAddonChecked(addon)"
-                        (change)="toggleAddon(addon)"
-                        class="addon-check" />
-                      <span>{{ addon.nameAr }}</span>
-                      <strong class="a-price">+{{ addon.price }} ج.م</strong>
-                    </label>
-                  }
+                <span class="sec-label"><i class="fa-solid fa-jar"></i> نوع التحلية:</span>
+                <div class="custom-pills-row">
+                  <button 
+                    type="button" 
+                    class="edit-choice-btn" 
+                    [class.active]="selectedSweetener() === 'white_sugar'"
+                    (click)="selectedSweetener.set('white_sugar')">
+                    <strong>سكر أبيض</strong>
+                    <small>عادي</small>
+                  </button>
+                  <button 
+                    type="button" 
+                    class="edit-choice-btn" 
+                    [class.active]="selectedSweetener() === 'honey'"
+                    (click)="selectedSweetener.set('honey')">
+                    <strong>عسل نحل</strong>
+                    <small class="honey-badge">+10 ج.م</small>
+                  </button>
+                  <button 
+                    type="button" 
+                    class="edit-choice-btn" 
+                    [class.active]="selectedSweetener() === 'stevia'"
+                    (click)="selectedSweetener.set('stevia')">
+                    <strong>ستيفيا دايت</strong>
+                    <small>بدون كالوري</small>
+                  </button>
+                  <button 
+                    type="button" 
+                    class="edit-choice-btn" 
+                    [class.active]="selectedSweetener() === 'none'"
+                    (click)="onSelectNoSweetener()">
+                    <strong>بدون سكر</strong>
+                    <small>فريش 100%</small>
+                  </button>
                 </div>
               </div>
-            }
 
-            <!-- Customization: طريقة الخفق والقوام -->
-            <div class="edit-section">
-              <span class="sec-label"><i class="fa-solid fa-blender"></i> طريقة الخفق والقوام:</span>
-              <div class="custom-pills-row">
-                <button 
-                  type="button" 
-                  class="edit-choice-btn" 
-                  [class.active]="selectedBlend() === 'half'"
-                  (click)="selectedBlend.set('half')">
-                  <strong>نص ضربة</strong>
-                  <small>قطع فواكه</small>
-                </button>
-                <button 
-                  type="button" 
-                  class="edit-choice-btn" 
-                  [class.active]="selectedBlend() === 'froth'"
-                  (click)="selectedBlend.set('froth')">
-                  <strong>وش ضربة</strong>
-                  <small>رغوة وبيوريه</small>
-                </button>
-                <button 
-                  type="button" 
-                  class="edit-choice-btn" 
-                  [class.active]="selectedBlend() === 'full'"
-                  (click)="selectedBlend.set('full')">
-                  <strong>ضرب كامل</strong>
-                  <small>بيوريه ناعم</small>
-                </button>
-              </div>
-            </div>
+              <!-- Customization: درجة التحلية (فقط للعصائر) -->
+              @if (selectedSweetener() !== 'none') {
+                <div class="edit-section">
+                  <span class="sec-label"><i class="fa-solid fa-cubes-stacked"></i> درجة التحلية:</span>
+                  <div class="segmented-bar">
+                    <button 
+                      type="button" 
+                      class="seg-btn" 
+                      [class.active]="selectedSugarLevel() === 'regular'"
+                      (click)="selectedSugarLevel.set('regular')">
+                      مضبوط
+                    </button>
+                    <button 
+                      type="button" 
+                      class="seg-btn" 
+                      [class.active]="selectedSugarLevel() === 'light'"
+                      (click)="selectedSugarLevel.set('light')">
+                      خفيف
+                    </button>
+                    <button 
+                      type="button" 
+                      class="seg-btn" 
+                      [class.active]="selectedSugarLevel() === 'extra'"
+                      (click)="selectedSugarLevel.set('extra')">
+                      زيادة
+                    </button>
+                  </div>
+                </div>
+              }
 
-            <!-- Customization: نوع التحلية -->
-            <div class="edit-section">
-              <span class="sec-label"><i class="fa-solid fa-jar"></i> نوع التحلية:</span>
-              <div class="custom-pills-row">
-                <button 
-                  type="button" 
-                  class="edit-choice-btn" 
-                  [class.active]="selectedSweetener() === 'white_sugar'"
-                  (click)="selectedSweetener.set('white_sugar')">
-                  <strong>سكر أبيض</strong>
-                  <small>عادي</small>
-                </button>
-                <button 
-                  type="button" 
-                  class="edit-choice-btn" 
-                  [class.active]="selectedSweetener() === 'honey'"
-                  (click)="selectedSweetener.set('honey')">
-                  <strong>عسل نحل</strong>
-                  <small class="honey-badge">+10 ج.م</small>
-                </button>
-                <button 
-                  type="button" 
-                  class="edit-choice-btn" 
-                  [class.active]="selectedSweetener() === 'stevia'"
-                  (click)="selectedSweetener.set('stevia')">
-                  <strong>ستيفيا دايت</strong>
-                  <small>بدون كالوري</small>
-                </button>
-                <button 
-                  type="button" 
-                  class="edit-choice-btn" 
-                  [class.active]="selectedSweetener() === 'none'"
-                  (click)="onSelectNoSweetener()">
-                  <strong>بدون سكر</strong>
-                  <small>فريش 100%</small>
-                </button>
-              </div>
-            </div>
-
-            <!-- Customization: درجة التحلية -->
-            @if (selectedSweetener() !== 'none') {
+              <!-- Customization: درجة الثلج (فقط للعصائر) -->
               <div class="edit-section">
-                <span class="sec-label"><i class="fa-solid fa-cubes-stacked"></i> درجة التحلية:</span>
+                <span class="sec-label"><i class="fa-solid fa-snowflake"></i> درجة الثلج والبرودة:</span>
                 <div class="segmented-bar">
                   <button 
                     type="button" 
                     class="seg-btn" 
-                    [class.active]="selectedSugarLevel() === 'regular'"
-                    (click)="selectedSugarLevel.set('regular')">
-                    مضبوط
+                    [class.active]="selectedIceLevel() === 'regular'"
+                    (click)="selectedIceLevel.set('regular')">
+                    مثلج طبيعي
                   </button>
                   <button 
                     type="button" 
                     class="seg-btn" 
-                    [class.active]="selectedSugarLevel() === 'light'"
-                    (click)="selectedSugarLevel.set('light')">
-                    خفيف
+                    [class.active]="selectedIceLevel() === 'light'"
+                    (click)="selectedIceLevel.set('light')">
+                    ثلج خفيف
                   </button>
                   <button 
                     type="button" 
                     class="seg-btn" 
-                    [class.active]="selectedSugarLevel() === 'extra'"
-                    (click)="selectedSugarLevel.set('extra')">
-                    زيادة
+                    [class.active]="selectedIceLevel() === 'none'"
+                    (click)="selectedIceLevel.set('none')">
+                    بدون ثلج
+                  </button>
+                </div>
+              </div>
+            } @else if (isWeightBased()) {
+              <!-- Weight-based product editing -->
+              <div class="edit-section">
+                <span class="sec-label"><i class="fa-solid fa-scale-balanced"></i> تعديل الوزن المطلوب:</span>
+                <div class="segmented-bar weight-seg-bar">
+                  <button 
+                    type="button" 
+                    class="seg-btn" 
+                    [class.active]="editWeightGrams() === 100"
+                    (click)="editWeightGrams.set(100)">
+                    100 جم (ثمن)
+                  </button>
+                  <button 
+                    type="button" 
+                    class="seg-btn" 
+                    [class.active]="editWeightGrams() === 250"
+                    (click)="editWeightGrams.set(250)">
+                    250 جم (ربع)
+                  </button>
+                  <button 
+                    type="button" 
+                    class="seg-btn" 
+                    [class.active]="editWeightGrams() === 500"
+                    (click)="editWeightGrams.set(500)">
+                    500 جم (نصف)
+                  </button>
+                  <button 
+                    type="button" 
+                    class="seg-btn" 
+                    [class.active]="editWeightGrams() === 1000"
+                    (click)="editWeightGrams.set(1000)">
+                    1000 جم (كيلو)
                   </button>
                 </div>
               </div>
             }
-
-            <!-- Customization: درجة الثلج -->
-            <div class="edit-section">
-              <span class="sec-label"><i class="fa-solid fa-snowflake"></i> درجة الثلج والبرودة:</span>
-              <div class="segmented-bar">
-                <button 
-                  type="button" 
-                  class="seg-btn" 
-                  [class.active]="selectedIceLevel() === 'regular'"
-                  (click)="selectedIceLevel.set('regular')">
-                  مثلج طبيعي
-                </button>
-                <button 
-                  type="button" 
-                  class="seg-btn" 
-                  [class.active]="selectedIceLevel() === 'light'"
-                  (click)="selectedIceLevel.set('light')">
-                  ثلج خفيف
-                </button>
-                <button 
-                  type="button" 
-                  class="seg-btn" 
-                  [class.active]="selectedIceLevel() === 'none'"
-                  (click)="selectedIceLevel.set('none')">
-                  بدون ثلج
-                </button>
-              </div>
-            </div>
 
             <!-- Special Instructions -->
             <div class="edit-section">
@@ -490,9 +527,58 @@ import { QuantitySelectorComponent } from '../quantity-selector/quantity-selecto
     .modal-footer {
       display: flex;
       justify-content: flex-end;
+      align-items: center;
       gap: 0.75rem;
-      padding-top: 1rem;
+      padding-top: 1.25rem;
       border-top: 1px solid var(--border-subtle);
+    }
+
+    .modal-footer .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.6rem;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      font-weight: 800;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      user-select: none;
+    }
+
+    .modal-footer .btn-primary {
+      background: linear-gradient(135deg, #174D32 0%, #0d2914 100%);
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(23, 77, 50, 0.28);
+    }
+
+    .modal-footer .btn-primary:hover {
+      background: linear-gradient(135deg, #279653 0%, #174D32 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(23, 77, 50, 0.36);
+    }
+
+    .modal-footer .btn-primary:active {
+      transform: scale(0.97);
+    }
+
+    .modal-footer .btn-outline {
+      background: #f8fafc;
+      color: #64748b;
+      border: 1.5px solid #cbd5e1;
+    }
+
+    .modal-footer .btn-outline:hover {
+      background: #fee2e2;
+      color: #991b1b;
+      border-color: #fca5a5;
+      transform: translateY(-2px);
+    }
+
+    .modal-footer .btn-outline:active {
+      transform: scale(0.97);
     }
 
     .sr-only {
@@ -556,6 +642,26 @@ export class EditCartItemModalComponent {
   readonly quantity = signal<number>(1);
   instructions = '';
 
+  // Category / product type detection
+  readonly isBeverage = computed(() => {
+    const itm = this.item();
+    const prod = this.product();
+    if (!itm) return true;
+    const cat = itm.categorySlug || prod?.categorySlug || '';
+    // Roastery nuts and sweets are NOT beverages
+    if (cat === 'roastery-nuts' || itm.pricingType === 'weight_based') return false;
+    // Ice cream is handled separately or doesn't have beverage blend/sugar/ice
+    if (cat === 'ice-cream' || cat === 'ice-cream-roll' || itm.nameAr.includes('آيس كريم')) return false;
+    return true;
+  });
+
+  readonly isWeightBased = computed(() => {
+    const itm = this.item();
+    return itm?.pricingType === 'weight_based' || itm?.categorySlug === 'roastery-nuts';
+  });
+
+  readonly editWeightGrams = signal<number>(250);
+
   // Customization signals
   readonly selectedBlend = signal<BlendType>('full');
   readonly selectedSweetener = signal<SweetenerType>('white_sugar');
@@ -563,6 +669,13 @@ export class EditCartItemModalComponent {
   readonly selectedIceLevel = signal<IceLevel>('regular');
 
   readonly currentUnitPrice = computed(() => {
+    const itm = this.item();
+    if (this.isWeightBased()) {
+      if (itm?.pricingStatus === 'pending') return 0;
+      const pKg = itm?.pricePerKg || this.product()?.pricePerKg || this.product()?.basePrice || 0;
+      if (pKg <= 0) return 0;
+      return Math.round(((this.editWeightGrams() / 1000) * pKg) * 100) / 100;
+    }
     const size = this.selectedSize();
     const sizePrice = size ? size.price : 0;
     const addonsPrice = this.selectedAddons().reduce((sum, a) => sum + a.price, 0);
@@ -571,7 +684,7 @@ export class EditCartItemModalComponent {
   });
 
   readonly currentTotal = computed(() => {
-    return this.currentUnitPrice() * this.quantity();
+    return Math.round((this.currentUnitPrice() * this.quantity()) * 100) / 100;
   });
 
   open(cartItem: CartItem): void {
@@ -582,6 +695,7 @@ export class EditCartItemModalComponent {
     this.selectedAddons.set([...cartItem.selectedAddons]);
     this.instructions = cartItem.specialInstructions;
     this.quantity.set(cartItem.quantity);
+    this.editWeightGrams.set(cartItem.weightInGrams || 250);
 
     // Populate customization options
     this.selectedBlend.set(cartItem.customization?.blendType || 'full');
@@ -624,22 +738,30 @@ export class EditCartItemModalComponent {
     const itm = this.item();
     const prod = this.product();
     const sz = this.selectedSize();
-    if (itm && prod && sz) {
-      this.cartService.updateItemCustomization(
-        itm.cartItemId,
-        prod,
-        sz,
-        this.selectedAddons(),
-        this.instructions,
-        this.quantity(),
-        {
-          blendType: this.selectedBlend(),
-          sweetenerType: this.selectedSweetener(),
-          sugarLevel: this.selectedSweetener() === 'none' ? 'none' : this.selectedSugarLevel(),
-          iceLevel: this.selectedIceLevel()
-        }
-      );
-      this.close();
+    if (itm && prod) {
+      if (this.isWeightBased()) {
+        this.cartService.updateWeight(itm.cartItemId, this.editWeightGrams());
+        this.cartService.updateQuantity(itm.cartItemId, this.quantity());
+        this.close();
+        return;
+      }
+      if (sz) {
+        this.cartService.updateItemCustomization(
+          itm.cartItemId,
+          prod,
+          sz,
+          this.selectedAddons(),
+          this.instructions,
+          this.quantity(),
+          {
+            blendType: this.selectedBlend(),
+            sweetenerType: this.selectedSweetener(),
+            sugarLevel: this.selectedSweetener() === 'none' ? 'none' : this.selectedSugarLevel(),
+            iceLevel: this.selectedIceLevel()
+          }
+        );
+        this.close();
+      }
     }
   }
 

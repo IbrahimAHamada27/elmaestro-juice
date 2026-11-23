@@ -20311,7 +20311,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-mango.png",
     "isFeatured": false,
     "isBestSeller": true,
     "tags": [
@@ -20386,7 +20386,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-strawberry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -20461,7 +20461,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-banana.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -20536,7 +20536,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-blue-berry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -20611,7 +20611,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-red-berry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -20686,7 +20686,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-peach.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -20761,7 +20761,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-grapes.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -20836,7 +20836,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-watermelon.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -20911,7 +20911,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-dates.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -20986,7 +20986,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-kiwi.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21061,7 +21061,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-pineapple.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21136,7 +21136,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-avocado.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21211,7 +21211,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-lemon-mint.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21286,7 +21286,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-yogurt-berries.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21361,7 +21361,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-yogurt-strawberry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21511,7 +21511,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-mango-banana.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21586,7 +21586,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-strawberry-berries.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21661,7 +21661,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-grapes-mango.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21736,7 +21736,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-mix-berries.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21811,7 +21811,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-kiwi-mango.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21886,7 +21886,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-pineapple-mango.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -21961,7 +21961,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-maestro-nuts-dates.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -22036,7 +22036,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-maestro-choco-mango.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -22111,7 +22111,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-oreo.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22186,7 +22186,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-borio.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22261,7 +22261,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-twinkies.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22336,7 +22336,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-maxtella.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22411,7 +22411,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-corona.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22486,7 +22486,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-hohos.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22561,7 +22561,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-chicobon.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22636,7 +22636,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-maltesers.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22711,7 +22711,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-mars.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22786,7 +22786,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-tofix.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22861,7 +22861,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-bounty.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -22936,7 +22936,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-snickers.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23011,7 +23011,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-kitkat.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23086,7 +23086,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-galaxy.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23161,7 +23161,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-cadbury.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23236,7 +23236,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-kinder.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23311,7 +23311,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-lotus.png",
     "isFeatured": false,
     "isBestSeller": true,
     "tags": [
@@ -23386,7 +23386,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-mix-chocolate.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23461,7 +23461,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-ferrero-rocher.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23536,7 +23536,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-nutella.png",
     "isFeatured": false,
     "isBestSeller": true,
     "tags": [
@@ -23611,7 +23611,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-cashew.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23686,7 +23686,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-pistachio.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23761,7 +23761,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-hazelnut.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -23836,7 +23836,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/products/rolls/ice-cream-roll-almond.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27869,4 +27869,5 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
     "pricingStatus": "pending"
   }
 ];
+
 

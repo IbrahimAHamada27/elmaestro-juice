@@ -156,26 +156,33 @@ import { ToastService } from '../../../core/services/toast.service';
       position: relative;
       width: 100%;
       aspect-ratio: 4 / 3;
-      background: #F7F8F3;
+      background: #FFFFFF;
       overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .image-link {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 100%;
       height: 100%;
+      background: #FFFFFF;
     }
 
     .product-image {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      object-position: center;
       transition: transform 0.25s ease;
       display: block;
     }
 
     .product-card:hover .product-image {
-      transform: scale(1.03);
+      transform: scale(1.04);
     }
 
     /* Category Tag */

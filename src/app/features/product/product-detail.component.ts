@@ -794,15 +794,19 @@ import { SeoService } from '../../core/services/seo.service';
       aspect-ratio: 4 / 3;
       border-radius: var(--radius-lg, 20px);
       overflow: hidden;
-      background: #f4f7f4;
+      background: #FFFFFF;
       border: 1px solid rgba(13, 41, 20, 0.1);
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), var(--shadow-md);
       position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .main-image {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      object-position: center;
       transition: transform var(--transition-smooth);
     }
     .main-image-frame:hover .main-image {
@@ -825,11 +829,15 @@ import { SeoService } from '../../core/services/seo.service';
       position: relative;
       transition: all var(--transition-fast);
       box-shadow: var(--shadow-xs);
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .gallery-thumb-btn img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      object-position: center;
     }
     .gallery-thumb-btn:hover {
       border-color: var(--elmaestro-lime);

@@ -52,7 +52,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "عصائر طبيعية 100% معصورة طازجة يومياً بأعلى جودة وانتعاش",
     "icon": "fa-solid fa-glass-water",
     "themeColor": "#15803d",
-    "image": "/images/products/orange-juice.png",
+    "image": "/images/menu/bottles/btl-orange.png",
     "displayOrder": 1,
     "informationAr": [
       "جميع العصائر فريش وطبيعية 100% بدون أي ألوان صناعية.",
@@ -68,7 +68,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "عصير قصب طبيعي مثلج مع تشكيلة إضافات ونكهات مبتكرة",
     "icon": "fa-solid fa-seedling",
     "themeColor": "#65a30d",
-    "image": "/images/products/sugarcane-pure.png",
+    "image": "/images/menu/bottles/btl-sugarcane.png",
     "displayOrder": 2,
     "informationAr": [
       "قصب طبيعي نقي معصور على أعلى معايير النظافة والتعقيم.",
@@ -84,7 +84,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "أفوكادو طازج كريمي غني بالقيمة الغذائية مضاف إليه عسل ومكسرات وفواكه",
     "icon": "fa-solid fa-shield-heart",
     "themeColor": "#4d7c0f",
-    "image": "/images/products/avocado-nuts-mango-pair.jpg",
+    "image": "/images/menu/avocado/avocado-nuts-honey.png",
     "displayOrder": 3,
     "informationAr": [
       "أفوكادو بيور طازج مع تشكيلة واسعة من الفواكه والعسل والمكسرات الملكية."
@@ -99,7 +99,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "سموزي فواكه مثلج ومنعش بقوام غني ومذاق استوائي ساحر",
     "icon": "fa-solid fa-blender",
     "themeColor": "#0284c7",
-    "image": "/images/products/signature-four-drinks.jpg",
+    "image": "/images/menu/bottles/btl-cocktail.png",
     "displayOrder": 4,
     "informationAr": [
       "سموزي مثلج مجروش بنكهات التوت والمانجو والكيوي والليمون نعناع."
@@ -114,7 +114,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "مشروبات تراثية أصيلة: تمر هندي، سوبيا، خروب، عناب، ودوم باللبن",
     "icon": "fa-solid fa-jug-detergent",
     "themeColor": "#b45309",
-    "image": "/images/products/karkadeh-ennab.png",
+    "image": "/images/menu/bottles/btl-ennab.png",
     "displayOrder": 5,
     "informationAr": [
       "مشروبات تراثية محضرة بالطرق الأصيلة وبأحجام متعددة (عادي وكبير)."
@@ -129,7 +129,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "مانجو طبيعية فاخرة بيور وممزوجة بأشهى الفواكه والآيس كريم",
     "icon": "fa-solid fa-lemon",
     "themeColor": "#ea580c",
-    "image": "/images/products/mango-chunks-bowl.jpg",
+    "image": "/images/menu/bottles/btl-mango.png",
     "displayOrder": 6,
     "informationAr": [
       "مانجو طبيعية طازجة منتقاة بعناية لتقديم أرقى المذاقات."
@@ -144,7 +144,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "ميلك شيك كريمي كثيف بنكهات الشوكولاتة، الفانيليا، التوت والكراميل",
     "icon": "fa-solid fa-ice-cream",
     "themeColor": "#ec4899",
-    "image": "/images/products/chocolate-milkshake.png",
+    "image": "/images/menu/chocolate/mandolin-shake.png",
     "displayOrder": 7,
     "informationAr": [
       "ميلك شيك بارد وكريمي غني بالآيس كريم الفاخر والحليب الطازج."
@@ -159,7 +159,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "زبادي طبيعي صحي سادة وبالعسل والفواكه الطازجة لراحة وانتعاش",
     "icon": "fa-solid fa-bowl-food",
     "themeColor": "#059669",
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-mango.png",
     "displayOrder": 8,
     "informationAr": [
       "زبادي طازج خفيف وصحي مع العسل النقي وقطع الفواكه المتنوعة."
@@ -174,7 +174,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "إضافات مميزة لمشروباتك: شوكولاتة، عسل نحل، آيس كريم ومكسرات",
     "icon": "fa-solid fa-plus-circle",
     "themeColor": "#d97706",
-    "image": "/images/products/super-cocktail-icecream.png",
+    "image": "/images/menu/bottles/btl-cocktail.png",
     "displayOrder": 9,
     "informationAr": [
       "يمكنك طلب هذه الإضافات مع أي عصير أو كوكتيل أو زبادي حسب رغبتك."
@@ -189,7 +189,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "تخصص المايسترو الحصري: مشروبات المكسرات المحمصة الفاخرة بالحليب",
     "icon": "fa-solid fa-cubes-stacked",
     "themeColor": "#78350f",
-    "image": "/images/products/walnut-drink.png",
+    "image": "/images/menu/bottles/btl-avo-nuts.png",
     "displayOrder": 10,
     "informationAr": [
       "المحمصات الفاخرة ممزوجة بالحليب الطبيعي: سوداني، لب، بندق، كاجو، فستق، ولوز."
@@ -204,7 +204,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "مشروبات شكولاتات البراند العالمية: نوتيلا، أوريو، كيندر، وسنيكرز",
     "icon": "fa-solid fa-cookie-bite",
     "themeColor": "#451a03",
-    "image": "/images/products/oreo-drink.png",
+    "image": "/images/menu/chocolate/oreo-shake.png",
     "displayOrder": 11,
     "informationAr": [
       "مخفوق بالشوكولاتة الأصلية المحبوبة."
@@ -219,7 +219,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "أطباق وكاسات قطع الفواكه الطازجة، سلطات الفواكه، والقنابل والفتة",
     "icon": "fa-solid fa-bowl-rice",
     "themeColor": "#dc2626",
-    "image": "/images/products/fruit-salad-bowl.png",
+    "image": "/images/menu/fruit-cuts/fc-bomb.png",
     "displayOrder": 12,
     "informationAr": [
       "قطع فاكهة طازجة تُقطع يومياً عند الطلب."
@@ -234,7 +234,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "مشروبات البوبا المنعشة بحبيبات البوبا اللذيذة والنكهات العصرية",
     "icon": "fa-solid fa-circle-dot",
     "themeColor": "#7c3aed",
-    "image": "/images/products/boba-milkshake-blueberry.png",
+    "image": "/images/menu/boba-corner/boba-berries.png",
     "displayOrder": 13,
     "informationAr": [
       "حبيبات بوبا طازجة بنكهات السوبيا، الكوفي، الكراميل، والتوت والفواكه."
@@ -249,7 +249,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "خلطات وتواقيع المايسترو الأسطورية الغنية بالفيتامينات والمذاقات المبتكرة",
     "icon": "fa-solid fa-heart-pulse",
     "themeColor": "#0891b2",
-    "image": "/images/products/super-vitamin-c.png",
+    "image": "/images/menu/vitamins/v-vitamin-c.png",
     "displayOrder": 14,
     "informationAr": [
       "ميكسات حصرية بأجمل الأسماء الفنية والموسيقية وغنية بالفيتامينات الطبيعية."
@@ -264,7 +264,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "مشروبات صحية خفيفة بدون إضافات سكرية للياقة والانتعاش",
     "icon": "fa-solid fa-person-running",
     "themeColor": "#16a34a",
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-vitamin-c.png",
     "displayOrder": 15,
     "informationAr": [
       "مشروبات طبيعية خفيفة ومناسبة للحمية الغذائية ونمط الحياة الصحي."
@@ -279,7 +279,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "مشروبات الطاقة الطبيعية الملكية بالمكسرات والقشطة والعسل والأفوكادو",
     "icon": "fa-solid fa-bolt",
     "themeColor": "#d97706",
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/power-mix/p-africano.png",
     "displayOrder": 16,
     "informationAr": [
       "مشروب المايسترو الملكي وتشكيلة طاقة غنية بالمكسرات والعسل والقشطة الطبيعية."
@@ -294,7 +294,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "موهيتو منعش بالصودا والليمون والنعناع الفريش ونكهات التوت والفراولة",
     "icon": "fa-solid fa-champagne-glasses",
     "themeColor": "#06b6d4",
-    "image": "/images/products/boba-mojito-blueberry.png",
+    "image": "/images/menu/boba-corner/boba-berries.png",
     "displayOrder": 17,
     "informationAr": [
       "موهيتو منعش ومثلج بالليمون والنعناع الفريش مع اختيارك من سفن أب أو كولا."
@@ -309,7 +309,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "سوبيا طبيعية ناصعة مثلجة بنكهات المانجو والفراولة واللوتس والنوتيلا",
     "icon": "fa-solid fa-mug-saucer",
     "themeColor": "#0ea5e9",
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/bottles/btl-sobya.png",
     "displayOrder": 18,
     "informationAr": [
       "تتوفر بالحجم الصغير (40 ج) والحجم الكبير (80 ج)."
@@ -324,7 +324,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "أطباق أرز بلبن فلاحي غني بالقشطة، الفواكه، المكسرات والكنافة والبسبوسة",
     "icon": "fa-solid fa-stroopwafel",
     "themeColor": "#f59e0b",
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-cream.png",
     "displayOrder": 19,
     "informationAr": [
       "أرز باللبن طازج ومطهو على أصوله بإضافات شهية ومتنوعة."
@@ -339,7 +339,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "عبوات وجراكن عائلية بحجم 1 لتر و4 لتر للمنازل والحفلات والعزومات",
     "icon": "fa-solid fa-bottle-droplet",
     "themeColor": "#047857",
-    "image": "/images/products/signature-four-drinks.jpg",
+    "image": "/images/menu/bottles/btl-cocktail.png",
     "displayOrder": 20,
     "informationAr": [
       "عبوات لتر وعبوات 4 لتر لتلبية كافة احتياجات العزومات والمناسبات العائلية."
@@ -877,7 +877,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/lemon-mint-juice.png",
+    "image": "/images/menu/smoothies/lemon-mint-smoothie.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -6694,7 +6694,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-plain.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -6775,7 +6775,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-honey.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -6857,7 +6857,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-fruits.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -6937,7 +6937,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-strawberry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7019,7 +7019,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-peach.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7101,7 +7101,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-dates-honey.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7184,7 +7184,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-apple.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7266,7 +7266,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-mango.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -7346,7 +7346,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/yogurt/yogurt-kiwi.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7428,7 +7428,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-cocktail-icecream.png",
+    "image": "/images/menu/addons/add-chocolate.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7509,7 +7509,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-cocktail-icecream.png",
+    "image": "/images/menu/addons/add-honey.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7590,7 +7590,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-cocktail-icecream.png",
+    "image": "/images/menu/addons/add-icecream.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7671,7 +7671,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-cocktail-icecream.png",
+    "image": "/images/menu/addons/add-fruits.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -7752,7 +7752,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-cocktail-icecream.png",
+    "image": "/images/menu/addons/add-nuts.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -8316,7 +8316,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/chocolate-milkshake.png",
+    "image": "/images/menu/chocolate/mandolin-shake.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -8399,7 +8399,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/chocolate-milkshake.png",
+    "image": "/images/menu/chocolate/moro-shake.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -8481,7 +8481,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/snickers-drink.png",
+    "image": "/images/menu/chocolate/snickers-shake.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -8562,7 +8562,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/nutella-milkshake.png",
+    "image": "/images/menu/chocolate/nutella-shake.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -8643,7 +8643,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/chocolate-milkshake.png",
+    "image": "/images/menu/chocolate/kinder-shake.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -8724,7 +8724,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/oreo-drink.png",
+    "image": "/images/menu/chocolate/oreo-shake.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -8805,7 +8805,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/chocolate-milkshake.png",
+    "image": "/images/menu/chocolate/kitkat-shake.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -8888,7 +8888,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/galaxy-drink.png",
+    "image": "/images/menu/chocolate/galaxy-shake.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -8969,7 +8969,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/hohos-drink.png",
+    "image": "/images/menu/chocolate/hohos-shake.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -9051,7 +9051,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/twinkies-drink.png",
+    "image": "/images/menu/chocolate/twinkies-shake.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -9133,7 +9133,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/cocktail-cup.png",
+    "image": "/images/menu/fruit-cuts/fc-cocktail.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -9214,7 +9214,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-cocktail-icecream.png",
+    "image": "/images/menu/fruit-cuts/fc-cocktail-ice.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -9296,7 +9296,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-cocktail-cup.jpg",
+    "image": "/images/menu/fruit-cuts/fc-cocktail-mix.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -9377,7 +9377,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-salad-bowl.png",
+    "image": "/images/menu/fruit-cuts/fc-fruit-salad.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -9456,7 +9456,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-salad-icecream.png",
+    "image": "/images/menu/fruit-cuts/fc-fruit-salad-ice.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -9538,7 +9538,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/fruit-cuts/fc-bomb.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -9620,7 +9620,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/fruit-cuts/fc-bomb-nuts.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -9702,7 +9702,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/fruit-cuts/fc-night-calm.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -9784,7 +9784,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/pomegranate-seeds-cup.png",
+    "image": "/images/menu/fruit-cuts/fc-pomegranate-seeds.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -9865,7 +9865,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/cantaloupe-juice.png",
+    "image": "/images/menu/fruit-cuts/fc-cantaloupe-cuts.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -9946,7 +9946,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/orange-juice.png",
+    "image": "/images/menu/fruit-cuts/fc-orange-cuts.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10027,7 +10027,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/strawberry-juice.png",
+    "image": "/images/menu/fruit-cuts/fc-strawberry-cuts.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10108,7 +10108,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/watermelon-chunks-cup.png",
+    "image": "/images/menu/fruit-cuts/fc-watermelon-cuts.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10189,7 +10189,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-chunks-cup.png",
+    "image": "/images/menu/fruit-cuts/fc-mango-cuts.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -10268,7 +10268,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-chunks-cup.png",
+    "image": "/images/menu/fruit-cuts/fc-kiwi-cuts.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10349,7 +10349,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/strawberry-juice.png",
+    "image": "/images/menu/fruit-cuts/fc-plum-cuts.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10430,7 +10430,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/orange-juice.png",
+    "image": "/images/menu/fruit-cuts/fc-peach-cuts.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10511,7 +10511,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/pineapple-chunks-seasonal.png",
+    "image": "/images/menu/fruit-cuts/fc-pineapple-cuts.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10592,7 +10592,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/avocado-nuts-mango-pair.jpg",
+    "image": "/images/menu/fruit-cuts/fc-avocado-fatteh.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -10674,7 +10674,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mixed-fruits-chunks.png",
+    "image": "/images/menu/fruit-cuts/fc-custom-mix.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10755,7 +10755,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-milkshake-blueberry.png",
+    "image": "/images/menu/boba-corner/boba-sobya.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -10837,7 +10837,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-milkshake-coffee.png",
+    "image": "/images/menu/boba-corner/boba-coffee.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -10917,7 +10917,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-milkshake-blueberry.png",
+    "image": "/images/menu/boba-corner/boba-caramel.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -11000,7 +11000,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-milkshake-blueberry.png",
+    "image": "/images/menu/boba-corner/boba-berries.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11080,7 +11080,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-milkshake-strawberry.png",
+    "image": "/images/menu/boba-corner/boba-strawberry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -11162,7 +11162,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-milkshake-mango.png",
+    "image": "/images/menu/boba-corner/boba-mango.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -11244,7 +11244,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-mojito-jelly-cola.png",
+    "image": "/images/menu/boba-corner/boba-cola.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -11326,7 +11326,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/banana-milk.png",
+    "image": "/images/menu/vitamins/v-viva.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11410,7 +11410,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/strawberry-milk.png",
+    "image": "/images/menu/vitamins/v-story.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11494,7 +11494,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-vitamin-c.png",
+    "image": "/images/menu/vitamins/v-golden-mood.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11578,7 +11578,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/pomegranate-juice.png",
+    "image": "/images/menu/vitamins/v-love-story.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11660,7 +11660,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-icecream.png",
+    "image": "/images/menu/vitamins/v-eternal-tune.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11744,7 +11744,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-cocktail-cup.jpg",
+    "image": "/images/menu/vitamins/v-fresh-boost.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11827,7 +11827,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/vitamins/v-royal-creation.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11911,7 +11911,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/special-banana-plate.png",
+    "image": "/images/menu/vitamins/v-banana-special.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -11995,7 +11995,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mocha-milkshake.png",
+    "image": "/images/menu/vitamins/v-mocha.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12078,7 +12078,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-vitamin-c.png",
+    "image": "/images/menu/vitamins/v-vitamin-c.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12162,7 +12162,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-cocktail-cup.jpg",
+    "image": "/images/menu/vitamins/v-sahr-layali.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12246,7 +12246,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/walnut-drink.png",
+    "image": "/images/menu/vitamins/v-taqa.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12331,7 +12331,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-cocktail-cup.jpg",
+    "image": "/images/menu/vitamins/v-lahn-khulood.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12414,7 +12414,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-rocket.png",
+    "image": "/images/menu/vitamins/v-saroukh.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12498,7 +12498,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-pineapple.png",
+    "image": "/images/menu/vitamins/v-zi-el-hawa.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12581,7 +12581,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-pineapple.png",
+    "image": "/images/menu/vitamins/v-orchestra.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12665,7 +12665,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-oyoun-el-qalb.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12748,7 +12748,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/pineapple-orange.png",
+    "image": "/images/menu/power-mix/p-havana.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12831,7 +12831,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-juice.png",
+    "image": "/images/menu/vitamins/v-shawwaqna.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12914,7 +12914,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/pineapple-juice.png",
+    "image": "/images/menu/vitamins/v-pina-colada.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -12997,7 +12997,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-juice.png",
+    "image": "/images/menu/vitamins/v-sawah.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13080,7 +13080,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/avocado-nuts-mango-pair.jpg",
+    "image": "/images/menu/vitamins/v-royal-refresh.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13163,7 +13163,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-juice.png",
+    "image": "/images/menu/vitamins/v-mawred.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13246,7 +13246,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-cocktail-cup.jpg",
+    "image": "/images/menu/vitamins/v-mexici.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13331,7 +13331,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-ketab-hayati.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13414,7 +13414,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/avocado-nuts-mango-pair.jpg",
+    "image": "/images/menu/vitamins/v-mega.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13498,7 +13498,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/dates-milk.png",
+    "image": "/images/menu/power-mix/p-half-power.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13583,7 +13583,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/avocado-nuts-mango-pair.jpg",
+    "image": "/images/menu/power-mix/p-africano.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13666,7 +13666,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-cocktail-cup.jpg",
+    "image": "/images/menu/power-mix/p-naseem-saif.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -13751,7 +13751,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-lahn-khulood.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -13834,7 +13834,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-zi-el-hawa.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -13917,7 +13917,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-oyoun-el-qalb.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -14000,7 +14000,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-shawwaqna.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -14083,7 +14083,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-sawah.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -14166,7 +14166,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-mawred.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -14249,7 +14249,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-orange.png",
+    "image": "/images/menu/vitamins/v-ketab-hayati.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -14332,7 +14332,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/power-mix/p-half-power.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -14418,7 +14418,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/power-mix/p-havana.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -14504,7 +14504,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/power-mix/p-africano.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -14590,7 +14590,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/vitamins/v-golden-mood.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -14676,7 +14676,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/vitamins/v-royal-creation.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -14762,7 +14762,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/power-mix/p-shawwaqna.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -14849,7 +14849,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/vitamins/v-eternal-tune.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -14935,7 +14935,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/vitamins/v-saroukh.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -15021,7 +15021,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/power-mix/p-naseem-saif.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15106,7 +15106,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/vitamins/v-orchestra.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -15193,7 +15193,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/vitamins/v-love-story.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15278,7 +15278,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/super-elmaestro-bomb.png",
+    "image": "/images/menu/vitamins/v-taqa.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -15363,7 +15363,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-mojito-lemon-mint.png",
+    "image": "/images/menu/mojito/moj-mint.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15447,7 +15447,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-mojito-blueberry.png",
+    "image": "/images/menu/mojito/moj-strawberry.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15532,7 +15532,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-mojito-blueberry.png",
+    "image": "/images/menu/mojito/moj-pomegranate.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15617,7 +15617,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-mojito-blueberry.png",
+    "image": "/images/menu/mojito/moj-curacao.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15702,7 +15702,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-mojito-blueberry.png",
+    "image": "/images/menu/mojito/moj-blueberry.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15787,7 +15787,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/boba-mojito-blueberry.png",
+    "image": "/images/menu/mojito/moj-redberry.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15878,7 +15878,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-mango.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -15966,7 +15966,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-strawberry.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16054,7 +16054,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-pineapple.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16142,7 +16142,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-fruits.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16230,7 +16230,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-redberry.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16318,7 +16318,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-redberry.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16406,7 +16406,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-avocado.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16494,7 +16494,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-pistachio.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16582,7 +16582,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-lotus.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16670,7 +16670,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-nutella.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16758,7 +16758,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/sobya/sob-caramel.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -16840,7 +16840,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-plain.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -16923,7 +16923,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-mango.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -17003,7 +17003,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-strawberry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -17085,7 +17085,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-blueberry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -17167,7 +17167,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-fruits.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -17249,7 +17249,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-cream.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -17329,7 +17329,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-oriental-sweets.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -17411,7 +17411,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/rice-pudding.jpg",
+    "image": "/images/menu/rice-pudding/rice-nuts.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -17499,7 +17499,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sugarcane-pure.png",
+    "image": "/images/menu/bottles/btl-sugarcane.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -17588,7 +17588,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/tamarind-natural.png",
+    "image": "/images/menu/bottles/btl-tamarind.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -17677,7 +17677,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/karkadeh-ennab.png",
+    "image": "/images/menu/bottles/btl-ennab.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -17766,7 +17766,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/doum-juice.png",
+    "image": "/images/menu/bottles/btl-doum.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -17855,7 +17855,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/carob-kharroub.png",
+    "image": "/images/menu/bottles/btl-kharroub.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -17944,7 +17944,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/orange-juice.png",
+    "image": "/images/menu/bottles/btl-grapefruit.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18033,7 +18033,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/doum-milk.png",
+    "image": "/images/menu/bottles/btl-doum-milk.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18122,7 +18122,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/sobya-natural.png",
+    "image": "/images/menu/bottles/btl-sobya.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18211,7 +18211,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/orange-juice.png",
+    "image": "/images/menu/bottles/btl-orange.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18300,7 +18300,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/lemon-juice.png",
+    "image": "/images/menu/bottles/btl-lemon.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18389,7 +18389,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/cantaloupe-juice.png",
+    "image": "/images/menu/bottles/btl-cantaloupe.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18478,7 +18478,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/strawberry-juice.png",
+    "image": "/images/menu/bottles/btl-grape.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18567,7 +18567,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/strawberry-juice.png",
+    "image": "/images/menu/bottles/btl-strawberry.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18656,7 +18656,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/guava-juice.png",
+    "image": "/images/menu/bottles/btl-guava.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18745,7 +18745,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/lemon-mint-juice.png",
+    "image": "/images/menu/bottles/btl-lemon-mint.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18834,7 +18834,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-chunks-bowl.jpg",
+    "image": "/images/menu/bottles/btl-mango.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -18923,7 +18923,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/pomegranate-juice.png",
+    "image": "/images/menu/bottles/btl-pomegranate.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19012,7 +19012,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/banana-milk.png",
+    "image": "/images/menu/bottles/btl-banana-milk.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19101,7 +19101,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/fruit-cocktail-cup.jpg",
+    "image": "/images/menu/bottles/btl-cocktail.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19190,7 +19190,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/dates-milk.png",
+    "image": "/images/menu/bottles/btl-dates.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19279,7 +19279,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/orange-juice.png",
+    "image": "/images/menu/fresh-juices/peach-juice.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19368,7 +19368,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/watermelon-juice.png",
+    "image": "/images/menu/fresh-juices/watermelon-juice.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19457,7 +19457,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/prickly-pear-juice.png",
+    "image": "/images/menu/bottles/btl-prickly-pear.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19546,7 +19546,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/kiwi-juice.png",
+    "image": "/images/menu/bottles/btl-kiwi.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19635,7 +19635,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/mango-yogurt-nuts.png",
+    "image": "/images/menu/bottles/btl-yogurt-fruits.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19724,7 +19724,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/pineapple-juice.png",
+    "image": "/images/menu/bottles/btl-pineapple.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19813,7 +19813,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/avocado-nuts-mango-pair.jpg",
+    "image": "/images/menu/bottles/btl-avo-honey.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19902,7 +19902,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/products/avocado-nuts-mango-pair.jpg",
+    "image": "/images/menu/bottles/btl-avo-nuts.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -20073,7 +20073,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-special.jpg",
+    "image": "/images/menu/iced-coffee/ic-coffee.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -20154,7 +20154,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-special.jpg",
+    "image": "/images/menu/iced-coffee/ic-latte.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -20236,7 +20236,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-special.jpg",
+    "image": "/images/menu/iced-coffee/ic-mocha.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [

@@ -171,9 +171,19 @@ import { ConfigService } from '../../../core/services/config.service';
       <!-- Legal & Copyright Bottom Strip -->
       <div class="footer-copyright-strip">
         <div class="container strip-inner">
-          <p class="copyright-text">
-            جميع الحقوق محفوظة © {{ currentYear }} لمحل <strong>المايسترو محمصات وفريشات</strong> — مدينة العبور، مصر.
-          </p>
+          <div class="developer-credit-box">
+            <span class="powered-badge">Powered & Developed by</span>
+            <a 
+              href="https://www.eng-ibrahim-a-hamada.website/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="developer-link"
+              title="Portfolio Eng. Ibrahim A. Hamada">
+              <i class="fa-solid fa-code dev-icon"></i>
+              <strong class="dev-name">Eng. Ibrahim A. Hamada</strong>
+              <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+            </a>
+          </div>
 
           <div class="bottom-quick-links">
             <a routerLink="/privacy">سياسة الخصوصية</a>
@@ -640,8 +650,57 @@ import { ConfigService } from '../../../core/services/config.service';
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 1rem;
+      gap: 1.25rem;
       flex-wrap: wrap;
+    }
+    .developer-credit-box {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      flex-wrap: wrap;
+    }
+    .powered-badge {
+      color: #94a3b8;
+      font-weight: 500;
+      font-size: 0.82rem;
+      letter-spacing: 0.02em;
+    }
+    .developer-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: rgba(34, 197, 94, 0.12);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+      color: #4ade80;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      box-shadow: 0 0 10px rgba(34, 197, 94, 0.15);
+    }
+    .developer-link:hover {
+      background: #16a34a;
+      border-color: #22c55e;
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(34, 197, 94, 0.35);
+    }
+    .dev-icon {
+      font-size: 0.85rem;
+    }
+    .dev-name {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      letter-spacing: 0.03em;
+    }
+    .external-icon {
+      font-size: 0.7rem;
+      opacity: 0.85;
+      transition: transform 0.2s;
+    }
+    .developer-link:hover .external-icon {
+      transform: translate(2px, -2px);
     }
     .copyright-text strong {
       color: #ffffff;

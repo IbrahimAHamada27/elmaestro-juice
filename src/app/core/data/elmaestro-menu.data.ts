@@ -354,7 +354,7 @@ export const ELMAESTRO_CATEGORIES: ProductCategory[] = [
     "descriptionAr": "ركن القهوة التركية والمشروبات الساخنة بنكهة البن المحمص الفاخر",
     "icon": "fa-solid fa-mug-hot",
     "themeColor": "#78350f",
-    "image": "/images/brand/elmaestro-drinks.jpg",
+    "image": "/images/menu/coffee/turkish-coffee.png",
     "displayOrder": 21,
     "informationAr": [
       "قهوة تركي بن محمص فاخر تتوفر سنجل (S) ودبل (D)."
@@ -19279,7 +19279,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/menu/fresh-juices/peach-juice.png",
+    "image": "/images/menu/bottles/btl-peach.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19368,7 +19368,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/menu/fresh-juices/watermelon-juice.png",
+    "image": "/images/menu/bottles/btl-watermelon.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -19991,7 +19991,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
         "availability": "available"
       }
     ],
-    "image": "/images/brand/elmaestro-drinks.jpg",
+    "image": "/images/menu/coffee/turkish-coffee.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [

@@ -24328,7 +24328,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-super-baladi.png",
     "isFeatured": false,
     "isBestSeller": true,
     "tags": [
@@ -24371,7 +24371,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-souri-abbad.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24414,7 +24414,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-abyad-baladi.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24457,7 +24457,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-khashab.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24500,7 +24500,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-bateekh-baladi.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24543,7 +24543,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-moqashar-flavor.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24586,7 +24586,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/peanuts-in-shell.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24629,7 +24629,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/peanuts-smoked-alt.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24672,7 +24672,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/peanuts-peeled-alt.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24715,7 +24715,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-aswad-afghani.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24758,7 +24758,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-abyad-areed.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24801,7 +24801,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-super-tawabel.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24844,7 +24844,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-souri-smoked.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24886,7 +24886,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/leb-qateen.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -24929,7 +24929,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/cashew-180.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -24972,7 +24972,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/cashew-180-variant.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25014,7 +25014,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/almonds-roasted.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -25057,7 +25057,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/almonds-smoked.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -25100,7 +25100,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/almonds-raw.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25142,7 +25142,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/hazelnuts-roasted.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -25185,7 +25185,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/hazelnuts-raw.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -25228,7 +25228,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/walnuts-peeled.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -25271,7 +25271,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/pistachio-american-shell.png",
     "isFeatured": true,
     "isBestSeller": true,
     "tags": [
@@ -25314,7 +25314,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/pecan-roasted.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -25357,7 +25357,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/macadamia.png",
     "isFeatured": true,
     "isBestSeller": false,
     "tags": [
@@ -25400,7 +25400,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/snacks-sticks-flavors.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25443,7 +25443,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/peanuts-palestinian.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25486,7 +25486,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/snacks-chinese-seasoned.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25529,7 +25529,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/chickpeas-regular.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25572,7 +25572,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/corn-spanish-flavors.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25615,7 +25615,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/snacks-rosana.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25658,7 +25658,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/snacks-cono-flavors.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25701,7 +25701,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/snacks-sticks-flavors.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25744,7 +25744,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/jelly-spanish-damel.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25787,7 +25787,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/snacks-rice-crackers.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25830,7 +25830,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/sticks-resos.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25873,7 +25873,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/chickpeas-imported.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25916,7 +25916,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-milk-strawberry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -25959,7 +25959,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-milk-kunafa-kinder.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26002,7 +26002,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-dark.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26045,7 +26045,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-milk-plain.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26088,7 +26088,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-kunafa-pistachio.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26131,7 +26131,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-milk-ajwa.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26174,7 +26174,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-milk-berries-pomegranate.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26217,7 +26217,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-kunafa-raffaello.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26260,7 +26260,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/ebon-weight.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26303,7 +26303,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/truffle-weight.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26346,7 +26346,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/halawa-qirra-caramel.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26389,7 +26389,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/cardon-double-toast.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26431,7 +26431,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/mega-oreo.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26474,7 +26474,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/mega-sable.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26517,7 +26517,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-milk-cashew.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26560,7 +26560,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/choco-milk-almond.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26603,7 +26603,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/paola-biscuit-choco-jai.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26646,7 +26646,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/paola-biscuit-strawberry-jai.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26689,7 +26689,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/paola-biscuit-vanilla-jai.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26732,7 +26732,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/paola-jai-marshmallow.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26775,7 +26775,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/larche-maamoul-covered.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26818,7 +26818,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/peanuts-chocolate-coated.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26860,7 +26860,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/stone-chocolate.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26903,7 +26903,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/chocon-lotus.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26946,7 +26946,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/cono-chocolate.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -26989,7 +26989,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/roshen-milk-slash.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27031,7 +27031,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/walker-toffee-mastic.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27074,7 +27074,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/magical-marshmallow.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27117,7 +27117,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/dulce-plus-resos.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27160,7 +27160,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/jelly-sour-flavors.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27203,7 +27203,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/gaufrette-covertina.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27246,7 +27246,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/nougat-weight.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27289,7 +27289,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/haram-sweets.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27332,7 +27332,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/basoni-sweets.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27375,7 +27375,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/foulya-sweets.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27418,7 +27418,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/dried-fruits-mix.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27461,7 +27461,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/candy-meter-fruits.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27504,7 +27504,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/dried-strawberry.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27547,7 +27547,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/dried-kiwi.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27590,7 +27590,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/dried-banana.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27633,7 +27633,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/dried-pineapple.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27676,7 +27676,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/dried-apple.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27719,7 +27719,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/dried-mango.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27762,7 +27762,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/carob-pods-qursi.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27805,7 +27805,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/sola-beans.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [
@@ -27848,7 +27848,7 @@ export const ELMAESTRO_PRODUCTS: Product[] = [
       }
     ],
     "availableAddons": [],
-    "image": "/images/brand/elmaestro-logo-badge.png",
+    "image": "/images/menu/roastery-nuts/box-letters-sweets.png",
     "isFeatured": false,
     "isBestSeller": false,
     "tags": [

@@ -450,18 +450,107 @@ import { ToastService } from '../../../core/services/toast.service';
     }
 
     @media (max-width: 640px) {
+      .product-card {
+        height: auto;
+        min-height: 0;
+      }
+
+      .card-media {
+        aspect-ratio: 1 / 1;
+      }
+
       .card-content {
-        padding: 0.65rem 0.7rem;
+        padding: 0.5rem 0.55rem;
+        flex: 1 1 auto;
       }
+
       .product-title {
-        font-size: 0.9rem;
+        font-size: 0.82rem;
+        line-height: 1.3;
+        margin-bottom: 0.15rem;
+        word-break: break-word;
+        overflow-wrap: break-word;
       }
+
+      .product-desc {
+        font-size: 0.68rem;
+        line-height: 1.35;
+        -webkit-line-clamp: 2;
+        margin-bottom: 0.3rem;
+        word-break: break-word;
+        overflow-wrap: break-word;
+      }
+
+      .card-footer {
+        padding-top: 0.4rem;
+        gap: 0.25rem;
+        flex-wrap: nowrap;
+      }
+
+      .price-container {
+        flex-shrink: 1;
+        min-width: 0;
+        flex-wrap: wrap;
+      }
+
       .price-amount {
-        font-size: 1.05rem;
+        font-size: 0.95rem;
       }
+
+      .currency {
+        font-size: 0.65rem;
+      }
+
+      .unavailable-badge {
+        font-size: 0.62rem;
+        padding: 0.15rem 0.35rem;
+        white-space: normal;
+        line-height: 1.15;
+      }
+
+      .pending-price-badge {
+        font-size: 0.6rem;
+        padding: 0.15rem 0.35rem;
+        white-space: normal;
+        line-height: 1.15;
+      }
+
+      .category-badge {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.4rem;
+        bottom: 0.3rem;
+        right: 0.3rem;
+      }
+
+      .stepper-wrapper {
+        flex-shrink: 0;
+      }
+
       .stepper-btn {
+        width: 24px;
+        height: 24px;
+        font-size: 0.7rem;
+      }
+
+      .stepper-quantity {
+        min-width: 14px;
+        font-size: 0.78rem;
+      }
+
+      .card-sizes-strip {
+        margin-bottom: 0.35rem;
+        gap: 0.2rem;
+      }
+
+      .size-pill {
+        padding: 0.15rem 0.35rem;
+        font-size: 0.62rem;
+      }
+
+      .action-icon-btn {
         width: 26px;
         height: 26px;
+        font-size: 0.7rem;
       }
     }
   `]
